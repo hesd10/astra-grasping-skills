@@ -1,0 +1,56 @@
+{
+  "audit_passed": true,
+  "guard_tests": 11,
+  "summary": {
+    "outcome": "success_after_correcting_partial_clearance",
+    "first_success_claim_withdrawn": true,
+    "user_corrections": 1,
+    "session_start_utc": "2026-09-15T16:17:14+00:00",
+    "execution_end_utc": "2026-09-15T16:48:40.546650+00:00",
+    "execution_elapsed_seconds": 1886.5466496944427,
+    "confirmed_hold_seconds": 36.805753231048584,
+    "hold_encoder_peak_to_peak": {
+      "left": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "right": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    "observation_arm_max_drift_from_initial": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "high_level_motion_commands": 26,
+    "high_level_gripper_closure_commands": 5,
+    "submitted_actuation_batches": 29,
+    "controller_starts": 5,
+    "dedicated_sensor_passes": 3,
+    "extra_snapshot_commands": 1,
+    "explicit_controller_closes": 2,
+    "faults": 3,
+    "final_images": {
+      "6": "/home/robot-operator/Documents/ChatGPT/Run 001 6/run/evidence/final_1789490920544161016_video6.jpg",
+      "8": "/home/robot-operator/Documents/ChatGPT/Run 001 6/run/evidence/final_1789490920545285323_video8.jpg",
+      "10": "/home/robot-operator/Documents/ChatGPT/Run 001 6/run/evidence/final_1789490920545961506_video10.jpg"
+    },
+    "final_motor_state": "see summary.json",
+    "physical_clearance_metric": "Uncalibrated multi-view visual confirmation; no metric height claimed",
+    "report_prepared_utc": "2026-09-15T16:53:43.758307+00:00",
+    "elapsed_through_report_seconds": 2189.758306980133
+  }
+}

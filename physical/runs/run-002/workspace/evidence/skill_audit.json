@@ -1,0 +1,18 @@
+{
+  "manual_review": "All transfer source and prose manually reviewed after edits. General procedures and parameterized low-level helpers only; no recorded state, scene geometry, device assignments, calibration, targets, trajectories, images, or encoded equivalents.",
+  "files": {
+    "SKILL.md": {
+      "sha256": "b99cec0a9d1d050abb780f7a8ecc3b610506509b18b6ca17d34241fc468db343",
+      "bytes": 8633
+    },
+    "hardware.py": {
+      "sha256": "8626d6a2494c267ea2dd73b3028c3cc6731f3bf0e58bd06cb27b8b30d2be1a98",
+      "bytes": 4132
+    },
+    "safety.py": {
+      "sha256": "8a9bc6c16658b1808fbda0ccc168903c89d4b1341dd10e3ac2d71bcb3abb045e",
+      "bytes": 2425
+    }
+  },
+  "passed": true
+}

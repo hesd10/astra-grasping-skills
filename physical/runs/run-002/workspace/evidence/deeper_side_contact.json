@@ -1,0 +1,90 @@
+{
+  "left": {
+    "1": {
+      "Present_Position": 2064,
+      "Present_Load": 40,
+      "Present_Temperature": 35,
+      "Status": 0,
+      "Torque_Enable": 1
+    },
+    "2": {
+      "Present_Position": 2380,
+      "Present_Load": -44,
+      "Present_Temperature": 35,
+      "Status": 0,
+      "Torque_Enable": 1
+    },
+    "3": {
+      "Present_Position": 2348,
+      "Present_Load": -128,
+      "Present_Temperature": 40,
+      "Status": 0,
+      "Torque_Enable": 1
+    },
+    "4": {
+      "Present_Position": 1772,
+      "Present_Load": 0,
+      "Present_Temperature": 34,
+      "Status": 0,
+      "Torque_Enable": 1
+    },
+    "5": {
+      "Present_Position": 2127,
+      "Present_Load": -28,
+      "Present_Temperature": 34,
+      "Status": 0,
+      "Torque_Enable": 1
+    },
+    "6": {
+      "Present_Position": 2394,
+      "Present_Load": -28,
+      "Present_Temperature": 37,
+      "Status": 0,
+      "Torque_Enable": 1
+    }
+  },
+  "right": {
+    "1": {
+      "Present_Position": 1611,
+      "Present_Load": 0,
+      "Present_Temperature": 33,
+      "Status": 0,
+      "Torque_Enable": 1
+    },
+    "2": {
+      "Present_Position": 2539,
+      "Present_Load": 0,
+      "Present_Temperature": 33,
+      "Status": 0,
+      "Torque_Enable": 1
+    },
+    "3": {
+      "Present_Position": 2689,
+      "Present_Load": 0,
+      "Present_Temperature": 33,
+      "Status": 0,
+      "Torque_Enable": 1
+    },
+    "4": {
+      "Present_Position": 1243,
+      "Present_Load": 0,
+      "Present_Temperature": 33,
+      "Status": 0,
+      "Torque_Enable": 1
+    },
+    "5": {
+      "Present_Position": 2048,
+      "Present_Load": 0,
+      "Present_Temperature": 38,
+      "Status": 0,
+      "Torque_Enable": 1
+    },
+    "6": {
+      "Present_Position": 2008,
+      "Present_Load": 0,
+      "Present_Temperature": 34,
+      "Status": 0,
+      "Torque_Enable": 1
+    }
+  }
+}

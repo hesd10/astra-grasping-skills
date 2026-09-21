@@ -1,0 +1,341 @@
+[
+  {
+    "run": 1,
+    "panel": "A",
+    "caption": "A: Contact",
+    "path": "runs/run-001/workspace/run/evidence/enclosed_contact_video8.jpg",
+    "source_sha256": "8c25ad2fd6f61554f1fb31142f260e10d362ec94b62486d5c7ecfa551daced85",
+    "associated_log_event": {
+      "path": "runs/run-001/workspace/run/evidence/session.jsonl",
+      "line": 1935,
+      "utc": "2026-09-15T16:42:07.786279+00:00",
+      "note": "引用该图像的日志事件"
+    }
+  },
+  {
+    "run": 1,
+    "panel": "B",
+    "caption": "B: Initial hold / rejected",
+    "path": "runs/run-001/workspace/run/evidence/hold_15_video8.jpg",
+    "source_sha256": "85526d546f0c9564f41b642f3b8add436835f10f20354a7514595531cbc86608"
+  },
+  {
+    "run": 1,
+    "panel": "C",
+    "caption": "C: Corrected lift",
+    "path": "runs/run-001/workspace/run/evidence/full_clearance_lift_video8.jpg",
+    "source_sha256": "3786d3713f48cea828e8c1ab8c0bf99b28a6de8b7be89a177d212b22c23f3b75",
+    "associated_log_event": {
+      "path": "runs/run-001/workspace/run/evidence/session.jsonl",
+      "line": 2132,
+      "utc": "2026-09-15T16:48:03.740896+00:00",
+      "note": "引用该图像的日志事件"
+    }
+  },
+  {
+    "run": 1,
+    "panel": "D",
+    "caption": "D: Final hold",
+    "path": "runs/run-001/workspace/run/evidence/final_1789490920545285323_video8.jpg",
+    "source_sha256": "f718a052460c64c4959aca380519165e4ad5bcaf619c43fa718a302812100215",
+    "associated_log_event": {
+      "path": "runs/run-001/workspace/run/evidence/session.jsonl",
+      "line": 2170,
+      "utc": "2026-09-15T16:48:40.546650+00:00",
+      "note": "引用该图像的日志事件"
+    }
+  },
+  {
+    "run": 2,
+    "panel": "A",
+    "caption": "A: Contact",
+    "path": "runs/run-002/workspace/evidence/secure_contact_video8.jpg",
+    "source_sha256": "edae7b200a527c9e0298ff396bb98eabc90e89f2adcb9a9111fedcdfc4851022",
+    "associated_log_event": {
+      "path": "runs/run-002/workspace/evidence/control.jsonl",
+      "line": 1475,
+      "utc": "2026-09-16T00:49:40.653247+00:00",
+      "note": "同标签命令时间，非图像时间"
+    }
+  },
+  {
+    "run": 2,
+    "panel": "B",
+    "caption": "B: Initial lift",
+    "path": "runs/run-002/workspace/evidence/initial_lift_video8.jpg",
+    "source_sha256": "0bec06178547c7273a995ab07d065d151e6b100ada1a4b0a785822ebbaa2d566",
+    "associated_log_event": {
+      "path": "runs/run-002/workspace/evidence/control.jsonl",
+      "line": 1580,
+      "utc": "2026-09-16T00:50:26.983468+00:00",
+      "note": "同标签命令时间，非图像时间"
+    }
+  },
+  {
+    "run": 2,
+    "panel": "C",
+    "caption": "C: Lift extension",
+    "path": "runs/run-002/workspace/evidence/clearance_lift_video8.jpg",
+    "source_sha256": "28311025f0e607fa1903cb43ee3075a1c8e9c7b6e2f68b90828365ac6d9f3913",
+    "associated_log_event": {
+      "path": "runs/run-002/workspace/evidence/control.jsonl",
+      "line": 1677,
+      "utc": "2026-09-16T00:50:55.816857+00:00",
+      "note": "同标签命令时间，非图像时间"
+    }
+  },
+  {
+    "run": 2,
+    "panel": "D",
+    "caption": "D: Operator stop",
+    "path": "runs/run-002/workspace/evidence/operator_stop_video8.jpg",
+    "source_sha256": "5583a8c67d95340a774357334683460ecb95e5c451e11e3375e5e385e7395a73"
+  },
+  {
+    "run": 3,
+    "panel": "A",
+    "caption": "A: Preload",
+    "path": "runs/run-003/workspace/evidence/22-bounded-preload-camera-8.png",
+    "source_sha256": "5c5d6586a0e84964baa9684bc6614f65b64da5182ee9a4f44f1a08e9dec0dd88",
+    "associated_log_event": {
+      "path": "runs/run-003/workspace/evidence/session.jsonl",
+      "line": 1415,
+      "utc": "2026-09-16T01:21:42.160365+00:00",
+      "note": "引用该图像的日志事件"
+    }
+  },
+  {
+    "run": 3,
+    "panel": "B",
+    "caption": "B: Small lift",
+    "path": "runs/run-003/workspace/evidence/24-small-lift-test-camera-8.png",
+    "source_sha256": "3c5c67a82b81e68f5da150580fc365363d77ede38a414cd038e750f446a1efd0",
+    "associated_log_event": {
+      "path": "runs/run-003/workspace/evidence/session.jsonl",
+      "line": 1529,
+      "utc": "2026-09-16T01:22:31.417342+00:00",
+      "note": "引用该图像的日志事件"
+    }
+  },
+  {
+    "run": 3,
+    "panel": "C",
+    "caption": "C: Lift correction",
+    "path": "runs/run-003/workspace/evidence/25-lift-tracking-correction-camera-8.png",
+    "source_sha256": "da2084d53deaeabd9ea79647e1a063db4bb55b0d797e46c57b6a1a1f0750c63b",
+    "associated_log_event": {
+      "path": "runs/run-003/workspace/evidence/session.jsonl",
+      "line": 1586,
+      "utc": "2026-09-16T01:22:58.970370+00:00",
+      "note": "引用该图像的日志事件"
+    }
+  },
+  {
+    "run": 3,
+    "panel": "D",
+    "caption": "D: Slip after extension",
+    "path": "runs/run-003/workspace/evidence/26-extend-lift-camera-8.png",
+    "source_sha256": "7a90a1cdc1e0a1ef10df974577c270a431ed22d5542e1a746982afdcbccb3a56",
+    "associated_log_event": {
+      "path": "runs/run-003/workspace/evidence/session.jsonl",
+      "line": 1659,
+      "utc": "2026-09-16T01:23:27.224962+00:00",
+      "note": "引用该图像的日志事件"
+    }
+  },
+  {
+    "run": 4,
+    "panel": "A",
+    "caption": "A: Light closure",
+    "path": "runs/run-004/workspace/evidence/light_closure_video8.jpg",
+    "source_sha256": "1c39660904f052e726097007633962ae68af7bd7cf0d40d3d1df5164e37893c3",
+    "associated_log_event": {
+      "path": "runs/run-004/workspace/evidence/session.jsonl",
+      "line": 1220,
+      "utc": "2026-09-16T01:50:54.492444+00:00",
+      "note": "同标签命令时间，非图像时间"
+    }
+  },
+  {
+    "run": 4,
+    "panel": "B",
+    "caption": "B: Test hold",
+    "path": "runs/run-004/workspace/evidence/test_lift_hold_video8.jpg",
+    "source_sha256": "4100f163078247e71e944e6f2f509771548d1d631381f93b396ce8c61b2d20c3",
+    "associated_log_event": {
+      "path": "runs/run-004/workspace/evidence/session.jsonl",
+      "line": 1703,
+      "utc": "2026-09-16T01:55:45.661741+00:00",
+      "note": "同标签命令时间，非图像时间"
+    }
+  },
+  {
+    "run": 4,
+    "panel": "C",
+    "caption": "C: Return to support",
+    "path": "runs/run-004/workspace/evidence/return_to_support_video8.jpg",
+    "source_sha256": "2ce9faf8dfcd4c9d08df0f03d830289e0e9f8306cc3f3d0a996be8214c68db00",
+    "associated_log_event": {
+      "path": "runs/run-004/workspace/evidence/session.jsonl",
+      "line": 1740,
+      "utc": "2026-09-16T01:56:24.192467+00:00",
+      "note": "同标签命令时间，非图像时间"
+    }
+  },
+  {
+    "run": 4,
+    "panel": "D",
+    "caption": "D: Final hold",
+    "path": "runs/run-004/workspace/evidence/clearance_hold_end_video8.jpg",
+    "source_sha256": "580e1c39e45c5833a02182321ff3708865952aee21b068396873a1c1e98ee02e",
+    "associated_log_event": {
+      "path": "runs/run-004/workspace/evidence/session.jsonl",
+      "line": 2086,
+      "utc": "2026-09-16T01:59:52.873329+00:00",
+      "note": "同标签命令时间，非图像时间"
+    }
+  },
+  {
+    "run": 5,
+    "panel": "A",
+    "caption": "A: Initial state",
+    "path": "runs/run-005/workspace/evidence/000_hold_cam8.jpg",
+    "source_sha256": "49d3a223aa70fe7179f53750274080a56649cc7ac6e9b4751f68a6a72e040ecb",
+    "associated_log_event": {
+      "path": "runs/run-005/workspace/evidence/control.jsonl",
+      "line": 3,
+      "utc": "2026-09-16T02:22:30.183357+00:00",
+      "note": "引用该图像的日志事件"
+    }
+  },
+  {
+    "run": 5,
+    "panel": "B",
+    "caption": "B: Approach",
+    "path": "runs/run-005/workspace/evidence/017_move_cam8.jpg",
+    "source_sha256": "66b40dfd5ddf416b7d8ff9bdb24c64e083efbe4f111a8b11df9f9cf76db7926a",
+    "associated_log_event": {
+      "path": "runs/run-005/workspace/evidence/control.jsonl",
+      "line": 2728,
+      "utc": "2026-09-16T02:30:36.663231+00:00",
+      "note": "引用该图像的日志事件"
+    }
+  },
+  {
+    "run": 5,
+    "panel": "C",
+    "caption": "C: Closure",
+    "path": "runs/run-005/workspace/evidence/020_move_cam8.jpg",
+    "source_sha256": "c597d44bd968f01937f9609cd012115e4d6f2a196ac98276e2bd7401bdc4e357",
+    "associated_log_event": {
+      "path": "runs/run-005/workspace/evidence/control.jsonl",
+      "line": 3248,
+      "utc": "2026-09-16T02:32:14.968239+00:00",
+      "note": "引用该图像的日志事件"
+    }
+  },
+  {
+    "run": 5,
+    "panel": "D",
+    "caption": "D: Final hold",
+    "path": "runs/run-005/workspace/evidence/026_status_cam8.jpg",
+    "source_sha256": "426f2a0f756f1264576cae66451d8d7774c1d3dd6dd354196b679c3c2baeb9df",
+    "associated_log_event": {
+      "path": "runs/run-005/workspace/evidence/control.jsonl",
+      "line": 4519,
+      "utc": "2026-09-16T02:36:24.224400+00:00",
+      "note": "引用该图像的日志事件"
+    }
+  },
+  {
+    "run": 6,
+    "panel": "A",
+    "caption": "A: First test lift",
+    "path": "runs/run-006/workspace/evidence/test_lift_camera_8.jpg",
+    "source_sha256": "6db7db85ed351bbcd36ece8cd1a6b504209d9b700a51647a6324f0c4231187c6",
+    "associated_log_event": {
+      "path": "runs/run-006/workspace/evidence/monitor.jsonl",
+      "line": 4268,
+      "utc": "2026-09-16T03:55:17.547234+00:00",
+      "note": "快照事件代理"
+    }
+  },
+  {
+    "run": 6,
+    "panel": "B",
+    "caption": "B: Settling detected",
+    "path": "runs/run-006/workspace/evidence/test_hold_camera_8.jpg",
+    "source_sha256": "9d3c8d7350188c73db03d903c1cbc7b8194452717c6e0ae01f25c85510109aa1",
+    "associated_log_event": {
+      "path": "runs/run-006/workspace/evidence/monitor.jsonl",
+      "line": 4620,
+      "utc": "2026-09-16T03:56:01.980164+00:00",
+      "note": "快照事件代理"
+    }
+  },
+  {
+    "run": 6,
+    "panel": "C",
+    "caption": "C: Supported adjustment",
+    "path": "runs/run-006/workspace/evidence/supported_preload_camera_8.jpg",
+    "source_sha256": "7ff4bc34faef7d51f0fdfd1224e955d2d7ea0513caf536f3da3ac44aa0eceb5e",
+    "associated_log_event": {
+      "path": "runs/run-006/workspace/evidence/monitor.jsonl",
+      "line": 5178,
+      "utc": "2026-09-16T03:57:36.097697+00:00",
+      "note": "快照事件代理"
+    }
+  },
+  {
+    "run": 6,
+    "panel": "D",
+    "caption": "D: Final hold",
+    "path": "runs/run-006/workspace/evidence/final_hold_camera_8.jpg",
+    "source_sha256": "09b4ac57bb3618c9d8dae749a903bf6912c5b7d5d7195fa61f3de41803e1000f",
+    "associated_log_event": {
+      "path": "runs/run-006/workspace/evidence/monitor.jsonl",
+      "line": 6502,
+      "utc": "2026-09-16T04:00:23.323669+00:00",
+      "note": "快照事件代理"
+    }
+  },
+  {
+    "run": 1,
+    "panel": "E1",
+    "caption": "Before first closure",
+    "path": "runs/run-001/workspace/run/evidence/pregrasp_video8.jpg",
+    "source_sha256": "a03c6ca440d35ed211ed8fe4049a4290c8bd3f2678e8d8ef0d282ac7f511414a",
+    "associated_log_event": {
+      "path": "runs/run-001/workspace/run/evidence/session.jsonl",
+      "line": 805,
+      "utc": "2026-09-15T16:33:54.527887+00:00",
+      "note": "引用该图像的快照事件"
+    }
+  },
+  {
+    "run": 1,
+    "panel": "E2",
+    "caption": "First grasp unsuccessful; carton rotated",
+    "path": "runs/run-001/workspace/run/evidence/contact_check_video8.jpg",
+    "source_sha256": "f07905e7a302593fe97403671cdb61b32e292f8dbad9d6c985046816480fb592",
+    "associated_log_event": {
+      "path": "runs/run-001/workspace/run/evidence/session.jsonl",
+      "line": 1143,
+      "utc": "2026-09-15T16:36:33.076441+00:00",
+      "note": "引用该图像的快照事件"
+    }
+  },
+  {
+    "run": 1,
+    "panel": "E3",
+    "caption": "Reopened for adjustment",
+    "path": "runs/run-001/workspace/run/evidence/reopen_2_video8.jpg",
+    "source_sha256": "9c0657f88e06c82582388ce484f7e0fdfbf962b37ca90e6e2f95522f426e637e",
+    "associated_log_event": {
+      "path": "runs/run-001/workspace/run/evidence/session.jsonl",
+      "line": 1250,
+      "utc": "2026-09-15T16:37:06.863935+00:00",
+      "note": "引用该图像的快照事件"
+    }
+  }
+]

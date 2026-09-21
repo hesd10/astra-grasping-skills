@@ -1,0 +1,292 @@
+{
+  "started": 1789520985.5579782,
+  "devices": {
+    "device_nodes": [
+      {
+        "path": "/dev/ttyACM0",
+        "target": "/dev/ttyACM0",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      },
+      {
+        "path": "/dev/ttyACM1",
+        "target": "/dev/ttyACM1",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      },
+      {
+        "path": "/dev/video0",
+        "target": "/dev/video0",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      },
+      {
+        "path": "/dev/video1",
+        "target": "/dev/video1",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      },
+      {
+        "path": "/dev/video10",
+        "target": "/dev/video10",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      },
+      {
+        "path": "/dev/video11",
+        "target": "/dev/video11",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      },
+      {
+        "path": "/dev/video2",
+        "target": "/dev/video2",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      },
+      {
+        "path": "/dev/video3",
+        "target": "/dev/video3",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      },
+      {
+        "path": "/dev/video4",
+        "target": "/dev/video4",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      },
+      {
+        "path": "/dev/video5",
+        "target": "/dev/video5",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      },
+      {
+        "path": "/dev/video6",
+        "target": "/dev/video6",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      },
+      {
+        "path": "/dev/video7",
+        "target": "/dev/video7",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      },
+      {
+        "path": "/dev/video8",
+        "target": "/dev/video8",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      },
+      {
+        "path": "/dev/video9",
+        "target": "/dev/video9",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      },
+      {
+        "path": "/dev/serial/by-id/usb-1a86_USB_Single_Serial_5B61033169-if00",
+        "target": "/dev/ttyACM0",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      },
+      {
+        "path": "/dev/serial/by-id/usb-1a86_USB_Single_Serial_5B61034983-if00",
+        "target": "/dev/ttyACM1",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      },
+      {
+        "path": "/dev/v4l/by-id/usb-Generic_USB_Camera_200901010001-video-index0",
+        "target": "/dev/video4",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      },
+      {
+        "path": "/dev/v4l/by-id/usb-Generic_USB_Camera_200901010001-video-index1",
+        "target": "/dev/video5",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      },
+      {
+        "path": "/dev/v4l/by-id/usb-Sonix_Technology_Co.__Ltd._USB2.0_CAM1_USB2.0_CAM1-video-index0",
+        "target": "/dev/video10",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      },
+      {
+        "path": "/dev/v4l/by-id/usb-Sonix_Technology_Co.__Ltd._USB2.0_CAM1_USB2.0_CAM1-video-index1",
+        "target": "/dev/video11",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      },
+      {
+        "path": "/dev/v4l/by-id/usb-SunplusIT_Inc_FHD_Webcam_01.00.00-video-index0",
+        "target": "/dev/video0",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      },
+      {
+        "path": "/dev/v4l/by-id/usb-SunplusIT_Inc_FHD_Webcam_01.00.00-video-index1",
+        "target": "/dev/video1",
+        "mode": "crw-rw----",
+        "readable": true,
+        "writable": true
+      }
+    ],
+    "live_sysfs": [
+      {
+        "device": "ttyACM0",
+        "target": "/sys/devices/pci0000:80/0000:80:14.0/usb3/3-3/3-3.3/3-3.3:1.0/tty/ttyACM0",
+        "dev": "166:0",
+        "device/uevent": "DEVTYPE=usb_interface\nDRIVER=cdc_acm\nPRODUCT=1a86/55d3/445\nTYPE=2/0/0\nINTERFACE=2/2/1\nMODALIAS=usb:v1A86p55D3d0445dc02dsc00dp00ic02isc02ip01in00"
+      },
+      {
+        "device": "ttyACM1",
+        "target": "/sys/devices/pci0000:80/0000:80:14.0/usb3/3-3/3-3.4/3-3.4:1.0/tty/ttyACM1",
+        "dev": "166:1",
+        "device/uevent": "DEVTYPE=usb_interface\nDRIVER=cdc_acm\nPRODUCT=1a86/55d3/445\nTYPE=2/0/0\nINTERFACE=2/2/1\nMODALIAS=usb:v1A86p55D3d0445dc02dsc00dp00ic02isc02ip01in00"
+      },
+      {
+        "device": "video0",
+        "target": "/sys/devices/pci0000:80/0000:80:14.0/usb3/3-8/3-8:1.0/video4linux/video0",
+        "dev": "81:0",
+        "name": "FHD Webcam: FHD Webcam",
+        "device/uevent": "DEVTYPE=usb_interface\nDRIVER=uvcvideo\nPRODUCT=4f2/b7dc/14\nTYPE=239/2/1\nINTERFACE=14/1/1\nMODALIAS=usb:v04F2pB7DCd0014dcEFdsc02dp01ic0Eisc01ip01in00"
+      },
+      {
+        "device": "video1",
+        "target": "/sys/devices/pci0000:80/0000:80:14.0/usb3/3-8/3-8:1.0/video4linux/video1",
+        "dev": "81:1",
+        "name": "FHD Webcam: FHD Webcam",
+        "device/uevent": "DEVTYPE=usb_interface\nDRIVER=uvcvideo\nPRODUCT=4f2/b7dc/14\nTYPE=239/2/1\nINTERFACE=14/1/1\nMODALIAS=usb:v04F2pB7DCd0014dcEFdsc02dp01ic0Eisc01ip01in00"
+      },
+      {
+        "device": "video10",
+        "target": "/sys/devices/pci0000:80/0000:80:14.0/usb3/3-1/3-1.1/3-1.1.1/3-1.1.1:1.0/video4linux/video10",
+        "dev": "81:10",
+        "name": "USB2.0_CAM1: USB2.0_CAM1",
+        "device/uevent": "DEVTYPE=usb_interface\nDRIVER=uvcvideo\nPRODUCT=5a3/9230/0\nTYPE=239/2/1\nINTERFACE=14/1/0\nMODALIAS=usb:v05A3p9230d0000dcEFdsc02dp01ic0Eisc01ip00in00"
+      },
+      {
+        "device": "video11",
+        "target": "/sys/devices/pci0000:80/0000:80:14.0/usb3/3-1/3-1.1/3-1.1.1/3-1.1.1:1.0/video4linux/video11",
+        "dev": "81:11",
+        "name": "USB2.0_CAM1: USB2.0_CAM1",
+        "device/uevent": "DEVTYPE=usb_interface\nDRIVER=uvcvideo\nPRODUCT=5a3/9230/0\nTYPE=239/2/1\nINTERFACE=14/1/0\nMODALIAS=usb:v05A3p9230d0000dcEFdsc02dp01ic0Eisc01ip00in00"
+      },
+      {
+        "device": "video2",
+        "target": "/sys/devices/pci0000:80/0000:80:14.0/usb3/3-8/3-8:1.2/video4linux/video2",
+        "dev": "81:2",
+        "name": "FHD Webcam: IR Camera",
+        "device/uevent": "DEVTYPE=usb_interface\nDRIVER=uvcvideo\nPRODUCT=4f2/b7dc/14\nTYPE=239/2/1\nINTERFACE=14/1/1\nMODALIAS=usb:v04F2pB7DCd0014dcEFdsc02dp01ic0Eisc01ip01in02"
+      },
+      {
+        "device": "video3",
+        "target": "/sys/devices/pci0000:80/0000:80:14.0/usb3/3-8/3-8:1.2/video4linux/video3",
+        "dev": "81:3",
+        "name": "FHD Webcam: IR Camera",
+        "device/uevent": "DEVTYPE=usb_interface\nDRIVER=uvcvideo\nPRODUCT=4f2/b7dc/14\nTYPE=239/2/1\nINTERFACE=14/1/1\nMODALIAS=usb:v04F2pB7DCd0014dcEFdsc02dp01ic0Eisc01ip01in02"
+      },
+      {
+        "device": "video4",
+        "target": "/sys/devices/pci0000:80/0000:80:14.0/usb3/3-3/3-3.1/3-3.1:1.0/video4linux/video4",
+        "dev": "81:4",
+        "name": "USB Camera: USB Camera",
+        "device/uevent": "DEVTYPE=usb_interface\nDRIVER=uvcvideo\nPRODUCT=bda/3035/1\nTYPE=239/2/1\nINTERFACE=14/1/0\nMODALIAS=usb:v0BDAp3035d0001dcEFdsc02dp01ic0Eisc01ip00in00"
+      },
+      {
+        "device": "video5",
+        "target": "/sys/devices/pci0000:80/0000:80:14.0/usb3/3-3/3-3.1/3-3.1:1.0/video4linux/video5",
+        "dev": "81:5",
+        "name": "USB Camera: USB Camera",
+        "device/uevent": "DEVTYPE=usb_interface\nDRIVER=uvcvideo\nPRODUCT=bda/3035/1\nTYPE=239/2/1\nINTERFACE=14/1/0\nMODALIAS=usb:v0BDAp3035d0001dcEFdsc02dp01ic0Eisc01ip00in00"
+      },
+      {
+        "device": "video6",
+        "target": "/sys/devices/pci0000:80/0000:80:14.0/usb3/3-1/3-1.2/3-1.2.2/3-1.2.2:1.0/video4linux/video6",
+        "dev": "81:6",
+        "name": "USB2.0_CAM1: USB2.0_CAM1",
+        "device/uevent": "DEVTYPE=usb_interface\nDRIVER=uvcvideo\nPRODUCT=5a3/9230/0\nTYPE=239/2/1\nINTERFACE=14/1/0\nMODALIAS=usb:v05A3p9230d0000dcEFdsc02dp01ic0Eisc01ip00in00"
+      },
+      {
+        "device": "video7",
+        "target": "/sys/devices/pci0000:80/0000:80:14.0/usb3/3-1/3-1.2/3-1.2.2/3-1.2.2:1.0/video4linux/video7",
+        "dev": "81:7",
+        "name": "USB2.0_CAM1: USB2.0_CAM1",
+        "device/uevent": "DEVTYPE=usb_interface\nDRIVER=uvcvideo\nPRODUCT=5a3/9230/0\nTYPE=239/2/1\nINTERFACE=14/1/0\nMODALIAS=usb:v05A3p9230d0000dcEFdsc02dp01ic0Eisc01ip00in00"
+      },
+      {
+        "device": "video8",
+        "target": "/sys/devices/pci0000:80/0000:80:14.0/usb3/3-1/3-1.2/3-1.2.3/3-1.2.3:1.0/video4linux/video8",
+        "dev": "81:8",
+        "name": "USB2.0_CAM1: USB2.0_CAM1",
+        "device/uevent": "DEVTYPE=usb_interface\nDRIVER=uvcvideo\nPRODUCT=5a3/9230/0\nTYPE=239/2/1\nINTERFACE=14/1/0\nMODALIAS=usb:v05A3p9230d0000dcEFdsc02dp01ic0Eisc01ip00in00"
+      },
+      {
+        "device": "video9",
+        "target": "/sys/devices/pci0000:80/0000:80:14.0/usb3/3-1/3-1.2/3-1.2.3/3-1.2.3:1.0/video4linux/video9",
+        "dev": "81:9",
+        "name": "USB2.0_CAM1: USB2.0_CAM1",
+        "device/uevent": "DEVTYPE=usb_interface\nDRIVER=uvcvideo\nPRODUCT=5a3/9230/0\nTYPE=239/2/1\nINTERFACE=14/1/0\nMODALIAS=usb:v05A3p9230d0000dcEFdsc02dp01ic0Eisc01ip00in00"
+      }
+    ]
+  },
+  "cameras": [
+    {
+      "camera": 4,
+      "path": "/home/robot-operator/Documents/ChatGPT/Run 003/evidence/initial-camera-4.png",
+      "time": 1789520986.9569302
+    },
+    {
+      "camera": 6,
+      "path": "/home/robot-operator/Documents/ChatGPT/Run 003/evidence/initial-camera-6.png",
+      "time": 1789520987.255632
+    },
+    {
+      "camera": 8,
+      "path": "/home/robot-operator/Documents/ChatGPT/Run 003/evidence/initial-camera-8.png",
+      "time": 1789520987.2553327
+    },
+    {
+      "camera": 10,
+      "path": "/home/robot-operator/Documents/ChatGPT/Run 003/evidence/initial-camera-10.png",
+      "time": 1789520987.0879762
+    }
+  ],
+  "buses": [
+    {
+      "port": "/dev/ttyACM0",
+      "error": "1"
+    },
+    {
+      "port": "/dev/ttyACM1",
+      "error": "1"
+    }
+  ],
+  "finished": 1789520988.1177692
+}

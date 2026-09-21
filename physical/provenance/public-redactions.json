@@ -1,0 +1,266 @@
+{
+  "policy": "Personal home-directory prefix anonymization only; original hashes retained. No experimental values, prompts or outcomes changed by this transformation.",
+  "files": [
+    {
+      "path": "physical/runs/run-001/conversation/events.jsonl",
+      "original_sha256": "737a53b4401e8d9d3b6ec5354be871f5bda342d099ce2568b92a8cdd665de9dd",
+      "distributed_sha256": "2971d41986cc75a06a37bc43779203a90ea4bbfaca3bd061daac0e085b25f3a2",
+      "original_bytes": 537965,
+      "distributed_bytes": 540355,
+      "replacement_count": 239,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-001/conversation/transcript.md",
+      "original_sha256": "6e6fa5b3aa680730f7dad504d4a0568f4b93c2dc4a7f4bb80d09c955246cac4a",
+      "distributed_sha256": "64a54ec469945e29bfa845273d37a62be68736ec50f1682b0fa91548ed62e162",
+      "original_bytes": 10792,
+      "distributed_bytes": 10812,
+      "replacement_count": 2,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-001/workspace/run/REPORT.md",
+      "original_sha256": "c755c99aced3a5506b12a0e53135bb7d3d5464a9fe9c6e4adb3d669f523d159f",
+      "distributed_sha256": "e896e24494ed2e69b7e6e526282f25fcdcb9d9a4f054603499bab7fb2656cb02",
+      "original_bytes": 4984,
+      "distributed_bytes": 5014,
+      "replacement_count": 3,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-001/workspace/run/audit_output.json",
+      "original_sha256": "990cdfcaadd13e652da95eb9ffec53980bbd2d672d9764c8469c6810fa91a991",
+      "distributed_sha256": "39f6d9909b28f7c3a118fc0547fab7652c5ebd2ae015eef473cb0d833ea742ce",
+      "original_bytes": 1719,
+      "distributed_bytes": 1749,
+      "replacement_count": 3,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-001/workspace/run/evidence/hold_verification.jsonl",
+      "original_sha256": "ef05bf23c8d72d3a120ca8e6ba392cda0b1d76663ecbe5fd86348d4dba8f585b",
+      "distributed_sha256": "253f263cd5579ab6fb38b05a2cfba54cb056603219f16d6cefb7152bb2fd33a1",
+      "original_bytes": 163135,
+      "distributed_bytes": 163255,
+      "replacement_count": 12,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-001/workspace/run/evidence/initial_telemetry.json",
+      "original_sha256": "62f1eedfc2e072bf6962027c2caa6bd5279a171ffd0600fdbfe051ed8c5d322a",
+      "distributed_sha256": "0f13ae5457d6eadd6a0072d29aec59349537f5058896dbc94eae7f60ee412f6b",
+      "original_bytes": 30059,
+      "distributed_bytes": 30099,
+      "replacement_count": 4,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-001/workspace/run/evidence/session.jsonl",
+      "original_sha256": "4ba51a1226ce471f7e991d9bfae1372324805c1637dddd3e383e920f5707665e",
+      "distributed_sha256": "4b8fba7427160a1447b523f5bf58c7ddeda75f301da1daecf76ecbebd9355a8f",
+      "original_bytes": 3628337,
+      "distributed_bytes": 3629507,
+      "replacement_count": 117,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-001/workspace/run/summary.json",
+      "original_sha256": "c4fcfa230f756f5742f422aa1883a6f680a782f66da1ee4ce5b74907f4c42b84",
+      "distributed_sha256": "5431f14d88bfbf9c9b14fad8d8a57b7c34d9fee149b1a4aed86998776da9abe4",
+      "original_bytes": 4427,
+      "distributed_bytes": 4457,
+      "replacement_count": 3,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-002/conversation/events.jsonl",
+      "original_sha256": "7606570853a9fd53d0fe636ed438805173f37b43e271d0580fab4fed00d2b6ca",
+      "distributed_sha256": "daaa5f5d2c2102113b840171d3b75640774ce76d2630009b309d8c16289f2e4f",
+      "original_bytes": 393194,
+      "distributed_bytes": 394424,
+      "replacement_count": 123,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-002/conversation/transcript.md",
+      "original_sha256": "5fa141725813225cb9c0afd4cb2bb7968349a3f5984faa5749a03098a17b8cb3",
+      "distributed_sha256": "fba72a6acd0db93da8a0a45f40a65f1ba206d931c28ceff71a9b2e16d79b5284",
+      "original_bytes": 7897,
+      "distributed_bytes": 7927,
+      "replacement_count": 3,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-003/conversation/events.jsonl",
+      "original_sha256": "ead4e94225d9aef66751becd2d435fd6e3d28f648e89df62cec5e81966a7b242",
+      "distributed_sha256": "e9b19671295075ca22d2af9808cb377421a6546f27775a16ff80a0978f6be15e",
+      "original_bytes": 380756,
+      "distributed_bytes": 383946,
+      "replacement_count": 319,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-003/conversation/transcript.md",
+      "original_sha256": "6583d8ded2c8b119ef38e9a49752dde2ee2855f6aff7f16dde1eaf86433091b2",
+      "distributed_sha256": "5657a875968ff1e89cbccdd0c0e9c3d8ebe8d22358e77d18d4cf6de291765052",
+      "original_bytes": 8060,
+      "distributed_bytes": 8080,
+      "replacement_count": 2,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-003/workspace/evidence/initial-discovery.json",
+      "original_sha256": "1f6ec81e6115a12790a035d08f4f5356a1f4f4390048796c35175b9f04cddd00",
+      "distributed_sha256": "3be26cd7a79fbaa2002c40e83aa334253ffc213100e101b7536c75ba701c2e37",
+      "original_bytes": 10339,
+      "distributed_bytes": 10379,
+      "replacement_count": 4,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-003/workspace/evidence/session.jsonl",
+      "original_sha256": "7f7711f286909817dfc1f3f8e89823bd0fb09e32c77741bb55eabf93cc2505b1",
+      "distributed_sha256": "61d16c54387b0d62df59b4948b8e7a018fbe3d6771d00ce4e2bbf116772ee208",
+      "original_bytes": 2931853,
+      "distributed_bytes": 2932693,
+      "replacement_count": 84,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-004/conversation/events.jsonl",
+      "original_sha256": "25b3a14690ebb1d67edaf42b54dd3e717e3ff75f7927fefa0515e43ff8149243",
+      "distributed_sha256": "62d97bc05f4b21ad3a22c5843f512f13b2ff4c33167b4589160d6dc4b466eaa4",
+      "original_bytes": 427001,
+      "distributed_bytes": 428611,
+      "replacement_count": 161,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-004/conversation/transcript.md",
+      "original_sha256": "ab3901046b5023bfb92ab83d16d180413c438dac3be70b896ce51fca85ebe79d",
+      "distributed_sha256": "33b7747ce379c25a7e3a9d4f89a1ecbbcbab3c55f9f87072ffed821b4afc185e",
+      "original_bytes": 10754,
+      "distributed_bytes": 10774,
+      "replacement_count": 2,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-004/workspace/evidence/discovery.json",
+      "original_sha256": "69e1183deb9ef7228988161c0b181b2c8b0850d0039d9f71bf2f5242d4df5ce9",
+      "distributed_sha256": "6230c5017d047d6746795a74de0072241e3759bdcd4553d28819543e2e8ca9f1",
+      "original_bytes": 10246,
+      "distributed_bytes": 10286,
+      "replacement_count": 4,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-005/conversation/events.jsonl",
+      "original_sha256": "8a4108e657a6c8c7b1647065bb7d7db429eb1a5e801aa7c6f7f489f9d3c4d8a1",
+      "distributed_sha256": "577ce4a22ecdf5e545e3a0161c10b30e518ed6da8ac5c339b923fb53496bc751",
+      "original_bytes": 852385,
+      "distributed_bytes": 856835,
+      "replacement_count": 445,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-005/conversation/transcript.md",
+      "original_sha256": "dc1fa2a5b652062ed24559b9bde016937289112fafee9b6b94cd1dff9cb9c6c3",
+      "distributed_sha256": "2e6a22ea10a336545838ba387842e75ad69b252a35bd2a8e2d3387d7e9a78395",
+      "original_bytes": 24331,
+      "distributed_bytes": 24501,
+      "replacement_count": 17,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-005/workspace/analysis/CROSS_RUN_REVIEW.md",
+      "original_sha256": "ee999d8f3f2f8e14935a33379349660fb9a9d636cd51be673af80c00fb7b4bcd",
+      "distributed_sha256": "f754e80a3cc2f4fa180fbceac4b695f56e4fc2cffd57478fdc2e060b77fac649",
+      "original_bytes": 16124,
+      "distributed_bytes": 16304,
+      "replacement_count": 18,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-005/workspace/analysis/cross_run_metrics.json",
+      "original_sha256": "091dd25c35d6e5b2b320bbe57800fc86e46e052a83bc843195cabc31e07f04db",
+      "distributed_sha256": "79e213a9709df1d92abf8c656f6636941e74150ace59390ac4754557cd01833b",
+      "original_bytes": 7514,
+      "distributed_bytes": 7654,
+      "replacement_count": 14,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-005/workspace/analysis/validation.json",
+      "original_sha256": "309015ff1134ea0b147d13c305ebfea045eead2e42d7123e736a4837626ee157",
+      "distributed_sha256": "56583c939743585170d75d41dfd1f7472c08c5745eebf10a479a73c8dbe95ccc",
+      "original_bytes": 3403,
+      "distributed_bytes": 3413,
+      "replacement_count": 1,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-005/workspace/analysis/verify_retrospective.py",
+      "original_sha256": "e542e20cb9b687a88b03513641cc1944e23a1243f61e560c0a65942a06daf321",
+      "distributed_sha256": "62b7d81aadc856f18d5585d3488011055bdd254356dbe5f412a2ed69cc81bd46",
+      "original_bytes": 2956,
+      "distributed_bytes": 2966,
+      "replacement_count": 1,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-005/workspace/evidence/control.jsonl",
+      "original_sha256": "643628ffa4c019835b62485073a02d16453fdc55942fcaff259deff1d282b64c",
+      "distributed_sha256": "919513baf90da5905729be52dd5f906009ba4bda063e8655905a401f5a06d583",
+      "original_bytes": 3879143,
+      "distributed_bytes": 3879983,
+      "replacement_count": 84,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-005/workspace/evidence/initial_hardware.json",
+      "original_sha256": "69f94ee9c0dcb3ddc8347a41bdfa614676e8377d6a36875b0ec0197e66a56db4",
+      "distributed_sha256": "0ab19916c11f096b9af4c317d5c2438bfe9f53c86c948a35a567fd25bee9d859",
+      "original_bytes": 20373,
+      "distributed_bytes": 20413,
+      "replacement_count": 4,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-006/conversation/events.jsonl",
+      "original_sha256": "b6df8ff323ff747aa4743f0b5820a9631d6ed4816f7ec92d499b359d1bac3490",
+      "distributed_sha256": "ff63fdcfadbb7ca960c9eaf267477b65415bd0f47df33e13419ee942b72cdf52",
+      "original_bytes": 400411,
+      "distributed_bytes": 401521,
+      "replacement_count": 111,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-006/conversation/transcript.md",
+      "original_sha256": "2e2ebb4cdb9c5ca39c9408b4ef0463e90b346a25085b59bf50e34c610d2bbef7",
+      "distributed_sha256": "33cdd36573d8f100b0cceb200fa3f5215c980dae056d9d7730672299f1fe465b",
+      "original_bytes": 9117,
+      "distributed_bytes": 9127,
+      "replacement_count": 1,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/runs/run-006/workspace/evidence/discovery.json",
+      "original_sha256": "f2bdb2db22c3f2a4cf79e5711b76d2f238bb86ff816411e02bf44d6ee94125f6",
+      "distributed_sha256": "d7bf11a52e5ddb15450c1508c57ffbcd02955ccb77faec9aebc0ddaf279df76a",
+      "original_bytes": 10645,
+      "distributed_bytes": 10685,
+      "replacement_count": 4,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    },
+    {
+      "path": "physical/scripts/count_tokens_original.py",
+      "original_sha256": "204f5cea280688b1dfb25f15f3275c3606cd4ff4be14c01d132986ea1d20a0f9",
+      "distributed_sha256": "5bd193a88299dbda814f8ddbedd9b62057987b019098e71cede9dd189614a99d",
+      "original_bytes": 3402,
+      "distributed_bytes": 3412,
+      "replacement_count": 1,
+      "rule": "personal home-directory prefix replaced with /home/robot-operator"
+    }
+  ]
+}

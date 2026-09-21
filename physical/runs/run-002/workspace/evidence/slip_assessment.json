@@ -1,0 +1,10 @@
+{
+  "time": 1789519907.8585503,
+  "event": "Carton slipped and tipped onto its side during clearance_lift. Stable lift not established.",
+  "observations": [
+    "Fixed side image shows full long side resting on desk",
+    "Wrist view confirms changed object orientation and lost enclosure",
+    "No observed robot/environment damage; carton has no obvious tear or large deformation"
+  ],
+  "recovery": "Continue same attempt from fresh observations; increase insertion depth and sustained preload before new lift."
+}

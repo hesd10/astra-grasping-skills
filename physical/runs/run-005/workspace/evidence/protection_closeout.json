@@ -1,0 +1,111 @@
+{
+  "time": 1789526330.4841015,
+  "arms": {
+    "/dev/ttyACM0": {
+      "unchanged": true,
+      "registers": {
+        "1": {
+          "Max_Temperature_Limit": 70,
+          "Min_Position_Limit": 682,
+          "Max_Position_Limit": 3425,
+          "Torque_Limit": 1000,
+          "Max_Torque_Limit": 1000,
+          "Unloading_Condition": 44
+        },
+        "2": {
+          "Max_Temperature_Limit": 70,
+          "Min_Position_Limit": 883,
+          "Max_Position_Limit": 3251,
+          "Torque_Limit": 1000,
+          "Max_Torque_Limit": 1000,
+          "Unloading_Condition": 44
+        },
+        "3": {
+          "Max_Temperature_Limit": 70,
+          "Min_Position_Limit": 972,
+          "Max_Position_Limit": 3214,
+          "Torque_Limit": 1000,
+          "Max_Torque_Limit": 1000,
+          "Unloading_Condition": 44
+        },
+        "4": {
+          "Max_Temperature_Limit": 70,
+          "Min_Position_Limit": 874,
+          "Max_Position_Limit": 3181,
+          "Torque_Limit": 1000,
+          "Max_Torque_Limit": 1000,
+          "Unloading_Condition": 44
+        },
+        "5": {
+          "Max_Temperature_Limit": 70,
+          "Min_Position_Limit": 0,
+          "Max_Position_Limit": 4095,
+          "Torque_Limit": 1000,
+          "Max_Torque_Limit": 1000,
+          "Unloading_Condition": 44
+        },
+        "6": {
+          "Max_Temperature_Limit": 70,
+          "Min_Position_Limit": 1975,
+          "Max_Position_Limit": 3510,
+          "Torque_Limit": 500,
+          "Max_Torque_Limit": 500,
+          "Unloading_Condition": 44
+        }
+      }
+    },
+    "/dev/ttyACM1": {
+      "unchanged": true,
+      "registers": {
+        "1": {
+          "Max_Temperature_Limit": 70,
+          "Min_Position_Limit": 856,
+          "Max_Position_Limit": 3173,
+          "Torque_Limit": 500,
+          "Max_Torque_Limit": 1000,
+          "Unloading_Condition": 44
+        },
+        "2": {
+          "Max_Temperature_Limit": 70,
+          "Min_Position_Limit": 923,
+          "Max_Position_Limit": 3259,
+          "Torque_Limit": 500,
+          "Max_Torque_Limit": 1000,
+          "Unloading_Condition": 44
+        },
+        "3": {
+          "Max_Temperature_Limit": 70,
+          "Min_Position_Limit": 880,
+          "Max_Position_Limit": 3105,
+          "Torque_Limit": 500,
+          "Max_Torque_Limit": 1000,
+          "Unloading_Condition": 44
+        },
+        "4": {
+          "Max_Temperature_Limit": 70,
+          "Min_Position_Limit": 883,
+          "Max_Position_Limit": 3147,
+          "Torque_Limit": 500,
+          "Max_Torque_Limit": 1000,
+          "Unloading_Condition": 44
+        },
+        "5": {
+          "Max_Temperature_Limit": 70,
+          "Min_Position_Limit": 0,
+          "Max_Position_Limit": 4095,
+          "Torque_Limit": 500,
+          "Max_Torque_Limit": 1000,
+          "Unloading_Condition": 44
+        },
+        "6": {
+          "Max_Temperature_Limit": 70,
+          "Min_Position_Limit": 2034,
+          "Max_Position_Limit": 3502,
+          "Torque_Limit": 180,
+          "Max_Torque_Limit": 500,
+          "Unloading_Condition": 44
+        }
+      }
+    }
+  }
+}

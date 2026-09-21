@@ -1,0 +1,117 @@
+{
+  "time": 1789524194.6392412,
+  "buses": {
+    "left": {
+      "1": {
+        "Goal_Position": 2056,
+        "Present_Position": 2059,
+        "Torque_Enable": 1,
+        "Present_Load": 24,
+        "Present_Temperature": 36,
+        "Status": 0,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Goal_Position": 2125,
+        "Present_Position": 2169,
+        "Torque_Enable": 1,
+        "Present_Load": 188,
+        "Present_Temperature": 49,
+        "Status": 0,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Goal_Position": 1997,
+        "Present_Position": 2054,
+        "Torque_Enable": 1,
+        "Present_Load": 240,
+        "Present_Temperature": 57,
+        "Status": 0,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Goal_Position": 2313,
+        "Present_Position": 2310,
+        "Torque_Enable": 1,
+        "Present_Load": -24,
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Goal_Position": 2132,
+        "Present_Position": 2128,
+        "Torque_Enable": 1,
+        "Present_Load": -28,
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Goal_Position": 2319,
+        "Present_Position": 2335,
+        "Torque_Enable": 1,
+        "Present_Load": 76,
+        "Present_Temperature": 39,
+        "Status": 0,
+        "Max_Temperature_Limit": 70
+      }
+    },
+    "right": {
+      "1": {
+        "Goal_Position": 1611,
+        "Present_Position": 1611,
+        "Torque_Enable": 1,
+        "Present_Load": 0,
+        "Present_Temperature": 33,
+        "Status": 0,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Goal_Position": 2539,
+        "Present_Position": 2539,
+        "Torque_Enable": 1,
+        "Present_Load": 0,
+        "Present_Temperature": 33,
+        "Status": 0,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Goal_Position": 2689,
+        "Present_Position": 2689,
+        "Torque_Enable": 1,
+        "Present_Load": 0,
+        "Present_Temperature": 34,
+        "Status": 0,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Goal_Position": 1243,
+        "Present_Position": 1243,
+        "Torque_Enable": 1,
+        "Present_Load": 0,
+        "Present_Temperature": 35,
+        "Status": 0,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Goal_Position": 2048,
+        "Present_Position": 2048,
+        "Torque_Enable": 1,
+        "Present_Load": 0,
+        "Present_Temperature": 38,
+        "Status": 0,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Goal_Position": 2008,
+        "Present_Position": 2008,
+        "Torque_Enable": 1,
+        "Present_Load": 0,
+        "Present_Temperature": 34,
+        "Status": 0,
+        "Max_Temperature_Limit": 70
+      }
+    }
+  }
+}

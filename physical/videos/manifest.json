@@ -1,0 +1,209 @@
+[
+  {
+    "run": "Run 001",
+    "status": "imported_and_processed",
+    "mapping_basis": "User identified these seven original filenames and their run assignments.",
+    "originals": [
+      {
+        "path": "videos/originals/VID_20260916_003647.mp4",
+        "filename": "VID_20260916_003647.mp4",
+        "size": 2981017928,
+        "sha256": "81b19f0f8a8345643b8932e914f77dc3419e2860e1fa883dac0c78e656d17234",
+        "duration_seconds": 733.42,
+        "container_creation_time": "2026-09-15T16:36:47.000000Z",
+        "copy_verification": "GIO MTP copy completed successfully; local size matches phone metadata; local SHA-256 recorded"
+      },
+      {
+        "path": "videos/originals/VID_20260916_004909.mp4",
+        "filename": "VID_20260916_004909.mp4",
+        "size": 2087091294,
+        "sha256": "a615928d1405e627f43120e17689d3f3054a7b61a588f5a977110f70e84a476d",
+        "duration_seconds": 513.47,
+        "container_creation_time": "2026-09-15T16:49:09.000000Z",
+        "copy_verification": "GIO MTP copy completed successfully; local size matches phone metadata; local SHA-256 recorded"
+      }
+    ],
+    "preview": {
+      "run": 1,
+      "path": "videos/previews/run-001-12x-muted.mp4",
+      "speed": 12,
+      "audio": false,
+      "gap_card_seconds": 3,
+      "size": 3965182,
+      "sha256": "69d6818a30237946af0bb12771ce6ae3a8243e3ed621534d2a4bb2033c5cd1ef",
+      "duration_seconds": 106.93,
+      "poster": "videos/previews/run-001-12x-muted.jpg"
+    },
+    "recording_gap": {
+      "present": true,
+      "duration_seconds": null,
+      "note": "Two recordings; several minutes missing between them according to the experimenter. A 3-second gap card is inserted; missing footage is not synthesized."
+    },
+    "synchronization": "Container creation timestamps and filenames are preserved as metadata; no exact alignment to the robot log clock has been established."
+  },
+  {
+    "run": "Run 002",
+    "status": "imported_and_processed",
+    "mapping_basis": "User identified these seven original filenames and their run assignments.",
+    "originals": [
+      {
+        "path": "videos/originals/VID_20260916_090144.mp4",
+        "filename": "VID_20260916_090144.mp4",
+        "size": 4543212244,
+        "sha256": "d01fa74d4eabee42d1be42bea6692415ba7671b97508e350a36abf3a58b8a292",
+        "duration_seconds": 1117.51,
+        "container_creation_time": "2026-09-16T01:01:44.000000Z",
+        "copy_verification": "GIO MTP copy completed successfully; local size matches phone metadata; local SHA-256 recorded"
+      }
+    ],
+    "preview": {
+      "run": 2,
+      "path": "videos/previews/run-002-12x-muted.mp4",
+      "speed": 12,
+      "audio": false,
+      "gap_card_seconds": 0,
+      "size": 4912140,
+      "sha256": "08196466dae35be6e1920a8a0bcb66d018eef63bb7f430401f32723fc84f97f3",
+      "duration_seconds": 93.13,
+      "poster": "videos/previews/run-002-12x-muted.jpg"
+    },
+    "recording_gap": {
+      "present": false,
+      "duration_seconds": null,
+      "note": "One source recording."
+    },
+    "synchronization": "Container creation timestamps and filenames are preserved as metadata; no exact alignment to the robot log clock has been established."
+  },
+  {
+    "run": "Run 003",
+    "status": "imported_and_processed",
+    "mapping_basis": "User identified these seven original filenames and their run assignments.",
+    "originals": [
+      {
+        "path": "videos/originals/VID_20260916_092603.mp4",
+        "filename": "VID_20260916_092603.mp4",
+        "size": 3156965714,
+        "sha256": "22b3a60dd146c23b676d7215272591518753d324466999f1c0cb086362576c5f",
+        "duration_seconds": 776.64,
+        "container_creation_time": "2026-09-16T01:26:02.000000Z",
+        "copy_verification": "GIO MTP copy completed successfully; local size matches phone metadata; local SHA-256 recorded"
+      }
+    ],
+    "preview": {
+      "run": 3,
+      "path": "videos/previews/run-003-12x-muted.mp4",
+      "speed": 12,
+      "audio": false,
+      "gap_card_seconds": 0,
+      "size": 3516642,
+      "sha256": "98200bd9f276646d69544f74b737a66bb70457e4dc852b93a7315d551fbfcc91",
+      "duration_seconds": 64.73,
+      "poster": "videos/previews/run-003-12x-muted.jpg"
+    },
+    "recording_gap": {
+      "present": false,
+      "duration_seconds": null,
+      "note": "One source recording."
+    },
+    "synchronization": "Container creation timestamps and filenames are preserved as metadata; no exact alignment to the robot log clock has been established."
+  },
+  {
+    "run": "Run 004",
+    "status": "imported_and_processed",
+    "mapping_basis": "User identified these seven original filenames and their run assignments.",
+    "originals": [
+      {
+        "path": "videos/originals/VID_20260916_095938.mp4",
+        "filename": "VID_20260916_095938.mp4",
+        "size": 4237657590,
+        "sha256": "978c5d27ead0b72ae1e1729300c98a0349ec6b1a41162218d107911282ab123d",
+        "duration_seconds": 1042.62,
+        "container_creation_time": "2026-09-16T01:59:38.000000Z",
+        "copy_verification": "GIO MTP copy completed successfully; local size matches phone metadata; local SHA-256 recorded"
+      }
+    ],
+    "preview": {
+      "run": 4,
+      "path": "videos/previews/run-004-12x-muted.mp4",
+      "speed": 12,
+      "audio": false,
+      "gap_card_seconds": 0,
+      "size": 4523409,
+      "sha256": "aa2f997263268bd8410d99fa022d1b1e0fa555fed8477afcd075e1a07a28e57b",
+      "duration_seconds": 86.87,
+      "poster": "videos/previews/run-004-12x-muted.jpg"
+    },
+    "recording_gap": {
+      "present": false,
+      "duration_seconds": null,
+      "note": "One source recording."
+    },
+    "synchronization": "Container creation timestamps and filenames are preserved as metadata; no exact alignment to the robot log clock has been established."
+  },
+  {
+    "run": "Run 005",
+    "status": "imported_and_processed",
+    "mapping_basis": "User identified these seven original filenames and their run assignments.",
+    "originals": [
+      {
+        "path": "videos/originals/VID_20260916_103517.mp4",
+        "filename": "VID_20260916_103517.mp4",
+        "size": 2818672659,
+        "sha256": "2dd65a85682303bddfd1c1345c4c1609378645dba1c674a3899fcb79ffe6c91a",
+        "duration_seconds": 693.52,
+        "container_creation_time": "2026-09-16T02:35:17.000000Z",
+        "copy_verification": "GIO MTP copy completed successfully; local size matches phone metadata; local SHA-256 recorded"
+      }
+    ],
+    "preview": {
+      "run": 5,
+      "path": "videos/previews/run-005-12x-muted.mp4",
+      "speed": 12,
+      "audio": false,
+      "gap_card_seconds": 0,
+      "size": 3627115,
+      "sha256": "695ad5215bc4d0cca630f3ea02b4efae685eada6dc4a32a9030b6f29eebf75bd",
+      "duration_seconds": 57.8,
+      "poster": "videos/previews/run-005-12x-muted.jpg"
+    },
+    "recording_gap": {
+      "present": false,
+      "duration_seconds": null,
+      "note": "One source recording."
+    },
+    "synchronization": "Container creation timestamps and filenames are preserved as metadata; no exact alignment to the robot log clock has been established."
+  },
+  {
+    "run": "Run 006",
+    "status": "imported_and_processed",
+    "mapping_basis": "User identified these seven original filenames and their run assignments.",
+    "originals": [
+      {
+        "path": "videos/originals/VID_20260916_115902.mp4",
+        "filename": "VID_20260916_115902.mp4",
+        "size": 2922619860,
+        "sha256": "b2e72291f250d36f1c46e021bc30f1538f030bcae1f30619839c6fd931981fa4",
+        "duration_seconds": 719.5,
+        "container_creation_time": "2026-09-16T03:59:01.000000Z",
+        "copy_verification": "GIO MTP copy completed successfully; local size matches phone metadata; local SHA-256 recorded"
+      }
+    ],
+    "preview": {
+      "run": 6,
+      "path": "videos/previews/run-006-12x-muted.mp4",
+      "speed": 12,
+      "audio": false,
+      "gap_card_seconds": 0,
+      "size": 3431280,
+      "sha256": "4b1083f501e8fe1e9526d9278cc41cdf856fd10cb4b4b93d91521881cac77f91",
+      "duration_seconds": 59.97,
+      "poster": "videos/previews/run-006-12x-muted.jpg"
+    },
+    "recording_gap": {
+      "present": false,
+      "duration_seconds": null,
+      "note": "One source recording."
+    },
+    "synchronization": "Container creation timestamps and filenames are preserved as metadata; no exact alignment to the robot log clock has been established."
+  }
+]

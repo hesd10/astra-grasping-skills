@@ -1,0 +1,182 @@
+{
+  "experiment_start_utc": "2026-09-16T02:18:52Z",
+  "control_end_utc": "2026-09-16T02:37:32.871053+00:00",
+  "experiment_elapsed_seconds": 1120.8710532188416,
+  "motor_session_seconds": 906.6819748878479,
+  "outcome": "Visible stable suspension; 3 cm metric threshold not verified",
+  "verified_visual_interval_seconds": 53.6134033203125,
+  "hold_telemetry_samples": 255,
+  "motion_command_decisions": 25,
+  "verification_decisions": 1,
+  "closeout_decisions": 1,
+  "startup_decision_groups": 3,
+  "faults": [],
+  "right_max_drift_counts": 0,
+  "maximum_observed_temperature": 56,
+  "hold": {
+    "left": {
+      "Present_Position": {
+        "1": [
+          2057,
+          2057
+        ],
+        "2": [
+          2145,
+          2145
+        ],
+        "3": [
+          2089,
+          2089
+        ],
+        "4": [
+          2434,
+          2434
+        ],
+        "5": [
+          2128,
+          2128
+        ],
+        "6": [
+          2374,
+          2374
+        ]
+      },
+      "Present_Load": {
+        "1": [
+          0,
+          0
+        ],
+        "2": [
+          228,
+          228
+        ],
+        "3": [
+          184,
+          184
+        ],
+        "4": [
+          0,
+          0
+        ],
+        "5": [
+          0,
+          0
+        ],
+        "6": [
+          60,
+          60
+        ]
+      },
+      "Status": {
+        "1": [
+          0,
+          0
+        ],
+        "2": [
+          0,
+          0
+        ],
+        "3": [
+          0,
+          0
+        ],
+        "4": [
+          0,
+          0
+        ],
+        "5": [
+          0,
+          0
+        ],
+        "6": [
+          0,
+          0
+        ]
+      }
+    },
+    "right": {
+      "Present_Position": {
+        "1": [
+          1611,
+          1611
+        ],
+        "2": [
+          2539,
+          2539
+        ],
+        "3": [
+          2689,
+          2689
+        ],
+        "4": [
+          1243,
+          1243
+        ],
+        "5": [
+          2048,
+          2048
+        ],
+        "6": [
+          2008,
+          2008
+        ]
+      },
+      "Present_Load": {
+        "1": [
+          0,
+          0
+        ],
+        "2": [
+          0,
+          0
+        ],
+        "3": [
+          0,
+          0
+        ],
+        "4": [
+          0,
+          0
+        ],
+        "5": [
+          0,
+          0
+        ],
+        "6": [
+          0,
+          0
+        ]
+      },
+      "Status": {
+        "1": [
+          0,
+          0
+        ],
+        "2": [
+          0,
+          0
+        ],
+        "3": [
+          0,
+          0
+        ],
+        "4": [
+          0,
+          0
+        ],
+        "5": [
+          0,
+          0
+        ],
+        "6": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "final_state": "Serial connections closed without disabling torque; active position and gripper goals retained. Software monitoring ended. Hardware protections retained.",
+  "temperature_register_writes": 0,
+  "history_accessed": false,
+  "contamination_detected": false
+}

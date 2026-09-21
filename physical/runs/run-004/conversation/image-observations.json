@@ -1,0 +1,324 @@
+[
+  {
+    "timestamp": "2026-09-16T01:36:09.391Z",
+    "call_id": "call_ctGQqJG4a05aM5ES65jbhHH1",
+    "basename": "initial_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 57
+  },
+  {
+    "timestamp": "2026-09-16T01:38:30.606Z",
+    "call_id": "call_HQ7vG899DzOJ1kEvq1WXxbBE",
+    "basename": "probe_shoulder_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 93
+  },
+  {
+    "timestamp": "2026-09-16T01:40:05.663Z",
+    "call_id": "call_d5J8CpKgdqfqyyYXjwNYlUAn",
+    "basename": "final_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 131
+  },
+  {
+    "timestamp": "2026-09-16T01:41:41.851Z",
+    "call_id": "call_1jTHHlillt3zMWMDZ28hiLeL",
+    "basename": "raise_shoulder_2_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 174
+  },
+  {
+    "timestamp": "2026-09-16T01:42:07.393Z",
+    "call_id": "call_c7AMXooxH9MBUQkhlkMtzwpI",
+    "basename": "probe_elbow_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 190
+  },
+  {
+    "timestamp": "2026-09-16T01:42:32.169Z",
+    "call_id": "call_j6Hy5IHUlZYDoEuYXG9nUXXS",
+    "basename": "unfold_left_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 202
+  },
+  {
+    "timestamp": "2026-09-16T01:42:53.655Z",
+    "call_id": "call_YktCvog3ABXvMbMkJHwJdQR3",
+    "basename": "clear_desk_edge_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 216
+  },
+  {
+    "timestamp": "2026-09-16T01:43:31.255Z",
+    "call_id": "call_NI9TgenLRdFF5AcBjrjduBmk",
+    "basename": "open_yaw_probe_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 232
+  },
+  {
+    "timestamp": "2026-09-16T01:44:16.209Z",
+    "call_id": "call_Rin4LtST0FrkbarW5rGwCSnp",
+    "basename": "approach_probe_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 248
+  },
+  {
+    "timestamp": "2026-09-16T01:44:59.219Z",
+    "call_id": "call_kkjDxTybR2xV5c8NliruDACR",
+    "basename": "pitch_probe_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 267
+  },
+  {
+    "timestamp": "2026-09-16T01:45:31.098Z",
+    "call_id": "call_x6E1xQuNmkPiBnh6oj1NgzFI",
+    "basename": "advance_left_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 280
+  },
+  {
+    "timestamp": "2026-09-16T01:46:11.122Z",
+    "call_id": "call_4dSmsoeIyGNznJWFemoRLByV",
+    "basename": "approach_sidewalls_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 297
+  },
+  {
+    "timestamp": "2026-09-16T01:47:04.036Z",
+    "call_id": "call_BwfJXknBkGOesDCa9yQSZGOF",
+    "basename": "center_open_gap_video6.jpg",
+    "archive_paths": [
+      "runs/run-004/workspace/evidence/center_open_gap_video6.jpg"
+    ],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 319
+  },
+  {
+    "timestamp": "2026-09-16T01:47:18.384Z",
+    "call_id": "call_wfic29l2EYxo6nUMRxmQS3Ye",
+    "basename": "advance_open_gap_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 328
+  },
+  {
+    "timestamp": "2026-09-16T01:47:43.888Z",
+    "call_id": "call_KMEL7IP7bfdjbwHWDfoUXswz",
+    "basename": "insert_fingers_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 341
+  },
+  {
+    "timestamp": "2026-09-16T01:48:21.769Z",
+    "call_id": "call_NPDDw1PXDgUUZbiU7QyQepsq",
+    "basename": "deepen_enclosure_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 356
+  },
+  {
+    "timestamp": "2026-09-16T01:48:59.248Z",
+    "call_id": "call_si6SCHvDV4JFox5anqymrWpF",
+    "basename": "deeper_side_overlap_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 373
+  },
+  {
+    "timestamp": "2026-09-16T01:49:29.704Z",
+    "call_id": "call_puCP92I0Ui78OpHRw82zdAsh",
+    "basename": "raise_contact_height_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 386
+  },
+  {
+    "timestamp": "2026-09-16T01:49:59.363Z",
+    "call_id": "call_iy7WO2R4WwXv4k127KaBKETj",
+    "basename": "full_insertion_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 401
+  },
+  {
+    "timestamp": "2026-09-16T01:50:35.914Z",
+    "call_id": "call_ab53oXMJJmgth0vxI7ZaiSk2",
+    "basename": "seat_between_fingers_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 418
+  },
+  {
+    "timestamp": "2026-09-16T01:51:03.262Z",
+    "call_id": "call_wjtkw3Yav6OEEvoLE43fzH2X",
+    "basename": "light_closure_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 435
+  },
+  {
+    "timestamp": "2026-09-16T01:51:36.743Z",
+    "call_id": "call_JFkFNogf4LaIKeUQddrUqDyX",
+    "basename": "release_tilted_contact_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 450
+  },
+  {
+    "timestamp": "2026-09-16T01:51:56.639Z",
+    "call_id": "call_pSfvr3UfiDOqFdHH1OCb2GBG",
+    "basename": "withdraw_for_pitch_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 464
+  },
+  {
+    "timestamp": "2026-09-16T01:52:21.493Z",
+    "call_id": "call_kAWULzTk05DvKy5r1wP40VOr",
+    "basename": "level_fingers_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 478
+  },
+  {
+    "timestamp": "2026-09-16T01:52:54.261Z",
+    "call_id": "call_twjCziV1ECOdP3GLnQgyGBMO",
+    "basename": "close_level_grasp_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 493
+  },
+  {
+    "timestamp": "2026-09-16T01:53:19.459Z",
+    "call_id": "call_lKkSACBMOLmdJGWq64PBjuwf",
+    "basename": "set_light_preload_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 508
+  },
+  {
+    "timestamp": "2026-09-16T01:54:57.458Z",
+    "call_id": "call_TSDQYQw7XDhH5Aj3vYY1CgYq",
+    "basename": "prelift_confirm_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 538
+  },
+  {
+    "timestamp": "2026-09-16T01:55:14.346Z",
+    "call_id": "call_55DdRkVrpHeaR8d1Ry2ftgOS",
+    "basename": "test_lift_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 551
+  },
+  {
+    "timestamp": "2026-09-16T01:55:56.127Z",
+    "call_id": "call_ST7w3FmvG4ufvghCZcLEasHG",
+    "basename": "test_lift_hold_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 566
+  },
+  {
+    "timestamp": "2026-09-16T01:55:56.127Z",
+    "call_id": "call_ST7w3FmvG4ufvghCZcLEasHG",
+    "basename": "test_lift_video{c}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 566
+  },
+  {
+    "timestamp": "2026-09-16T01:55:56.127Z",
+    "call_id": "call_ST7w3FmvG4ufvghCZcLEasHG",
+    "basename": "test_lift_hold_video{c}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 566
+  },
+  {
+    "timestamp": "2026-09-16T01:56:32.132Z",
+    "call_id": "call_i7p0Qu3sS3xFpAWc8soqYxxc",
+    "basename": "return_to_support_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 583
+  },
+  {
+    "timestamp": "2026-09-16T01:56:54.010Z",
+    "call_id": "call_Vs6KtS4whgBQT53cYZxlf4tY",
+    "basename": "supported_preload_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 596
+  },
+  {
+    "timestamp": "2026-09-16T01:57:18.252Z",
+    "call_id": "call_5zxjOCbZfWEF2huW3msVUljT",
+    "basename": "test_lift_revised_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 608
+  },
+  {
+    "timestamp": "2026-09-16T01:57:50.304Z",
+    "call_id": "call_5LxQtMYqWu4Kfdf0CXBAMHJy",
+    "basename": "test_lift_revised_video{c}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 617
+  },
+  {
+    "timestamp": "2026-09-16T01:57:50.304Z",
+    "call_id": "call_5LxQtMYqWu4Kfdf0CXBAMHJy",
+    "basename": "revised_lift_hold_video{c}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 617
+  },
+  {
+    "timestamp": "2026-09-16T01:57:50.304Z",
+    "call_id": "call_5LxQtMYqWu4Kfdf0CXBAMHJy",
+    "basename": "revised_lift_hold_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 617
+  },
+  {
+    "timestamp": "2026-09-16T01:58:26.945Z",
+    "call_id": "call_wIvmvH6ft0Svxs0zp6nvaNVk",
+    "basename": "extend_lift_1_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 634
+  },
+  {
+    "timestamp": "2026-09-16T01:58:53.784Z",
+    "call_id": "call_11kmfDmD9AusRTVzUPAM81Z2",
+    "basename": "extend_lift_2_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 647
+  },
+  {
+    "timestamp": "2026-09-16T01:59:52.865Z",
+    "call_id": "call_mJ53um9HAcEA7BqOF2vd0KfW",
+    "basename": "clearance_hold_end_video${idx}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "source_line": 662
+  }
+]

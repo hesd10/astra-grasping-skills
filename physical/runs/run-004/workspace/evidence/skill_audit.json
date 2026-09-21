@@ -1,0 +1,25 @@
+{
+  "files": {
+    "hardware.py": {
+      "bytes": 6026,
+      "sha256": "d572ab1aa7f4e628a5c3a471f41d93e16635dc29153d188372075763bd089487"
+    },
+    "SKILL.md": {
+      "bytes": 11825,
+      "sha256": "3dd251ad1ea9ca3a9cc69800932e41c0010a57c6407ea2a9a4e83c81de4d6ac5"
+    },
+    "safety.py": {
+      "bytes": 5134,
+      "sha256": "c87a1d142c13ccd299589511dfb9e4300d82cd62884de026b4050baa09659706"
+    }
+  },
+  "synthetic_checks": [
+    "Equal synthetic goals accepted",
+    "Discontinuous synthetic goals rejected",
+    "Unverified metric reference rejected",
+    "Valid synthetic metric bound accepted",
+    "Active-goal helper reads the command register without writes",
+    "Temperature confirmation helper performs repeated individual reads without writes"
+  ],
+  "manual_review": "Every transfer source reviewed. General procedures and parameterized helpers only; no images, observation data, device assignments, recorded motor states, targets, coordinates, trajectories, replays, binary payloads, or encoded equivalents."
+}

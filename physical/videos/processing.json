@@ -1,0 +1,50 @@
+{
+  "speed": 12,
+  "fps": 30,
+  "resolution": [
+    720,
+    1280
+  ],
+  "audio": false,
+  "hdr_conversion": "HLG BT.2020 to SDR BT.709, Hable tonemap, npl=100",
+  "run001_gap_card_seconds": 3,
+  "runs": [
+    {
+      "run": 1,
+      "files": [
+        "VID_20260916_003647.mp4",
+        "VID_20260916_004909.mp4"
+      ]
+    },
+    {
+      "run": 2,
+      "files": [
+        "VID_20260916_090144.mp4"
+      ]
+    },
+    {
+      "run": 3,
+      "files": [
+        "VID_20260916_092603.mp4"
+      ]
+    },
+    {
+      "run": 4,
+      "files": [
+        "VID_20260916_095938.mp4"
+      ]
+    },
+    {
+      "run": 5,
+      "files": [
+        "VID_20260916_103517.mp4"
+      ]
+    },
+    {
+      "run": 6,
+      "files": [
+        "VID_20260916_115902.mp4"
+      ]
+    }
+  ]
+}

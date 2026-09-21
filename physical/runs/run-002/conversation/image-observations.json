@@ -1,0 +1,300 @@
+[
+  {
+    "timestamp": "2026-09-16T00:40:06.539Z",
+    "call_id": "call_wBWR17Ng2ctgDC51KiZUB9kr",
+    "basename": "initial_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 65
+  },
+  {
+    "timestamp": "2026-09-16T00:42:18.266Z",
+    "call_id": "call_cgz4tmdQIJUYdqHPMp6w7uoU",
+    "basename": "probe_shoulder_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 98
+  },
+  {
+    "timestamp": "2026-09-16T00:42:33.460Z",
+    "call_id": "call_t39uSLtLMFqSlrDyoiPQ81QC",
+    "basename": "probe_wrist_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 112
+  },
+  {
+    "timestamp": "2026-09-16T00:42:55.810Z",
+    "call_id": "call_U1tqVpvJvTPktjh0vLqFqWc9",
+    "basename": "probe_elbow_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 126
+  },
+  {
+    "timestamp": "2026-09-16T00:43:26.554Z",
+    "call_id": "call_tdzt1GVH6ZTkq5gMc8VP3D3N",
+    "basename": "raise_clearance_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 142
+  },
+  {
+    "timestamp": "2026-09-16T00:43:44.525Z",
+    "call_id": "call_dnl744TsNJg2QrqXqbtb2MZt",
+    "basename": "raise_clearance_video8.jpg",
+    "archive_paths": [
+      "runs/run-002/workspace/evidence/raise_clearance_video8.jpg"
+    ],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 150
+  },
+  {
+    "timestamp": "2026-09-16T00:43:51.385Z",
+    "call_id": "call_ghzE9LRG0KYDv0OlFfWyc0tz",
+    "basename": "align_pan_open_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 157
+  },
+  {
+    "timestamp": "2026-09-16T00:44:28.351Z",
+    "call_id": "call_gOld27IMiHGwdGgphRUCewes",
+    "basename": "advance_open_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 171
+  },
+  {
+    "timestamp": "2026-09-16T00:44:59.518Z",
+    "call_id": "call_LcpRHHhePFkB8WcxoS48H2RF",
+    "basename": "approach_carton_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 186
+  },
+  {
+    "timestamp": "2026-09-16T00:45:39.211Z",
+    "call_id": "call_QDTMRYYvS2J0vuiiRW6OgdCi",
+    "basename": "reach_probe_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 205
+  },
+  {
+    "timestamp": "2026-09-16T00:46:09.109Z",
+    "call_id": "call_b8rKANEjfgos9tDXCeEOlQ05",
+    "basename": "insert_fingers_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 220
+  },
+  {
+    "timestamp": "2026-09-16T00:46:52.818Z",
+    "call_id": "call_Ikg7EvE5XV1ZBAqXzXIyUt1D",
+    "basename": "deepen_insertion_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 237
+  },
+  {
+    "timestamp": "2026-09-16T00:47:17.715Z",
+    "call_id": "call_fVfS0bSD2Nn3fAEUQvVNbiZQ",
+    "basename": "full_insertion_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 252
+  },
+  {
+    "timestamp": "2026-09-16T00:47:50.311Z",
+    "call_id": "call_uUHCIQZVVGeGxqgmPIeKhV7p",
+    "basename": "level_and_insert_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 269
+  },
+  {
+    "timestamp": "2026-09-16T00:48:17.139Z",
+    "call_id": "call_FBJf5SI0DuJiFlm3Sek53cj2",
+    "basename": "seat_grasp_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 284
+  },
+  {
+    "timestamp": "2026-09-16T00:48:54.585Z",
+    "call_id": "call_o3GIxFQb9hqYB2B10HrszFfa",
+    "basename": "raise_contact_height_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 301
+  },
+  {
+    "timestamp": "2026-09-16T00:49:25.809Z",
+    "call_id": "call_Uye2RpmAdGDB3V9SmABqkevA",
+    "basename": "gentle_close_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 316
+  },
+  {
+    "timestamp": "2026-09-16T00:50:05.083Z",
+    "call_id": "call_aUuYNrxIgBfhrGHM2n0V4L87",
+    "basename": "secure_contact_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 333
+  },
+  {
+    "timestamp": "2026-09-16T00:50:34.821Z",
+    "call_id": "call_SsKGo76BmUQvqS78Sx2H3N11",
+    "basename": "initial_lift_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 349
+  },
+  {
+    "timestamp": "2026-09-16T00:51:03.124Z",
+    "call_id": "call_GoYUmM6Dpb6CqkR3XySLD3zk",
+    "basename": "clearance_lift_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 364
+  },
+  {
+    "timestamp": "2026-09-16T00:51:55.078Z",
+    "call_id": "call_aAySSOhBFHsXVMMz5pD3usIO",
+    "basename": "recovery_open_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 384
+  },
+  {
+    "timestamp": "2026-09-16T00:52:20.077Z",
+    "call_id": "call_Rih9BqJQBXSxNxngNiZDaYMD",
+    "basename": "lower_around_carton_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 398
+  },
+  {
+    "timestamp": "2026-09-16T00:52:55.314Z",
+    "call_id": "call_orqKMG689i0uRpGEnZesPxkp",
+    "basename": "center_regrasp_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 412
+  },
+  {
+    "timestamp": "2026-09-16T00:53:18.706Z",
+    "call_id": "call_yOuZMlJ2owO9DJ46LbXldosh",
+    "basename": "regrasp_close_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 426
+  },
+  {
+    "timestamp": "2026-09-16T00:53:42.812Z",
+    "call_id": "call_QKBaqqYCMUhjJ43VqfYc8wR6",
+    "basename": "regrasp_preload_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 442
+  },
+  {
+    "timestamp": "2026-09-16T00:54:08.015Z",
+    "call_id": "call_hzjFI1b6aLLO32v0nHInwFyq",
+    "basename": "confirm_preload_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 456
+  },
+  {
+    "timestamp": "2026-09-16T00:54:42.530Z",
+    "call_id": "call_Slaw5AIlRPuY443dA4TgIimj",
+    "basename": "deeper_side_contact_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 472
+  },
+  {
+    "timestamp": "2026-09-16T00:55:20.391Z",
+    "call_id": "call_2gIbyQIPgwMBW8gvq8LAswPI",
+    "basename": "clear_fixed_finger_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 489
+  },
+  {
+    "timestamp": "2026-09-16T00:56:00.324Z",
+    "call_id": "call_0rbkBhzaKPx7SCl4i1V560zH",
+    "basename": "firm_regrasp_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 505
+  },
+  {
+    "timestamp": "2026-09-16T00:56:53.502Z",
+    "call_id": "call_TG6tPFR49cwANqj8RADgFALb",
+    "basename": "clear_upper_edges_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 524
+  },
+  {
+    "timestamp": "2026-09-16T00:57:18.348Z",
+    "call_id": "call_D9gejBC8obr7y384yxQlzdFr",
+    "basename": "wide_clearance_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 532
+  },
+  {
+    "timestamp": "2026-09-16T00:57:39.646Z",
+    "call_id": "call_0SZU4ojfqd5UdqJ0SVIXuCRb",
+    "basename": "descend_beside_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 540
+  },
+  {
+    "timestamp": "2026-09-16T00:57:59.817Z",
+    "call_id": "call_ZwitIZW1Bu2ojmwwsWaEO0AE",
+    "basename": "center_broad_face_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 554
+  },
+  {
+    "timestamp": "2026-09-16T00:58:26.236Z",
+    "call_id": "call_36KtdsFq9yXejcEvKUhi8DwX",
+    "basename": "withdraw_clear_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 568
+  },
+  {
+    "timestamp": "2026-09-16T00:59:03.918Z",
+    "call_id": "call_P5OI4pbg0oJpfrVhJFIr6B4T",
+    "basename": "lift_gripper_clear_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 583
+  },
+  {
+    "timestamp": "2026-09-16T00:59:58.393Z",
+    "call_id": "call_70yK8nnQgrVGkwmoj3dNpbWK",
+    "basename": "align_above_carton_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 602
+  },
+  {
+    "timestamp": "2026-09-16T01:06:27.649Z",
+    "call_id": "call_X3F1CPqkBlrIRgl1tc7n2dG3",
+    "basename": "operator_stop_video${n}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "source_line": 677
+  }
+]

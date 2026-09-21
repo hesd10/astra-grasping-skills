@@ -1,0 +1,16 @@
+{
+  "export": "Selected original visible messages and tool events, not a byte-for-byte full session dump. Message text is retained; system/developer context, internal reasoning, compaction internals and tool catalogs are excluded. Non-text payloads are indexed separately. No retrospective rewriting of historical claims.",
+  "excluded_record_counts": {
+    "session_meta:None": 1,
+    "response_item:message": 3,
+    "runtime_context_messages": 1,
+    "world_state:None": 1,
+    "turn_context:None": 2,
+    "event_msg:item_completed": 289,
+    "tool_catalog_blocks": 1,
+    "event_msg:token_count": 61,
+    "response_item:reasoning": 60,
+    "non_text_tool_blocks": 98,
+    "event_msg:thread_settings_applied": 1
+  }
+}

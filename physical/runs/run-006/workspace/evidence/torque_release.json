@@ -1,0 +1,57 @@
+{
+  "utc": "2026-09-16T04:05:33Z",
+  "arms": {
+    "left": {
+      "1": {
+        "disabled": true,
+        "readback": 0
+      },
+      "2": {
+        "disabled": true,
+        "readback": 0
+      },
+      "3": {
+        "disabled": true,
+        "readback": 0
+      },
+      "4": {
+        "disabled": true,
+        "readback": 0
+      },
+      "5": {
+        "disabled": true,
+        "readback": 0
+      },
+      "6": {
+        "disabled": true,
+        "readback": 0
+      }
+    },
+    "right": {
+      "1": {
+        "disabled": true,
+        "readback": 0
+      },
+      "2": {
+        "disabled": true,
+        "readback": 0
+      },
+      "3": {
+        "disabled": true,
+        "readback": 0
+      },
+      "4": {
+        "disabled": true,
+        "readback": 0
+      },
+      "5": {
+        "disabled": true,
+        "readback": 0
+      },
+      "6": {
+        "disabled": true,
+        "readback": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "time": 1789522053.48254,
+  "controller_processes_found": [],
+  "arms": {
+    "left": {
+      "release": {
+        "1": {
+          "disabled": true,
+          "readback": 0
+        },
+        "2": {
+          "disabled": true,
+          "readback": 0
+        },
+        "3": {
+          "disabled": true,
+          "readback": 0
+        },
+        "4": {
+          "disabled": true,
+          "readback": 0
+        },
+        "5": {
+          "disabled": true,
+          "readback": 0
+        },
+        "6": {
+          "disabled": true,
+          "readback": 0
+        }
+      },
+      "verified": {
+        "1": {
+          "Torque_Enable": 0,
+          "Max_Temperature_Limit": 70,
+          "Present_Temperature": 35,
+          "Status": 0
+        },
+        "2": {
+          "Torque_Enable": 0,
+          "Max_Temperature_Limit": 70,
+          "Present_Temperature": 43,
+          "Status": 0
+        },
+        "3": {
+          "Torque_Enable": 0,
+          "Max_Temperature_Limit": 70,
+          "Present_Temperature": 47,
+          "Status": 0
+        },
+        "4": {
+          "Torque_Enable": 0,
+          "Max_Temperature_Limit": 70,
+          "Present_Temperature": 36,
+          "Status": 0
+        },
+        "5": {
+          "Torque_Enable": 0,
+          "Max_Temperature_Limit": 70,
+          "Present_Temperature": 36,
+          "Status": 0
+        },
+        "6": {
+          "Torque_Enable": 0,
+          "Max_Temperature_Limit": 70,
+          "Present_Temperature": 38,
+          "Status": 0
+        }
+      }
+    },
+    "right": {
+      "release": {
+        "1": {
+          "disabled": true,
+          "readback": 0
+        },
+        "2": {
+          "disabled": true,
+          "readback": 0
+        },
+        "3": {
+          "disabled": true,
+          "readback": 0
+        },
+        "4": {
+          "disabled": true,
+          "readback": 0
+        },
+        "5": {
+          "disabled": true,
+          "readback": 0
+        },
+        "6": {
+          "disabled": true,
+          "readback": 0
+        }
+      },
+      "verified": {
+        "1": {
+          "Torque_Enable": 0,
+          "Max_Temperature_Limit": 70,
+          "Present_Temperature": 33,
+          "Status": 0
+        },
+        "2": {
+          "Torque_Enable": 0,
+          "Max_Temperature_Limit": 70,
+          "Present_Temperature": 33,
+          "Status": 0
+        },
+        "3": {
+          "Torque_Enable": 0,
+          "Max_Temperature_Limit": 70,
+          "Present_Temperature": 34,
+          "Status": 0
+        },
+        "4": {
+          "Torque_Enable": 0,
+          "Max_Temperature_Limit": 70,
+          "Present_Temperature": 35,
+          "Status": 0
+        },
+        "5": {
+          "Torque_Enable": 0,
+          "Max_Temperature_Limit": 70,
+          "Present_Temperature": 38,
+          "Status": 0
+        },
+        "6": {
+          "Torque_Enable": 0,
+          "Max_Temperature_Limit": 70,
+          "Present_Temperature": 35,
+          "Status": 0
+        }
+      }
+    }
+  },
+  "finished": 1789522053.5914483
+}

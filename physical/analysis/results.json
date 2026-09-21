@@ -1,0 +1,239 @@
+{
+  "method": "analysis/METHODOLOGY.md",
+  "runs": [
+    {
+      "run": "Run 001",
+      "outcome": "success",
+      "outcome_definition": "Grasp and stable visible suspension",
+      "motion_submissions": 31,
+      "experiment_model_requests": 117,
+      "first_motion_command": {
+        "utc": "2026-09-15T16:23:22.495819+00:00",
+        "unix_seconds": 1789489402.4958186,
+        "log_line": 15
+      },
+      "first_changed_feedback": {
+        "utc": "2026-09-15T16:23:22.710852+00:00",
+        "unix_seconds": 1789489402.7108521,
+        "log_line": 18
+      },
+      "final_hold_evidence": {
+        "utc": "2026-09-15T16:48:40.546650+00:00",
+        "unix_seconds": 1789490920.5466497,
+        "log_line": 2170
+      },
+      "endpoint_note": "Final corrected snapshot; excludes withdrawn success claim",
+      "movement_to_final_evidence_seconds": 1517.835797548294,
+      "hold_seconds": 36.805753231048584,
+      "experiment_tokens": {
+        "input_tokens": 12981976,
+        "cached_input_tokens": 12689408,
+        "output_tokens": 44538,
+        "reasoning_output_tokens": 22421,
+        "total_tokens": 13026514
+      },
+      "whole_session_tokens": {
+        "input_tokens": 13555752,
+        "cached_input_tokens": 13259520,
+        "output_tokens": 45368,
+        "reasoning_output_tokens": 22695,
+        "total_tokens": 13601120
+      },
+      "motion_log": "runs/run-001/workspace/run/evidence/session.jsonl"
+    },
+    {
+      "run": "Run 002",
+      "outcome": "failure",
+      "outcome_definition": "Grasp and stable visible suspension",
+      "motion_submissions": 35,
+      "experiment_model_requests": 89,
+      "first_motion_command": {
+        "utc": "2026-09-16T00:42:01.289311+00:00",
+        "unix_seconds": 1789519321.289311,
+        "log_line": 26
+      },
+      "first_changed_feedback": {
+        "utc": "2026-09-16T00:42:02.307989+00:00",
+        "unix_seconds": 1789519322.3079886,
+        "log_line": 36
+      },
+      "final_hold_evidence": null,
+      "endpoint_note": null,
+      "movement_to_final_evidence_seconds": null,
+      "hold_seconds": 0,
+      "experiment_tokens": {
+        "input_tokens": 8746427,
+        "cached_input_tokens": 8531712,
+        "output_tokens": 38733,
+        "reasoning_output_tokens": 20499,
+        "total_tokens": 8785160
+      },
+      "whole_session_tokens": {
+        "input_tokens": 8746427,
+        "cached_input_tokens": 8531712,
+        "output_tokens": 38733,
+        "reasoning_output_tokens": 20499,
+        "total_tokens": 8785160
+      },
+      "motion_log": "runs/run-002/workspace/evidence/control.jsonl"
+    },
+    {
+      "run": "Run 003",
+      "outcome": "failure",
+      "outcome_definition": "Grasp and stable visible suspension",
+      "motion_submissions": 25,
+      "experiment_model_requests": 72,
+      "first_motion_command": {
+        "utc": "2026-09-16T01:12:23.117531+00:00",
+        "unix_seconds": 1789521143.1175313,
+        "log_line": 9
+      },
+      "first_changed_feedback": {
+        "utc": "2026-09-16T01:12:23.544093+00:00",
+        "unix_seconds": 1789521143.5440927,
+        "log_line": 15
+      },
+      "final_hold_evidence": null,
+      "endpoint_note": null,
+      "movement_to_final_evidence_seconds": null,
+      "hold_seconds": 0,
+      "experiment_tokens": {
+        "input_tokens": 6983492,
+        "cached_input_tokens": 6794368,
+        "output_tokens": 26760,
+        "reasoning_output_tokens": 12510,
+        "total_tokens": 7010252
+      },
+      "whole_session_tokens": {
+        "input_tokens": 6983492,
+        "cached_input_tokens": 6794368,
+        "output_tokens": 26760,
+        "reasoning_output_tokens": 12510,
+        "total_tokens": 7010252
+      },
+      "motion_log": "runs/run-003/workspace/evidence/session.jsonl"
+    },
+    {
+      "run": "Run 004",
+      "outcome": "success",
+      "outcome_definition": "Grasp and stable visible suspension",
+      "motion_submissions": 31,
+      "experiment_model_requests": 90,
+      "first_motion_command": {
+        "utc": "2026-09-16T01:38:22.321208+00:00",
+        "unix_seconds": 1789522702.3212085,
+        "log_line": 22
+      },
+      "first_changed_feedback": {
+        "utc": "2026-09-16T01:38:22.609082+00:00",
+        "unix_seconds": 1789522702.6090815,
+        "log_line": 26
+      },
+      "final_hold_evidence": {
+        "utc": "2026-09-16T01:59:52.873329+00:00",
+        "unix_seconds": 1789523992.8733287,
+        "log_line": 2086
+      },
+      "endpoint_note": "Observation request proxy, not image completion",
+      "movement_to_final_evidence_seconds": 1290.2642471790314,
+      "hold_seconds": 65.79567003250122,
+      "experiment_tokens": {
+        "input_tokens": 9867833,
+        "cached_input_tokens": 9702784,
+        "output_tokens": 38418,
+        "reasoning_output_tokens": 20862,
+        "total_tokens": 9906251
+      },
+      "whole_session_tokens": {
+        "input_tokens": 10393811,
+        "cached_input_tokens": 10223360,
+        "output_tokens": 40086,
+        "reasoning_output_tokens": 21590,
+        "total_tokens": 10433897
+      },
+      "motion_log": "runs/run-004/workspace/evidence/session.jsonl"
+    },
+    {
+      "run": "Run 005",
+      "outcome": "success",
+      "outcome_definition": "Grasp and stable visible suspension",
+      "motion_submissions": 25,
+      "experiment_model_requests": 69,
+      "first_motion_command": {
+        "utc": "2026-09-16T02:22:39.625005+00:00",
+        "unix_seconds": 1789525359.625005,
+        "log_line": 48
+      },
+      "first_changed_feedback": {
+        "utc": "2026-09-16T02:22:40.181675+00:00",
+        "unix_seconds": 1789525360.1816747,
+        "log_line": 55
+      },
+      "final_hold_evidence": {
+        "utc": "2026-09-16T02:36:24.224400+00:00",
+        "unix_seconds": 1789526184.2244003,
+        "log_line": 4519
+      },
+      "endpoint_note": "Hold-end images event",
+      "movement_to_final_evidence_seconds": 824.0427255630493,
+      "hold_seconds": 53.6134033203125,
+      "experiment_tokens": {
+        "input_tokens": 6082485,
+        "cached_input_tokens": 5954816,
+        "output_tokens": 25717,
+        "reasoning_output_tokens": 12434,
+        "total_tokens": 6108202
+      },
+      "whole_session_tokens": {
+        "input_tokens": 12369302,
+        "cached_input_tokens": 12084480,
+        "output_tokens": 67784,
+        "reasoning_output_tokens": 26178,
+        "total_tokens": 12437086
+      },
+      "motion_log": "runs/run-005/workspace/evidence/control.jsonl"
+    },
+    {
+      "run": "Run 006",
+      "outcome": "success",
+      "outcome_definition": "Grasp and stable visible suspension",
+      "motion_submissions": 31,
+      "experiment_model_requests": 58,
+      "first_motion_command": {
+        "utc": "2026-09-16T03:46:14.217231+00:00",
+        "unix_seconds": 1789530374.2172313,
+        "log_line": 126
+      },
+      "first_changed_feedback": {
+        "utc": "2026-09-16T03:46:14.526537+00:00",
+        "unix_seconds": 1789530374.526537,
+        "log_line": 130
+      },
+      "final_hold_evidence": {
+        "utc": "2026-09-16T04:00:23.323669+00:00",
+        "unix_seconds": 1789531223.3236692,
+        "log_line": 6502
+      },
+      "endpoint_note": "Final snapshot event proxy, slightly later than camera acquisition returns",
+      "movement_to_final_evidence_seconds": 848.7971322536469,
+      "hold_seconds": 65.17797989099927,
+      "experiment_tokens": {
+        "input_tokens": 5737020,
+        "cached_input_tokens": 5570944,
+        "output_tokens": 30295,
+        "reasoning_output_tokens": 12416,
+        "total_tokens": 5767315
+      },
+      "whole_session_tokens": {
+        "input_tokens": 6232517,
+        "cached_input_tokens": 6063616,
+        "output_tokens": 31442,
+        "reasoning_output_tokens": 12582,
+        "total_tokens": 6263959
+      },
+      "motion_log": "runs/run-006/workspace/evidence/monitor.jsonl"
+    }
+  ],
+  "total_experiment_tokens": 50603694,
+  "total_model_requests": 495
+}

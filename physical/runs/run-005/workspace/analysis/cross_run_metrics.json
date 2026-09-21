@@ -1,0 +1,194 @@
+{
+  "scope": "Authorized retrospective only; never transfer analysis/",
+  "timing_definition": "First logged left-position change after the first movement command, relative to the latest preceding position sample, through final hold-verification evidence or explicitly labeled proxy. This is not an exact physical onset or assistant-declaration timestamp.",
+  "full_metric_success_count": 0,
+  "runs": [
+    {
+      "run": "Run 001",
+      "full_metric_success": false,
+      "movement_commands_submitted": 31,
+      "first_movement_command": {
+        "utc": "2026-09-15T16:23:22.495819+00:00",
+        "unix_seconds": 1789489402.4958186,
+        "log_line": 15,
+        "description": "First movement command"
+      },
+      "first_observed_movement": {
+        "utc": "2026-09-15T16:23:22.710852+00:00",
+        "unix_seconds": 1789489402.7108521,
+        "log_line": 18,
+        "description": "First changed left-position sample"
+      },
+      "result": "Stable visual suspension; metric threshold unverified",
+      "stable_hold_seconds": 36.805753231048584,
+      "final_hold_evidence": {
+        "utc": "2026-09-15T16:48:40.546650+00:00",
+        "unix_seconds": 1789490920.5466497,
+        "log_line": 2170,
+        "description": "Final corrected hold snapshot; withdrawn earlier claim excluded"
+      },
+      "seconds_to_final_hold_evidence": 1517.835797548294,
+      "seconds_to_full_metric_success": null,
+      "reported_actuation_batches": 29
+    },
+    {
+      "run": "Run 002",
+      "full_metric_success": false,
+      "movement_commands_submitted": 35,
+      "first_movement_command": {
+        "utc": "2026-09-16T00:42:01.289311+00:00",
+        "unix_seconds": 1789519321.289311,
+        "log_line": 26,
+        "description": "First movement command"
+      },
+      "first_observed_movement": {
+        "utc": "2026-09-16T00:42:02.307989+00:00",
+        "unix_seconds": 1789519322.3079886,
+        "log_line": 36,
+        "description": "First changed left-position sample"
+      },
+      "result": "Slip; no stable suspension",
+      "stable_hold_seconds": 0,
+      "final_hold_evidence": null,
+      "seconds_to_final_hold_evidence": null,
+      "seconds_to_full_metric_success": null
+    },
+    {
+      "run": "Run 003",
+      "full_metric_success": false,
+      "movement_commands_submitted": 25,
+      "first_movement_command": {
+        "utc": "2026-09-16T01:12:23.117531+00:00",
+        "unix_seconds": 1789521143.1175313,
+        "log_line": 9,
+        "description": "First movement command"
+      },
+      "first_observed_movement": {
+        "utc": "2026-09-16T01:12:23.544093+00:00",
+        "unix_seconds": 1789521143.5440927,
+        "log_line": 15,
+        "description": "First changed left-position sample"
+      },
+      "result": "Slip; no stable suspension",
+      "stable_hold_seconds": 0,
+      "final_hold_evidence": null,
+      "seconds_to_final_hold_evidence": null,
+      "seconds_to_full_metric_success": null
+    },
+    {
+      "run": "Run 004",
+      "full_metric_success": false,
+      "movement_commands_submitted": 31,
+      "first_movement_command": {
+        "utc": "2026-09-16T01:38:22.321208+00:00",
+        "unix_seconds": 1789522702.3212085,
+        "log_line": 22,
+        "description": "First movement command"
+      },
+      "first_observed_movement": {
+        "utc": "2026-09-16T01:38:22.609082+00:00",
+        "unix_seconds": 1789522702.6090815,
+        "log_line": 26,
+        "description": "First changed left-position sample"
+      },
+      "result": "Stable visual suspension; metric threshold unverified",
+      "stable_hold_seconds": 65.79567003250122,
+      "final_hold_evidence": {
+        "utc": "2026-09-16T01:59:52.873329+00:00",
+        "unix_seconds": 1789523992.8733287,
+        "log_line": 2086,
+        "description": "Hold-end observation command: timing proxy, not image completion"
+      },
+      "seconds_to_final_hold_evidence": 1290.2642471790314,
+      "seconds_to_full_metric_success": null,
+      "completed_motion_segments": 30
+    },
+    {
+      "run": "Run 005",
+      "full_metric_success": false,
+      "movement_commands_submitted": 25,
+      "first_movement_command": {
+        "utc": "2026-09-16T02:22:39.625005+00:00",
+        "unix_seconds": 1789525359.625005,
+        "log_line": 48,
+        "description": "First movement command"
+      },
+      "first_observed_movement": {
+        "utc": "2026-09-16T02:22:40.181675+00:00",
+        "unix_seconds": 1789525360.1816747,
+        "log_line": 55,
+        "description": "First changed left-position sample"
+      },
+      "result": "Stable visual suspension; metric threshold unverified",
+      "stable_hold_seconds": 53.6134033203125,
+      "final_hold_evidence": {
+        "utc": "2026-09-16T02:36:24.224400+00:00",
+        "unix_seconds": 1789526184.2244003,
+        "log_line": 4519,
+        "description": "Hold-end image capture event"
+      },
+      "seconds_to_final_hold_evidence": 824.0427255630493,
+      "seconds_to_full_metric_success": null,
+      "command_to_image_seconds_sum": 97.30188775062561,
+      "requested_segment_seconds_sum": 83
+    }
+  ],
+  "source_sha256": [
+    {
+      "path": "/home/robot-operator/Documents/ChatGPT/Run 001/run/REPORT.md",
+      "sha256": "c755c99aced3a5506b12a0e53135bb7d3d5464a9fe9c6e4adb3d669f523d159f"
+    },
+    {
+      "path": "/home/robot-operator/Documents/ChatGPT/Run 001/run/evidence/session.jsonl",
+      "sha256": "4ba51a1226ce471f7e991d9bfae1372324805c1637dddd3e383e920f5707665e"
+    },
+    {
+      "path": "/home/robot-operator/Documents/ChatGPT/Run 001/run/summary.json",
+      "sha256": "c4fcfa230f756f5742f422aa1883a6f680a782f66da1ee4ce5b74907f4c42b84"
+    },
+    {
+      "path": "/home/robot-operator/Documents/ChatGPT/Run 002/RUN_REPORT.md",
+      "sha256": "ee9d0fa5d9f515c978c17ca054ea0ad70f909cbb3fdbe41143987c418dea0adc"
+    },
+    {
+      "path": "/home/robot-operator/Documents/ChatGPT/Run 002/evidence/control.jsonl",
+      "sha256": "be22d6403882038b3d991be875ee14cde82a71f7529c636184f49b40f8e6600c"
+    },
+    {
+      "path": "/home/robot-operator/Documents/ChatGPT/Run 002/evidence/summary.json",
+      "sha256": "2fa08a2c3ec85fc2092ee7e67228b824f094c12980fa10298cf03c684e3e0a9e"
+    },
+    {
+      "path": "/home/robot-operator/Documents/ChatGPT/Run 003/evidence/REPORT.md",
+      "sha256": "e712fb0229ac17b626f43cd1de089c9053b3030cb11b65625d2c57479b26083e"
+    },
+    {
+      "path": "/home/robot-operator/Documents/ChatGPT/Run 003/evidence/session.jsonl",
+      "sha256": "7f7711f286909817dfc1f3f8e89823bd0fb09e32c77741bb55eabf93cc2505b1"
+    },
+    {
+      "path": "/home/robot-operator/Documents/ChatGPT/Run 004/REPORT.md",
+      "sha256": "d2caafe25140e3593e875c28c6e861318bd6886ff62b36661cb3b9de0c1f9407"
+    },
+    {
+      "path": "/home/robot-operator/Documents/ChatGPT/Run 004/evidence/session.jsonl",
+      "sha256": "0274bd6fbae533b79850c533bac7b1abc027e9fcfc615195153865ef448c08d8"
+    },
+    {
+      "path": "/home/robot-operator/Documents/ChatGPT/Run 004/evidence/summary.json",
+      "sha256": "9c5e099b7ece44fd8c83aec27d765630710f9461fba987c5647adb35b01e5f36"
+    },
+    {
+      "path": "/home/robot-operator/Documents/ChatGPT/Run 005/REPORT.md",
+      "sha256": "55e1695ed3fa3ff4242fa71baa90756d45d05c93a4c82911e91fb32cd8425bb3"
+    },
+    {
+      "path": "/home/robot-operator/Documents/ChatGPT/Run 005/evidence/control.jsonl",
+      "sha256": "643628ffa4c019835b62485073a02d16453fdc55942fcaff259deff1d282b64c"
+    },
+    {
+      "path": "/home/robot-operator/Documents/ChatGPT/Run 005/evidence/summary.json",
+      "sha256": "980c78f592b0f13bb09eb8e877a3ee03b49901d19ed8d6edf8d0113b9d6c26af"
+    }
+  ]
+}

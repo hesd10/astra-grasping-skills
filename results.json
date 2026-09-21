@@ -1,0 +1,52 @@
+{
+  "physical_grasp": [
+    {
+      "run": "run-001",
+      "success": true,
+      "seconds": 1898.9596500396729,
+      "time": "31:39",
+      "requests": 110,
+      "motion_commands": 31
+    },
+    {
+      "run": "run-002",
+      "success": false,
+      "seconds": 1463.6926991939545,
+      "time": "24:24",
+      "requests": 82,
+      "motion_commands": 35
+    },
+    {
+      "run": "run-003",
+      "success": false,
+      "seconds": 1171.0315399169922,
+      "time": "19:31",
+      "requests": 65,
+      "motion_commands": 25
+    },
+    {
+      "run": "run-004",
+      "success": true,
+      "seconds": 1594.842787027359,
+      "time": "26:35",
+      "requests": 85,
+      "motion_commands": 31
+    },
+    {
+      "run": "run-005",
+      "success": true,
+      "seconds": 1130.6710529327393,
+      "time": "18:51",
+      "requests": 65,
+      "motion_commands": 25
+    },
+    {
+      "run": "run-006",
+      "success": true,
+      "seconds": 1124.8421869277954,
+      "time": "18:45",
+      "requests": 54,
+      "motion_commands": 31
+    }
+  ]
+}

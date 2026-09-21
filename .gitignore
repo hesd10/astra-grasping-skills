@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+physical/videos/originals/
+paper/build/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc

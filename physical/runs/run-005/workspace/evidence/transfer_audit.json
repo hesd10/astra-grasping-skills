@@ -1,0 +1,33 @@
+{
+  "utc": "2026-09-16T02:39:54Z",
+  "passed": true,
+  "files": [
+    {
+      "file": "SKILL.md",
+      "bytes": 12776,
+      "sha256": "b5ca9f3b2f697eda5ef7b46b47e91320932c73e470b573ca395f2fc257d90a06"
+    },
+    {
+      "file": "hardware.py",
+      "bytes": 6026,
+      "sha256": "d572ab1aa7f4e628a5c3a471f41d93e16635dc29153d188372075763bd089487",
+      "numeric_literals": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "file": "safety.py",
+      "bytes": 6528,
+      "sha256": "4d433335d589856696bd1ae39f847e524ea1aa436dcc88fe62d63b8127b5422b",
+      "numeric_literals": [
+        "0",
+        "1"
+      ]
+    }
+  ],
+  "manual_review": "Every copied transfer file was read before use; additions were reviewed after execution. Retained text is general procedure and generic parameterized code. No images, scene reconstruction, recorded encoder counts, joint angles, poses, coordinates, trajectories, replays, runtime device assignments, binaries, symlinks, or encoded equivalents were retained.",
+  "limitations": "Structural and numeric scans supplement manual review; they cannot independently prove absence of encoded historical data.",
+  "synthetic_checks": "Nine checks passed for fixed-joint completeness, finite values, drift bounds, and unchanged protection snapshots.",
+  "current_run_data_location": "Evidence, runtime scripts, report, and this audit are outside skill/."
+}

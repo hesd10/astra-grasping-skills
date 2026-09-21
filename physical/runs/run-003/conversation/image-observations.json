@@ -1,0 +1,194 @@
+[
+  {
+    "timestamp": "2026-09-16T01:09:54.363Z",
+    "call_id": "call_hlR7tyZjqvsJ70Cb3KivQwDj",
+    "basename": "initial-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 64
+  },
+  {
+    "timestamp": "2026-09-16T01:12:31.806Z",
+    "call_id": "call_F5xf1exvtFkAagaqKprtwS4X",
+    "basename": "01-shoulder-probe-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 123
+  },
+  {
+    "timestamp": "2026-09-16T01:12:51.776Z",
+    "call_id": "call_UCXFqpgo8abVk6ILCa2hpHkN",
+    "basename": "02-elbow-probe-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 137
+  },
+  {
+    "timestamp": "2026-09-16T01:13:19.881Z",
+    "call_id": "call_f9LrfXys6KI1glpMnBZJKGYW",
+    "basename": "03-raise-and-level-probe-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 153
+  },
+  {
+    "timestamp": "2026-09-16T01:13:50.865Z",
+    "call_id": "call_iwaLpbzjIxAgw23Uo0yJf2Gg",
+    "basename": "04-raise-clear-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 167
+  },
+  {
+    "timestamp": "2026-09-16T01:14:15.958Z",
+    "call_id": "call_cGiwoMo65gkSSZHhuaoRzO30",
+    "basename": "05-elbow-clearance-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 181
+  },
+  {
+    "timestamp": "2026-09-16T01:14:44.730Z",
+    "call_id": "call_ro7f6cDalLcds7A69mO0588e",
+    "basename": "06-forward-probe-open-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 196
+  },
+  {
+    "timestamp": "2026-09-16T01:15:06.941Z",
+    "call_id": "call_FATIe0cuaaLIgoz1Q74BrabQ",
+    "basename": "07-approach-yaw-probe-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 208
+  },
+  {
+    "timestamp": "2026-09-16T01:15:42.078Z",
+    "call_id": "call_8MMQUNMkPsR7LrVODEphUri0",
+    "basename": "08-clearance-and-aperture-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 225
+  },
+  {
+    "timestamp": "2026-09-16T01:16:09.848Z",
+    "call_id": "call_OO0mTFFtH8D0e7vEdfCoWMXz",
+    "basename": "09-approach-clearance-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 239
+  },
+  {
+    "timestamp": "2026-09-16T01:16:57.039Z",
+    "call_id": "call_Im3tAodnIrafMooIeSyHRbNF",
+    "basename": "11-reach-probe-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 263
+  },
+  {
+    "timestamp": "2026-09-16T01:17:28.029Z",
+    "call_id": "call_wqO4wd1OPVFXZlFeO7gWm6aw",
+    "basename": "12-advance-above-desk-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 276
+  },
+  {
+    "timestamp": "2026-09-16T01:18:09.435Z",
+    "call_id": "call_dCAL4T1WvlZ1dkDrYPv1dTyG",
+    "basename": "14-advance-two-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 296
+  },
+  {
+    "timestamp": "2026-09-16T01:18:37.982Z",
+    "call_id": "call_3BWkSEupfNXOMNIP0FrYWxN6",
+    "basename": "15-approach-side-height-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 313
+  },
+  {
+    "timestamp": "2026-09-16T01:19:05.379Z",
+    "call_id": "call_R3wCareUdz9pCqwk94xf8p5V",
+    "basename": "16-insert-open-fingers-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 326
+  },
+  {
+    "timestamp": "2026-09-16T01:19:51.837Z",
+    "call_id": "call_H7fqlhyUzU1fErnaHuVi91QK",
+    "basename": "17-deepen-side-insertion-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 343
+  },
+  {
+    "timestamp": "2026-09-16T01:20:31.270Z",
+    "call_id": "call_o5UKHB8ZVjGbOCpuui4ckP09",
+    "basename": "18-raise-insertion-plane-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 358
+  },
+  {
+    "timestamp": "2026-09-16T01:21:01.062Z",
+    "call_id": "call_gwtwBuQZKrYmobvQ7vScYbCY",
+    "basename": "20-close-clear-gap-two-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 373
+  },
+  {
+    "timestamp": "2026-09-16T01:21:23.386Z",
+    "call_id": "call_l7iPALgKY0ywgrLTBvEZONC1",
+    "basename": "21-light-contact-check-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 388
+  },
+  {
+    "timestamp": "2026-09-16T01:21:46.225Z",
+    "call_id": "call_h2NOjvHeEAHJNiSZccU8ffS1",
+    "basename": "22-bounded-preload-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 403
+  },
+  {
+    "timestamp": "2026-09-16T01:22:13.563Z",
+    "call_id": "call_SfWuygH6ck2boFTj1QmSQ7h1",
+    "basename": "23-preload-hold-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 420
+  },
+  {
+    "timestamp": "2026-09-16T01:22:35.886Z",
+    "call_id": "call_unR8kn1m3vHsTseXrsi203wb",
+    "basename": "24-small-lift-test-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 432
+  },
+  {
+    "timestamp": "2026-09-16T01:23:04.220Z",
+    "call_id": "call_tubxJkTiUK2qHWBbS6cB93Tk",
+    "basename": "25-lift-tracking-correction-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 447
+  },
+  {
+    "timestamp": "2026-09-16T01:23:41.532Z",
+    "call_id": "call_B4GZXKjQ4CCQVgRAyBS1yHdl",
+    "basename": "26-extend-lift-camera-${n}.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "source_line": 462
+  }
+]

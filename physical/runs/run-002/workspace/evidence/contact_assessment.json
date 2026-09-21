@@ -1,0 +1,9 @@
+{
+  "visible_enclosure": true,
+  "basis": "Fresh wrist and fixed side images show carton side walls between fingers, finger extends past near corner; no observed panel damage. Stable feedback across recent samples.",
+  "sustained_load": 64,
+  "goal": 2324,
+  "actual": 2337,
+  "hardware_min": 2034,
+  "approved_next": "small monitored lift preserving grip goal"
+}

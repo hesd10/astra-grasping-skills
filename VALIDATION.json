@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-21",
+  "scope": "Six real-robot carton-grasping trials; four successes, two failures; documented personal-path redactions",
+  "physical_exact_source_files": 909,
+  "physical_saved_images": 687,
+  "validation_command": "python3 scripts/verify_repository.py",
+  "publication_history": "One consolidated root commit; experimental provenance retained separately",
+  "live_model_or_robot_called": false,
+  "report_translation": {
+    "source_git_commit": "4a52f83680e425929ada7ee54e0dee3472044910",
+    "source_path": "report/REPORT.zh-CN.md",
+    "source_sha256": "23db0afb8a1d6c777c07b6d4cafcfd833506100ab263fd0e6bcefa12051b94ec",
+    "method": "Direct translation of the original report, followed by disclosed factual qualifications and removal of manuscript-preparation plans; Section 6.5 now links to the record inventory.",
+    "numbered_headings_match": false,
+    "all_markdown_link_targets_match": false,
+    "historical_prompt_byte_identical": true,
+    "later_editorial_changes": [
+      "Section 6.5 heading and closing paragraph updated for standalone archive scope",
+      "Added record-inventory link; original evidence links retained"
+    ]
+  },
+  "public_path_redacted_files": 29,
+  "image_metadata_audit": {
+    "images_checked": 699,
+    "gps_exif_found": 0
+  }
+}

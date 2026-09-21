@@ -1,0 +1,324 @@
+[
+  {
+    "timestamp": "2026-09-15T16:20:37.776Z",
+    "call_id": "call_n2251YEzEaT1vfpFsdkWnVBg",
+    "basename": "initial_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 90
+  },
+  {
+    "timestamp": "2026-09-15T16:23:28.535Z",
+    "call_id": "call_pUA7gltAO1ApjaNokteOtnvR",
+    "basename": "shoulder_probe_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 140
+  },
+  {
+    "timestamp": "2026-09-15T16:23:38.738Z",
+    "call_id": "call_9kCW7Dg5VRVEEW7XZ03yYp06",
+    "basename": "fault_final_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 146
+  },
+  {
+    "timestamp": "2026-09-15T16:24:29.783Z",
+    "call_id": "call_GCA0uXIwNL5Uf9O8Zkorx7Po",
+    "basename": "shoulder_raise_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 169
+  },
+  {
+    "timestamp": "2026-09-15T16:24:44.025Z",
+    "call_id": "call_gPrndxO0vghhom9GJhGLMijv",
+    "basename": "fault_final_${stamp}_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 175
+  },
+  {
+    "timestamp": "2026-09-15T16:26:57.777Z",
+    "call_id": "call_tc23brYiqDpHz4ki4q0nJtSz",
+    "basename": "elbow_probe_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 218
+  },
+  {
+    "timestamp": "2026-09-15T16:27:41.496Z",
+    "call_id": "call_gtzHAkv4zFwI7feqHk0fsiNO",
+    "basename": "unfold_left_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 234
+  },
+  {
+    "timestamp": "2026-09-15T16:28:17.424Z",
+    "call_id": "call_Cw44CIVVxdzmRtCoSWa1Wy8e",
+    "basename": "align_probe_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 252
+  },
+  {
+    "timestamp": "2026-09-15T16:28:45.092Z",
+    "call_id": "call_0LtQxhStPSxXjrPKUtzWGluL",
+    "basename": "clear_edge_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 268
+  },
+  {
+    "timestamp": "2026-09-15T16:29:27.753Z",
+    "call_id": "call_hrG8pJIJcFsz3GyOKGD5xkJn",
+    "basename": "reach_probe_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 289
+  },
+  {
+    "timestamp": "2026-09-15T16:30:06.551Z",
+    "call_id": "call_V4bCpCy3hIALREZxG1CMNNrP",
+    "basename": "approach_1_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 308
+  },
+  {
+    "timestamp": "2026-09-15T16:30:43.536Z",
+    "call_id": "call_hRnWQ9AQ0dLqsXutSXFd1H13",
+    "basename": "aim_gripper_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 327
+  },
+  {
+    "timestamp": "2026-09-15T16:31:17.462Z",
+    "call_id": "call_XYlKukgaqt9ARi31EoPjbqJY",
+    "basename": "approach_2_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 343
+  },
+  {
+    "timestamp": "2026-09-15T16:32:11.866Z",
+    "call_id": "call_awA8aRxAmRRAtsoPtRF75ri8",
+    "basename": "approach_3_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 364
+  },
+  {
+    "timestamp": "2026-09-15T16:32:31.939Z",
+    "call_id": "call_VTeTf6UodUI4UkUjnIW8vZEQ",
+    "basename": "approach_4_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 381
+  },
+  {
+    "timestamp": "2026-09-15T16:32:59.181Z",
+    "call_id": "call_7EB1dRFKD0Eru8rmDbT9alx5",
+    "basename": "approach_5_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 394
+  },
+  {
+    "timestamp": "2026-09-15T16:33:32.680Z",
+    "call_id": "call_hAlB8gWRKBK0kszC52klwZVL",
+    "basename": "approach_6_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 409
+  },
+  {
+    "timestamp": "2026-09-15T16:33:59.377Z",
+    "call_id": "call_EmsDlzS3DchdxWYY0K0KwxGN",
+    "basename": "pregrasp_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 422
+  },
+  {
+    "timestamp": "2026-09-15T16:36:03.787Z",
+    "call_id": "call_fbYZrkYcRZ1CZei1zg2ESYkY",
+    "basename": "gentle_contact_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 460
+  },
+  {
+    "timestamp": "2026-09-15T16:36:38.160Z",
+    "call_id": "call_rvGfm1MtA8DlqkvesyWZx3bY",
+    "basename": "contact_check_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 479
+  },
+  {
+    "timestamp": "2026-09-15T16:37:18.585Z",
+    "call_id": "call_lOelCEbv2lhLbk2vSyZUZ4JA",
+    "basename": "reopen_2_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 500
+  },
+  {
+    "timestamp": "2026-09-15T16:37:34.592Z",
+    "call_id": "call_Wy1eJ3dgTJeE0Dgw3rM272A6",
+    "basename": "open_align_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 512
+  },
+  {
+    "timestamp": "2026-09-15T16:38:26.366Z",
+    "call_id": "call_Qyjtlc8yvuHxNTkqNNrkGeZY",
+    "basename": "deeper_insert_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 530
+  },
+  {
+    "timestamp": "2026-09-15T16:39:17.345Z",
+    "call_id": "call_08AQkQ3kFJItq38Qf9M3tG3C",
+    "basename": "deeper_contact_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 559
+  },
+  {
+    "timestamp": "2026-09-15T16:39:51.347Z",
+    "call_id": "call_I5Fsfl6QApSeHz9m4HHxX6bH",
+    "basename": "align_fixed_finger_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 574
+  },
+  {
+    "timestamp": "2026-09-15T16:40:45.096Z",
+    "call_id": "call_grrQsrjxuXhghd8yNro2kVYz",
+    "basename": "clearance_probe_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 592
+  },
+  {
+    "timestamp": "2026-09-15T16:41:10.758Z",
+    "call_id": "call_do5gIHQafdP1FNBgoHxcjv32",
+    "basename": "raise_for_insertion_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 609
+  },
+  {
+    "timestamp": "2026-09-15T16:41:35.885Z",
+    "call_id": "call_Vu1uLmOHouUPhUOvLABVlT4E",
+    "basename": "surround_carton_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 622
+  },
+  {
+    "timestamp": "2026-09-15T16:42:23.888Z",
+    "call_id": "call_AVFCcO1EhrFSzLaqc0HFyiMb",
+    "basename": "enclosed_contact_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 641
+  },
+  {
+    "timestamp": "2026-09-15T16:43:05.108Z",
+    "call_id": "call_VGAU9tfMaVWQLKp7yKo4rHLw",
+    "basename": "lift_check_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 660
+  },
+  {
+    "timestamp": "2026-09-15T16:43:11.187Z",
+    "call_id": "call_Kq3HfJKr8wnWAL4yXbA5MZ19",
+    "basename": "fault_final_${stamp}_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 666
+  },
+  {
+    "timestamp": "2026-09-15T16:44:37.116Z",
+    "call_id": "call_DpRKlGbVyvYCJqShz2ghJeTY",
+    "basename": "hold_${second}_video8.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 691
+  },
+  {
+    "timestamp": "2026-09-15T16:45:19.386Z",
+    "call_id": "call_TNEGKdBiu9jA89zop1CIg4Td",
+    "basename": "_video8.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 702
+  },
+  {
+    "timestamp": "2026-09-15T16:45:19.386Z",
+    "call_id": "call_TNEGKdBiu9jA89zop1CIg4Td",
+    "basename": "_clearance_crop.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 702
+  },
+  {
+    "timestamp": "2026-09-15T16:45:19.386Z",
+    "call_id": "call_TNEGKdBiu9jA89zop1CIg4Td",
+    "basename": "${tag}_clearance_crop.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 702
+  },
+  {
+    "timestamp": "2026-09-15T16:47:34.903Z",
+    "call_id": "call_bLXzXZwkWMYCIN2Mh5sGUqSp",
+    "basename": "before_enable_${stamp}_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 743
+  },
+  {
+    "timestamp": "2026-09-15T16:48:00.570Z",
+    "call_id": "call_rgUqYGZl9TpSpDmCa1IvH9Nx",
+    "basename": "restore_grip_preload_video8.jpg",
+    "archive_paths": [
+      "runs/run-001/workspace/run/evidence/restore_grip_preload_video8.jpg"
+    ],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 760
+  },
+  {
+    "timestamp": "2026-09-15T16:48:07.788Z",
+    "call_id": "call_KOhwF1M04b2AEfsdq27HVScQ",
+    "basename": "full_clearance_lift_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 767
+  },
+  {
+    "timestamp": "2026-09-15T16:48:26.251Z",
+    "call_id": "call_XdCBahXFQeUpQjTJwCLtduZx",
+    "basename": "clearance_hold_check_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 780
+  },
+  {
+    "timestamp": "2026-09-15T16:50:33.175Z",
+    "call_id": "call_koTuABXYjEY3aMXyOn8nPQZf",
+    "basename": "final_${stamp}_video${index}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "source_line": 801
+  }
+]

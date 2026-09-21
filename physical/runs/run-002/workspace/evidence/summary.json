@@ -1,0 +1,31 @@
+{
+  "outcome": "failed; operator ended attempt",
+  "attempt_count": 1,
+  "stable_clearance_at_least_3cm_verified": false,
+  "verified_stable_hold_seconds": 0,
+  "start_utc": "2026-09-16T00:38:00+00:00",
+  "controller_exit_utc": "2026-09-16T01:01:48.449023+00:00",
+  "torque_release_utc": "2026-09-16T01:02:11.187699+00:00",
+  "elapsed_seconds_to_controller_stop": 1428.4490225315094,
+  "elapsed_seconds_to_torque_release": 1451.187698841095,
+  "online_motor_command_decisions": 35,
+  "decision_count_definition": "One online motor-command decision for each submitted bounded command containing motor deltas. Includes probes, corrections, closures, lift segments and recovery; excludes read-only setup, image viewing, automatic servo steps, and operator-requested shutdown.",
+  "right_arm_max_encoder_drift_before_release": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "max_observed_motor_temperature": 53,
+  "motor_status_faults": 0,
+  "thermal_register_writes": 0,
+  "all_arm_torque_off": true,
+  "contamination_encountered": false,
+  "transfer_files": [
+    "skill/SKILL.md",
+    "skill/hardware.py",
+    "skill/safety.py"
+  ]
+}

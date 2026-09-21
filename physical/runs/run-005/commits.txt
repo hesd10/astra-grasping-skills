@@ -1,0 +1,3 @@
+8761afcda1b6609952006f4125fade6f39d73e9f Record fresh grasp attempt and audit transferable safety skill
+d62b49879c2bb1b77302bd5af7059b98832a7615 Record operator-requested arm torque release
+ad9fc97c4579bd5ef5c6d756611abd728d9bdaa7 Distill cross-run grasp evidence and retention lessons

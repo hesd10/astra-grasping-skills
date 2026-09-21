@@ -1,0 +1,29 @@
+{
+  "transfer_files": [
+    {
+      "file": "SKILL.md",
+      "sha256": "21aca6956ffcd6081ddbf3c80f56a190dbf2184202292693b13d58b659fa486f",
+      "text_only": true,
+      "no_symlink": true,
+      "restricted_pattern_scan": "pass"
+    },
+    {
+      "file": "hardware.py",
+      "sha256": "fb7e7f753a60d0bb37a2b993554fc0a0252fca8bf445322c72c50c2c83c2a8a8",
+      "text_only": true,
+      "no_symlink": true,
+      "restricted_pattern_scan": "pass"
+    },
+    {
+      "file": "safety.py",
+      "sha256": "f7c67d86c190e8fe4fc33e39b746c3c0e875862e7fcdec02092505096fa36947",
+      "text_only": true,
+      "no_symlink": true,
+      "restricted_pattern_scan": "pass"
+    }
+  ],
+  "synthetic_retention_checks": 10,
+  "manual_review": "Every transfer file reviewed: generic procedures and parameterized low-level/safety code only.",
+  "prohibited_historical_information_encountered": false,
+  "limitations": "Pattern scanning supplements manual review; it is not proof against arbitrary encoding."
+}

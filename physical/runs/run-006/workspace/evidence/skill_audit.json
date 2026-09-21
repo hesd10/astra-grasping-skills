@@ -1,0 +1,34 @@
+{
+  "synthetic_checks": "passed",
+  "transfer_files": [
+    {
+      "file": "skill/SKILL.md",
+      "sha256": "7307f0a18d8da820fac64ab8634f643d3b1203a41eb49a14e38c3b488048d004",
+      "lines": 267
+    },
+    {
+      "file": "skill/hardware.py",
+      "sha256": "843e295fcb7dc310c6a72a302a80a80191ba62aecfff0f79e97eb1fc3fdba90a",
+      "lines": 170,
+      "numeric_constants": [
+        "0",
+        "2",
+        "False",
+        "True"
+      ]
+    },
+    {
+      "file": "skill/safety.py",
+      "sha256": "1e24901fa4c84b4354b553e3161bf2b0f57aa92bd2392bb0c249d30dba560e56",
+      "lines": 223,
+      "numeric_constants": [
+        "0",
+        "1",
+        "2"
+      ]
+    }
+  ],
+  "manual_review": "Reviewed all three source files. Generic procedures and parameterized helpers only; no recorded joint state, scene geometry, images, task assignments, trajectories, calibration, or encoded data found.",
+  "binary_symlink_generated_file_check": "passed",
+  "limitations": "An automated scan supplements manual review and does not prove absence of encoded knowledge."
+}

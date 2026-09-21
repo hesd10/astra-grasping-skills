@@ -1,0 +1,16 @@
+{
+  "runs_002_through_006_identical": true,
+  "run_001_differences": [
+    "task clearance clause",
+    "final temperature instruction"
+  ],
+  "other_content_identical": true,
+  "sha256": {
+    "Run 001": "f66df2ab72e490ce15c1d8cb6a298403999b2101dec4aed087662f71345a31c1",
+    "Run 002": "24a61ae3cf469a5dfa61d079927900737cbb0af2dd844f7c2823b7f552b15380",
+    "Run 003": "24a61ae3cf469a5dfa61d079927900737cbb0af2dd844f7c2823b7f552b15380",
+    "Run 004": "24a61ae3cf469a5dfa61d079927900737cbb0af2dd844f7c2823b7f552b15380",
+    "Run 005": "24a61ae3cf469a5dfa61d079927900737cbb0af2dd844f7c2823b7f552b15380",
+    "Run 006": "24a61ae3cf469a5dfa61d079927900737cbb0af2dd844f7c2823b7f552b15380"
+  }
+}

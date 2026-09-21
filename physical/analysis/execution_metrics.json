@@ -1,0 +1,3350 @@
+{
+  "methodology": "analysis/METHODOLOGY.md",
+  "interval": "first task_started through recorded live-execution closeout; inclusive",
+  "count": "unique response_id with token_usage_record timestamp inside interval",
+  "runs": [
+    {
+      "run": "Run 001",
+      "start_utc": "2026-09-15T16:17:01.587000+00:00",
+      "end_utc": "2026-09-15T16:48:40.546650+00:00",
+      "elapsed_seconds": 1898.9596500396729,
+      "display_duration": "31m 39s",
+      "execution_model_requests": 110,
+      "start_source": {
+        "file": "runs/run-001/conversation/events.jsonl",
+        "event": "first task_started",
+        "source_line": 2
+      },
+      "end_source": {
+        "file": "runs/run-001/workspace/run/summary.json",
+        "key": "execution_end_utc"
+      },
+      "counted_requests": [
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa96f7ff7e887d0907c044e7df1cb7a",
+          "timestamp": "2026-09-15T16:17:14.292Z",
+          "export_line": 5,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 14
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa96f8af24487d09064c80dab60ed81",
+          "timestamp": "2026-09-15T16:17:33.031Z",
+          "export_line": 8,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 21
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa96f9f4f7887d097cdb1b9435bf496",
+          "timestamp": "2026-09-15T16:17:55.371Z",
+          "export_line": 11,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 30
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa96fba157087d0b1121196e434c28a",
+          "timestamp": "2026-09-15T16:18:17.301Z",
+          "export_line": 15,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 40
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa96fcb87c087d09aecf863579486db",
+          "timestamp": "2026-09-15T16:18:31.195Z",
+          "export_line": 18,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 47
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa96fd992ec87d0ac5c5f7410474d60",
+          "timestamp": "2026-09-15T16:19:05.291Z",
+          "export_line": 21,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 54
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa96ffaf5d487d0be9076845470c89c",
+          "timestamp": "2026-09-15T16:19:13.907Z",
+          "export_line": 24,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 61
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97021969487d090972fcbeaaed88f",
+          "timestamp": "2026-09-15T16:19:49.184Z",
+          "export_line": 27,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 67
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9702962c487d0ac20b915ce20cc36",
+          "timestamp": "2026-09-15T16:19:59.129Z",
+          "export_line": 30,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 74
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa970335bec87d092bf6f7f1dda52e0",
+          "timestamp": "2026-09-15T16:20:20.607Z",
+          "export_line": 33,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 81
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97048cedc87d0a86cb2ae6c474ba3",
+          "timestamp": "2026-09-15T16:20:30.653Z",
+          "export_line": 36,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 87
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9705185f487d0a1ed8a30ad00b89b",
+          "timestamp": "2026-09-15T16:20:37.935Z",
+          "export_line": 39,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 93
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9705a4dec87d0a4ad3482b8d62a21",
+          "timestamp": "2026-09-15T16:20:50.746Z",
+          "export_line": 42,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 101
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa970646c7087d0bf0b2b98dadc9b3e",
+          "timestamp": "2026-09-15T16:21:05.593Z",
+          "export_line": 46,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 111
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97074430c87d0a9b70313f754c564",
+          "timestamp": "2026-09-15T16:22:44.301Z",
+          "export_line": 49,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 120
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa970d888e487d0886f1018da8c5f97",
+          "timestamp": "2026-09-15T16:22:58.593Z",
+          "export_line": 53,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 128
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa970ec6f5487d0abdc2b1c2b4d20a7",
+          "timestamp": "2026-09-15T16:23:11.937Z",
+          "export_line": 56,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 132
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa970f5b45c87d0a9f0268e81df0e20",
+          "timestamp": "2026-09-15T16:23:22.597Z",
+          "export_line": 59,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 136
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa970fbee6487d09f0d88a4249c52c9",
+          "timestamp": "2026-09-15T16:23:28.657Z",
+          "export_line": 62,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 141
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97102849487d0a818eab6aa576b1a",
+          "timestamp": "2026-09-15T16:23:38.856Z",
+          "export_line": 65,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 148
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9710e53ac87d0a5b9790a067e7c51",
+          "timestamp": "2026-09-15T16:24:03.586Z",
+          "export_line": 68,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 156
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97132847087d0bafd9535797b073a",
+          "timestamp": "2026-09-15T16:24:24.337Z",
+          "export_line": 72,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 165
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97139ae1487d0af03a996bf2b418a",
+          "timestamp": "2026-09-15T16:24:29.897Z",
+          "export_line": 75,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 170
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9713f169087d0aecf507ea05b77a0",
+          "timestamp": "2026-09-15T16:24:44.070Z",
+          "export_line": 78,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 176
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9714dc0a887d0a9e533f8db47689c",
+          "timestamp": "2026-09-15T16:25:16.039Z",
+          "export_line": 82,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 187
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9717776f887d0b5d45a3649ae0343",
+          "timestamp": "2026-09-15T16:25:38.560Z",
+          "export_line": 85,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 195
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa971831e3487d089a848319df1f93f",
+          "timestamp": "2026-09-15T16:26:13.532Z",
+          "export_line": 88,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 201
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa971afb2a487d09ad6649e854bad05",
+          "timestamp": "2026-09-15T16:26:29.886Z",
+          "export_line": 92,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 210
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa971b98f0087d08b4f0e530cc95da9",
+          "timestamp": "2026-09-15T16:26:48.838Z",
+          "export_line": 95,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 214
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa971ce519487d0bc41083204e53216",
+          "timestamp": "2026-09-15T16:26:57.925Z",
+          "export_line": 98,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 221
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa971d4ae9887d0a55fce76ea1a09af",
+          "timestamp": "2026-09-15T16:27:10.298Z",
+          "export_line": 101,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 227
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa971e0c90887d093712821dbea0ed2",
+          "timestamp": "2026-09-15T16:27:21.435Z",
+          "export_line": 104,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 231
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa971eeb30887d0996ed9a7b8c9b887",
+          "timestamp": "2026-09-15T16:27:41.628Z",
+          "export_line": 107,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 236
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97200fb6487d0ac88417b22ccf86d",
+          "timestamp": "2026-09-15T16:27:58.213Z",
+          "export_line": 111,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 245
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9721195cc87d0a5e003833a47bfc2",
+          "timestamp": "2026-09-15T16:28:06.217Z",
+          "export_line": 114,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 249
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9721c85a087d0bfe0c3191574998e",
+          "timestamp": "2026-09-15T16:28:17.575Z",
+          "export_line": 117,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 254
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97223efe487d09c704b9d5bd55cca",
+          "timestamp": "2026-09-15T16:28:29.287Z",
+          "export_line": 120,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 261
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9722fdc9887d092af78c84ce50744",
+          "timestamp": "2026-09-15T16:28:35.100Z",
+          "export_line": 123,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 265
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa972384d0487d0b914daec018a75da",
+          "timestamp": "2026-09-15T16:28:45.205Z",
+          "export_line": 126,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 270
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9723f9a6887d09924a2b3d6d8511f",
+          "timestamp": "2026-09-15T16:29:11.230Z",
+          "export_line": 129,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 280
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9725947f087d0b99c13f64042277a",
+          "timestamp": "2026-09-15T16:29:17.629Z",
+          "export_line": 132,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 286
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97262db1887d0ad1dd782509ed8e2",
+          "timestamp": "2026-09-15T16:29:27.933Z",
+          "export_line": 135,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 292
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9726a5a9887d0b94ba8c63b742a5f",
+          "timestamp": "2026-09-15T16:29:46.775Z",
+          "export_line": 138,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 299
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9727c262487d09494a90fba321816",
+          "timestamp": "2026-09-15T16:29:56.819Z",
+          "export_line": 141,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 305
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97289cf4487d0b69b770c4e152736",
+          "timestamp": "2026-09-15T16:30:06.738Z",
+          "export_line": 144,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 311
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97290b5f887d0abb0da0a5e20604c",
+          "timestamp": "2026-09-15T16:30:30.170Z",
+          "export_line": 148,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 320
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa972a7769c87d0823fcfd61a7d1edb",
+          "timestamp": "2026-09-15T16:30:34.926Z",
+          "export_line": 151,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 324
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa972b0168087d09fbe4407544a4143",
+          "timestamp": "2026-09-15T16:30:43.674Z",
+          "export_line": 154,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 329
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa972b4659887d0b907ac1ee36c74c7",
+          "timestamp": "2026-09-15T16:31:03.745Z",
+          "export_line": 157,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 336
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa972c9ccc887d0a4ab5c119f770aef",
+          "timestamp": "2026-09-15T16:31:08.823Z",
+          "export_line": 160,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 340
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa972d2024c87d0989b3148f4567d57",
+          "timestamp": "2026-09-15T16:31:17.596Z",
+          "export_line": 163,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 345
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa972d65dc087d085068d8e7a674057",
+          "timestamp": "2026-09-15T16:31:53.939Z",
+          "export_line": 166,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 355
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa972fb3dc087d0bff0691342cc3879",
+          "timestamp": "2026-09-15T16:31:59.520Z",
+          "export_line": 169,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 361
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97304bdf087d0a0dfb0f3b8ca9a60",
+          "timestamp": "2026-09-15T16:32:11.990Z",
+          "export_line": 172,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 366
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9730cc52487d09c67c0215df647b3",
+          "timestamp": "2026-09-15T16:32:20.405Z",
+          "export_line": 175,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 374
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97316310c87d0b762e18b98f0af36",
+          "timestamp": "2026-09-15T16:32:32.079Z",
+          "export_line": 179,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 382
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97325c60487d0869862a67b28f18f",
+          "timestamp": "2026-09-15T16:32:52.487Z",
+          "export_line": 182,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 391
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97335ce7087d08e5244c70fc98964",
+          "timestamp": "2026-09-15T16:32:59.250Z",
+          "export_line": 185,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 395
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa973410b6c87d0a8a518067478e5ea",
+          "timestamp": "2026-09-15T16:33:24.630Z",
+          "export_line": 188,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 404
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97356076087d08bc60d36b5cc9478",
+          "timestamp": "2026-09-15T16:33:32.776Z",
+          "export_line": 191,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 410
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97362a7f487d0a3d1089f94e7d934",
+          "timestamp": "2026-09-15T16:33:53.715Z",
+          "export_line": 194,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 419
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97373253087d081ae99eda026b479",
+          "timestamp": "2026-09-15T16:33:59.531Z",
+          "export_line": 197,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 425
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa973905d2087d09022cfdedfd3da39",
+          "timestamp": "2026-09-15T16:35:22.115Z",
+          "export_line": 200,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 435
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa973d12c3087d0897b8a9b19fbd29a",
+          "timestamp": "2026-09-15T16:35:35.330Z",
+          "export_line": 204,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 445
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa973d8a50087d09f1e33f8fc090a35",
+          "timestamp": "2026-09-15T16:35:40.310Z",
+          "export_line": 207,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 451
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa973e1799c87d0b4d690e86cef244a",
+          "timestamp": "2026-09-15T16:35:54.985Z",
+          "export_line": 210,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 457
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa973f03f4487d082085747cc7b6730",
+          "timestamp": "2026-09-15T16:36:03.898Z",
+          "export_line": 213,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 462
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa973f4938487d0bb1b6570d041a068",
+          "timestamp": "2026-09-15T16:36:24.220Z",
+          "export_line": 216,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 470
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9740997b087d087f53aa20c0f3afc",
+          "timestamp": "2026-09-15T16:36:29.651Z",
+          "export_line": 219,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 476
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97412e22887d084bfb73c24359503",
+          "timestamp": "2026-09-15T16:36:38.290Z",
+          "export_line": 222,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 481
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9741721cc87d08ace0287462cbcb2",
+          "timestamp": "2026-09-15T16:36:59.418Z",
+          "export_line": 226,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 491
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9742ccaa487d089c399aa023749a5",
+          "timestamp": "2026-09-15T16:37:07.156Z",
+          "export_line": 229,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 497
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97439597087d0bcd5f6787306aade",
+          "timestamp": "2026-09-15T16:37:18.702Z",
+          "export_line": 232,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 502
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9743f435887d0acb0b2c2132873ba",
+          "timestamp": "2026-09-15T16:37:28.601Z",
+          "export_line": 235,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 509
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97449ee7087d0b07e92dc05268a77",
+          "timestamp": "2026-09-15T16:37:34.704Z",
+          "export_line": 238,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 513
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa974545c8887d0a48a201b9b268715",
+          "timestamp": "2026-09-15T16:38:08.776Z",
+          "export_line": 241,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 523
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa974720b6487d08c248f743c8f8f3b",
+          "timestamp": "2026-09-15T16:38:12.901Z",
+          "export_line": 244,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 527
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9747a2cac87d098d331a3d598d204",
+          "timestamp": "2026-09-15T16:38:26.515Z",
+          "export_line": 247,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 533
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97483277087d0b557003334589113",
+          "timestamp": "2026-09-15T16:38:51.217Z",
+          "export_line": 250,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 542
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9749c907487d0b932adacc00a9fc0",
+          "timestamp": "2026-09-15T16:38:58.256Z",
+          "export_line": 254,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 550
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa974a775b087d0a204630f5351cc18",
+          "timestamp": "2026-09-15T16:39:08.102Z",
+          "export_line": 257,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 556
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa974b15d6087d096e298759bcbef74",
+          "timestamp": "2026-09-15T16:39:17.394Z",
+          "export_line": 260,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 560
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa974b61e1087d097e96ba939b2806e",
+          "timestamp": "2026-09-15T16:39:44.387Z",
+          "export_line": 263,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 571
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa974d1c34887d08aa6a95b8600448e",
+          "timestamp": "2026-09-15T16:39:51.488Z",
+          "export_line": 266,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 575
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa974dd160087d0a2884ffe5f8463d0",
+          "timestamp": "2026-09-15T16:40:35.154Z",
+          "export_line": 269,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 587
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97504c2dc87d0accb4b1bf52a2e58",
+          "timestamp": "2026-09-15T16:40:45.184Z",
+          "export_line": 272,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 593
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97512ecdc87d0bc6e56cae0c690b0",
+          "timestamp": "2026-09-15T16:41:00.499Z",
+          "export_line": 275,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 602
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9751dd32c87d081563fc76c6689d4",
+          "timestamp": "2026-09-15T16:41:10.879Z",
+          "export_line": 279,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 610
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9752cd1dc87d0b7410283a6ca4b8c",
+          "timestamp": "2026-09-15T16:41:29.986Z",
+          "export_line": 282,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 619
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9753b57ec87d0b78bb80919b9e959",
+          "timestamp": "2026-09-15T16:41:36.107Z",
+          "export_line": 285,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 623
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97545c15c87d08bc69954a7c09bcc",
+          "timestamp": "2026-09-15T16:41:57.107Z",
+          "export_line": 288,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 632
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97556621087d095bb95b41b54be68",
+          "timestamp": "2026-09-15T16:42:15.270Z",
+          "export_line": 291,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 638
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9756c6ba087d09cdd9518ca1f4add",
+          "timestamp": "2026-09-15T16:42:24.056Z",
+          "export_line": 294,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 644
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa97581d0f887d08ad07184f742ca8c",
+          "timestamp": "2026-09-15T16:42:58.111Z",
+          "export_line": 298,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 654
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa975936f9c87d08e21602d907d12f1",
+          "timestamp": "2026-09-15T16:43:05.186Z",
+          "export_line": 301,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 661
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa975999fc087d0876a5fe7316951dc",
+          "timestamp": "2026-09-15T16:43:12.226Z",
+          "export_line": 304,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 670
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa975a0cf0087d08e610be30dba98e1",
+          "timestamp": "2026-09-15T16:43:54.531Z",
+          "export_line": 307,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 677
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa975d1044087d0ad9a8f4a53c01951",
+          "timestamp": "2026-09-15T16:44:06.964Z",
+          "export_line": 311,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 685
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa975dc495c87d096fec6dc59554935",
+          "timestamp": "2026-09-15T16:44:37.220Z",
+          "export_line": 314,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 693
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa975f5dcb087d08b2862b14068572e",
+          "timestamp": "2026-09-15T16:45:19.570Z",
+          "export_line": 317,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 703
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa976611c1887d0a414d0cf2b4509de",
+          "timestamp": "2026-09-15T16:46:38.281Z",
+          "export_line": 325,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 726
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9766eff8c87d0b724c1d0abb59e65",
+          "timestamp": "2026-09-15T16:47:09.596Z",
+          "export_line": 328,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 733
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa9769488dc87d0aa30823aad6fad68",
+          "timestamp": "2026-09-15T16:47:25.193Z",
+          "export_line": 331,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 740
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa976a2653c87d0adbe4b34798e5ff0",
+          "timestamp": "2026-09-15T16:47:35.036Z",
+          "export_line": 334,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 745
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa976a7d47087d0beeacb9a8fdd6a81",
+          "timestamp": "2026-09-15T16:47:45.464Z",
+          "export_line": 337,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 753
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa976b2b87087d0a91ce8328d32b281",
+          "timestamp": "2026-09-15T16:47:49.728Z",
+          "export_line": 340,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 757
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa976bb125c87d09e1421864cc2fed8",
+          "timestamp": "2026-09-15T16:48:00.737Z",
+          "export_line": 343,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 762
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa976c222a087d0b645bcbae54a63b0",
+          "timestamp": "2026-09-15T16:48:07.900Z",
+          "export_line": 346,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 768
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa976cd828c87d0a8cf9cb12e00c1c4",
+          "timestamp": "2026-09-15T16:48:20.633Z",
+          "export_line": 349,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 777
+        },
+        {
+          "response_id": "resp_0ed09a95ac638d3c016aa976d5e6f487d0af3b600fa9a22f48",
+          "timestamp": "2026-09-15T16:48:26.363Z",
+          "export_line": 352,
+          "source_file": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+          "source_line": 782
+        }
+      ]
+    },
+    {
+      "run": "Run 002",
+      "start_utc": "2026-09-16T00:37:47.495000+00:00",
+      "end_utc": "2026-09-16T01:02:11.187699+00:00",
+      "elapsed_seconds": 1463.6926991939545,
+      "display_duration": "24m 24s",
+      "execution_model_requests": 82,
+      "start_source": {
+        "file": "runs/run-002/conversation/events.jsonl",
+        "event": "first task_started",
+        "source_line": 2
+      },
+      "end_source": {
+        "file": "runs/run-002/workspace/evidence/summary.json",
+        "key": "torque_release_utc"
+      },
+      "counted_requests": [
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e4dd129c87d0a0d3a53ef48298fb",
+          "timestamp": "2026-09-16T00:38:00.009Z",
+          "export_line": 5,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 14
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e4e86ea087d0a8e2581a5e7d5fad",
+          "timestamp": "2026-09-16T00:38:09.253Z",
+          "export_line": 8,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 20
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e4f1a08887d08538d16c891fd6e3",
+          "timestamp": "2026-09-16T00:38:27.948Z",
+          "export_line": 12,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 29
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e50b93ec87d0b53eb7206172f622",
+          "timestamp": "2026-09-16T00:38:45.811Z",
+          "export_line": 15,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 35
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e516475087d08970a650afa34c6b",
+          "timestamp": "2026-09-16T00:38:58.872Z",
+          "export_line": 18,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 41
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e523325087d0a7d4bf704f5a18ac",
+          "timestamp": "2026-09-16T00:39:09.257Z",
+          "export_line": 21,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 49
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e52d97bc87d0ba0dc35ff5767147",
+          "timestamp": "2026-09-16T00:39:49.888Z",
+          "export_line": 24,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 55
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e55e749487d0af87fe464d5b6417",
+          "timestamp": "2026-09-16T00:40:02.006Z",
+          "export_line": 27,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 62
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e56263ec87d08c9b5f81933df0a0",
+          "timestamp": "2026-09-16T00:40:06.640Z",
+          "export_line": 30,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 67
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e567572487d0991dd3348d1218a8",
+          "timestamp": "2026-09-16T00:41:31.698Z",
+          "export_line": 34,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 79
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e5c8b2d087d0af20b84217709712",
+          "timestamp": "2026-09-16T00:41:49.267Z",
+          "export_line": 37,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 85
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e5d286b487d0a1d5dc253564b8a6",
+          "timestamp": "2026-09-16T00:42:01.378Z",
+          "export_line": 40,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 91
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e5dac97487d0ab89f5868ab5a5fe",
+          "timestamp": "2026-09-16T00:42:08.270Z",
+          "export_line": 43,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 95
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e5e5a91c87d0aec0fd56bf62b3ef",
+          "timestamp": "2026-09-16T00:42:18.366Z",
+          "export_line": 46,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 100
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e5ead4d087d09d506cef7b04722f",
+          "timestamp": "2026-09-16T00:42:27.186Z",
+          "export_line": 49,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 107
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e5f4929c87d0803ba161f61c6e77",
+          "timestamp": "2026-09-16T00:42:33.483Z",
+          "export_line": 52,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 113
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e5ff292887d0aef9dd8730b0a0f7",
+          "timestamp": "2026-09-16T00:42:48.517Z",
+          "export_line": 55,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 121
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e609f44487d09c0691a523bf9f8c",
+          "timestamp": "2026-09-16T00:42:55.879Z",
+          "export_line": 58,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 127
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e61572a887d084223e50f4bd8304",
+          "timestamp": "2026-09-16T00:43:11.173Z",
+          "export_line": 62,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 137
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e6209acc87d08a05d40ce262bf15",
+          "timestamp": "2026-09-16T00:43:26.707Z",
+          "export_line": 65,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 143
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e634337c87d08d9b3d15f9afdfab",
+          "timestamp": "2026-09-16T00:43:44.576Z",
+          "export_line": 68,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 151
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e6421e2087d0a0ed8f14f0bde354",
+          "timestamp": "2026-09-16T00:43:51.460Z",
+          "export_line": 71,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 158
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e64d1c7887d09003e254c11c3b65",
+          "timestamp": "2026-09-16T00:44:17.129Z",
+          "export_line": 74,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 166
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e6626ba487d0ba2723766fd1a5f2",
+          "timestamp": "2026-09-16T00:44:28.354Z",
+          "export_line": 77,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 172
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e6721ef887d08ee936bab3f05c84",
+          "timestamp": "2026-09-16T00:44:52.614Z",
+          "export_line": 80,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 181
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e685e9a087d0951d0cde6463918a",
+          "timestamp": "2026-09-16T00:44:59.604Z",
+          "export_line": 83,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 187
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e6914e0c87d08fad6ab7ea45d750",
+          "timestamp": "2026-09-16T00:45:30.700Z",
+          "export_line": 87,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 200
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e6ac0a3087d09ffbc2561f992f6b",
+          "timestamp": "2026-09-16T00:45:39.218Z",
+          "export_line": 90,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 206
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e6b8ef0087d098c77b03765c9e86",
+          "timestamp": "2026-09-16T00:46:02.090Z",
+          "export_line": 93,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 215
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e6cb598087d0adfd0f0e7dc30cbd",
+          "timestamp": "2026-09-16T00:46:09.120Z",
+          "export_line": 96,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 221
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e6d6d4ec87d0ab5c49191139039b",
+          "timestamp": "2026-09-16T00:46:35.578Z",
+          "export_line": 99,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 232
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e6ece35087d0afecf8afca85a67c",
+          "timestamp": "2026-09-16T00:46:52.904Z",
+          "export_line": 102,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 238
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e702990087d08780d80774238df1",
+          "timestamp": "2026-09-16T00:47:10.407Z",
+          "export_line": 105,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 247
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e70fb7f887d0b6b9da139882cf3b",
+          "timestamp": "2026-09-16T00:47:17.762Z",
+          "export_line": 108,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 253
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e71dddf487d0b2bd98591e4c3bfd",
+          "timestamp": "2026-09-16T00:47:41.640Z",
+          "export_line": 111,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 262
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e72efa5887d094d185aff27eaeb0",
+          "timestamp": "2026-09-16T00:47:50.417Z",
+          "export_line": 115,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 270
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e73c2f5087d0bfe4864031950034",
+          "timestamp": "2026-09-16T00:48:09.035Z",
+          "export_line": 118,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 279
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e74a6e2887d0865a13bbf7072271",
+          "timestamp": "2026-09-16T00:48:17.349Z",
+          "export_line": 121,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 285
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e756f69087d0a04c8c2b35a47fed",
+          "timestamp": "2026-09-16T00:48:45.272Z",
+          "export_line": 124,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 296
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e76ebd2087d09d1fec3c0e8cc12e",
+          "timestamp": "2026-09-16T00:48:54.596Z",
+          "export_line": 127,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 302
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e77c725c87d092f30a970e79a310",
+          "timestamp": "2026-09-16T00:49:19.513Z",
+          "export_line": 130,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 311
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e790da1c87d09803b629bb553cd7",
+          "timestamp": "2026-09-16T00:49:25.905Z",
+          "export_line": 133,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 317
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e79bb27c87d0aac5459cf98019f7",
+          "timestamp": "2026-09-16T00:49:40.742Z",
+          "export_line": 137,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 328
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e7a6458c87d089db0a5a67dff06f",
+          "timestamp": "2026-09-16T00:50:05.212Z",
+          "export_line": 140,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 334
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e7c2e3d487d09774b3bb2c3a5563",
+          "timestamp": "2026-09-16T00:50:26.972Z",
+          "export_line": 143,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 343
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e7d4708487d091ae5f88cafe55ce",
+          "timestamp": "2026-09-16T00:50:34.918Z",
+          "export_line": 146,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 350
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e7e0c4e487d0997fdadb8759e2c2",
+          "timestamp": "2026-09-16T00:50:55.850Z",
+          "export_line": 149,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 359
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e7f145d087d096e8ae149510fb9f",
+          "timestamp": "2026-09-16T00:51:03.289Z",
+          "export_line": 152,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 365
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e7fd08b887d098bc84a3ae8ea1e7",
+          "timestamp": "2026-09-16T00:51:46.805Z",
+          "export_line": 156,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 378
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e8246fc487d0a610ffa5899367e9",
+          "timestamp": "2026-09-16T00:51:55.165Z",
+          "export_line": 159,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 385
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e830e1a887d0878bc356abc1e4da",
+          "timestamp": "2026-09-16T00:52:13.603Z",
+          "export_line": 162,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 393
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e83f035887d0bf0fc73bcf6ce69b",
+          "timestamp": "2026-09-16T00:52:20.184Z",
+          "export_line": 165,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 399
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e849d57887d09b068ad0f69faeb8",
+          "timestamp": "2026-09-16T00:52:42.154Z",
+          "export_line": 168,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 407
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e85b9c0087d09ce4cff591bd3907",
+          "timestamp": "2026-09-16T00:52:55.402Z",
+          "export_line": 171,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 413
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e86d096087d08a22b2d30367b100",
+          "timestamp": "2026-09-16T00:53:11.896Z",
+          "export_line": 174,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 421
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e87941bc87d098589cf577915b3e",
+          "timestamp": "2026-09-16T00:53:18.849Z",
+          "export_line": 177,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 427
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e88592b487d0804a91f26b2742d3",
+          "timestamp": "2026-09-16T00:53:34.192Z",
+          "export_line": 180,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 435
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e88f92dc87d0b68c186ebf8b1530",
+          "timestamp": "2026-09-16T00:53:42.829Z",
+          "export_line": 184,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 443
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e89cb12487d0bbf1deab2c07feae",
+          "timestamp": "2026-09-16T00:54:00.847Z",
+          "export_line": 187,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 451
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e8aa571487d0b517141f80e53779",
+          "timestamp": "2026-09-16T00:54:08.124Z",
+          "export_line": 190,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 457
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e8b5cce887d08706a4e134723694",
+          "timestamp": "2026-09-16T00:54:35.145Z",
+          "export_line": 193,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 467
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e8cc9c9887d0badca7401b95f208",
+          "timestamp": "2026-09-16T00:54:42.654Z",
+          "export_line": 196,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 473
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e8d8668887d0a0ed51d8ba26279b",
+          "timestamp": "2026-09-16T00:55:10.918Z",
+          "export_line": 199,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 484
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e8f04d1087d0a85c4a5a6a863a90",
+          "timestamp": "2026-09-16T00:55:20.515Z",
+          "export_line": 202,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 490
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e8fe32c887d09fe3af6a068e688e",
+          "timestamp": "2026-09-16T00:55:52.815Z",
+          "export_line": 205,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 500
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e91a25a087d0b742420e1280b178",
+          "timestamp": "2026-09-16T00:56:00.392Z",
+          "export_line": 208,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 506
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e9263aa487d0bd89ff23ba2ac1bc",
+          "timestamp": "2026-09-16T00:56:41.013Z",
+          "export_line": 212,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 519
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e94ad09087d09e8388173cbd7149",
+          "timestamp": "2026-09-16T00:56:53.603Z",
+          "export_line": 215,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 525
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e95c4df087d0ad335d15238e6b87",
+          "timestamp": "2026-09-16T00:57:18.445Z",
+          "export_line": 218,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 533
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e97562d087d0b868d3576342da06",
+          "timestamp": "2026-09-16T00:57:39.685Z",
+          "export_line": 221,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 541
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e989812487d086fafd140de7aebc",
+          "timestamp": "2026-09-16T00:57:52.097Z",
+          "export_line": 224,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 549
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e991827c87d0ad226ae1cf9b2345",
+          "timestamp": "2026-09-16T00:57:59.904Z",
+          "export_line": 227,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 555
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e99dc3fc87d0ba7ba5e88fac83af",
+          "timestamp": "2026-09-16T00:58:17.587Z",
+          "export_line": 230,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 563
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e9ab231c87d08f0a64f5cd0586e6",
+          "timestamp": "2026-09-16T00:58:26.336Z",
+          "export_line": 233,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 569
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e9b8e28087d0a00728e34b699cf2",
+          "timestamp": "2026-09-16T00:58:52.631Z",
+          "export_line": 236,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 578
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e9ce8e3c87d0bd8765dfbc91468d",
+          "timestamp": "2026-09-16T00:59:03.928Z",
+          "export_line": 239,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 584
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9e9dddfc887d089c0f9fc51b5200b",
+          "timestamp": "2026-09-16T00:59:51.134Z",
+          "export_line": 242,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 597
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9ea08773087d0a82b5fe7d2e85ab5",
+          "timestamp": "2026-09-16T00:59:58.422Z",
+          "export_line": 245,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 603
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9ea143e2887d0a092b93a540f2f8b",
+          "timestamp": "2026-09-16T01:00:18.524Z",
+          "export_line": 248,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 611
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9ea54675c87d0ad6da48e9c84cf4f",
+          "timestamp": "2026-09-16T01:01:17.762Z",
+          "export_line": 255,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 627
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9ea63195c87d0a5f883b7f9a1fbeb",
+          "timestamp": "2026-09-16T01:01:48.520Z",
+          "export_line": 258,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 633
+        },
+        {
+          "response_id": "resp_0995301460b9fa00016aa9ea7d6e7c87d0bc42a51bd34f5026",
+          "timestamp": "2026-09-16T01:02:04.087Z",
+          "export_line": 261,
+          "source_file": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+          "source_line": 639
+        }
+      ]
+    },
+    {
+      "run": "Run 003",
+      "start_utc": "2026-09-16T01:08:02.451000+00:00",
+      "end_utc": "2026-09-16T01:27:33.482540+00:00",
+      "elapsed_seconds": 1171.0315399169922,
+      "display_duration": "19m 31s",
+      "execution_model_requests": 65,
+      "start_source": {
+        "file": "runs/run-003/conversation/events.jsonl",
+        "event": "first task_started",
+        "source_line": 2
+      },
+      "end_source": {
+        "file": "runs/run-003/workspace/evidence/torque-release.json",
+        "key": "time"
+      },
+      "counted_requests": [
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ebf3e1d887d0bdea1898fe5e6d27",
+          "timestamp": "2026-09-16T01:08:11.593Z",
+          "export_line": 5,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 15
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ebfbfc4087d097dfb79f396021c8",
+          "timestamp": "2026-09-16T01:08:16.050Z",
+          "export_line": 8,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 19
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ec0076e487d0a2093929a33a51d0",
+          "timestamp": "2026-09-16T01:08:30.689Z",
+          "export_line": 12,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 28
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ec0f304c87d0ae7bb92b90f17f0e",
+          "timestamp": "2026-09-16T01:08:40.063Z",
+          "export_line": 15,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 36
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ec1f369087d0a200bd37e0130597",
+          "timestamp": "2026-09-16T01:08:59.473Z",
+          "export_line": 18,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 44
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ec2be87887d0ae7fec46838b7c6d",
+          "timestamp": "2026-09-16T01:09:35.155Z",
+          "export_line": 22,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 55
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ec4fadb087d0a7623e159e382a17",
+          "timestamp": "2026-09-16T01:09:39.497Z",
+          "export_line": 25,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 60
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ec5c83cc87d0aebc5456cf805e33",
+          "timestamp": "2026-09-16T01:09:54.444Z",
+          "export_line": 28,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 66
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ec63c0b087d0a751b8762e3d2bbb",
+          "timestamp": "2026-09-16T01:10:09.406Z",
+          "export_line": 31,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 76
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ec78f3a487d08292658c24b9ce3a",
+          "timestamp": "2026-09-16T01:10:25.986Z",
+          "export_line": 34,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 84
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ec82592487d0b73efc8e5808cfda",
+          "timestamp": "2026-09-16T01:10:32.372Z",
+          "export_line": 37,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 92
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ec88b27087d0903503cbc551dbb3",
+          "timestamp": "2026-09-16T01:11:50.240Z",
+          "export_line": 41,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 100
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ecde560087d092d1e23a96bc300a",
+          "timestamp": "2026-09-16T01:12:02.256Z",
+          "export_line": 44,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 108
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ece294e487d09d72f1aacde5cb95",
+          "timestamp": "2026-09-16T01:12:10.102Z",
+          "export_line": 47,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 114
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ecf2b01c87d0823d04e0aef88d47",
+          "timestamp": "2026-09-16T01:12:23.110Z",
+          "export_line": 50,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 118
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ecf884c887d0aee92571c9e72747",
+          "timestamp": "2026-09-16T01:12:31.919Z",
+          "export_line": 53,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 124
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ed060f4887d0979a455e3f94564c",
+          "timestamp": "2026-09-16T01:12:45.441Z",
+          "export_line": 56,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 132
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ed0ede6887d0851d0668560f8ecd",
+          "timestamp": "2026-09-16T01:12:51.815Z",
+          "export_line": 59,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 138
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ed19921c87d084955b461414df8d",
+          "timestamp": "2026-09-16T01:13:12.493Z",
+          "export_line": 62,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 146
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ed29d6f487d0895edd000c39afeb",
+          "timestamp": "2026-09-16T01:13:20.031Z",
+          "export_line": 66,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 154
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ed35b7ec87d08e66de9bf460a7d4",
+          "timestamp": "2026-09-16T01:13:30.273Z",
+          "export_line": 69,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 162
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ed3bae2487d0ae4d926ee532232a",
+          "timestamp": "2026-09-16T01:13:50.992Z",
+          "export_line": 72,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 168
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ed551bfc87d092d89dce247354f0",
+          "timestamp": "2026-09-16T01:14:06.724Z",
+          "export_line": 75,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 176
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ed60052087d0954d34a3ef0f6f26",
+          "timestamp": "2026-09-16T01:14:16.041Z",
+          "export_line": 78,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 182
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ed6e89a487d0a30a3b16b48f8abd",
+          "timestamp": "2026-09-16T01:14:34.835Z",
+          "export_line": 81,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 191
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ed7b624c87d08387f0ce126bdec9",
+          "timestamp": "2026-09-16T01:14:44.856Z",
+          "export_line": 84,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 197
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ed8af23c87d0bafcd667e3380c98",
+          "timestamp": "2026-09-16T01:15:01.413Z",
+          "export_line": 87,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 205
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ed96b69487d08b9530ea378a32cf",
+          "timestamp": "2026-09-16T01:15:07.041Z",
+          "export_line": 90,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 209
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9eda1765087d0b5ef0213b16a5266",
+          "timestamp": "2026-09-16T01:15:33.141Z",
+          "export_line": 93,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 218
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9edb6890487d0b9c04a66380a8ab1",
+          "timestamp": "2026-09-16T01:15:42.141Z",
+          "export_line": 97,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 226
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9edc485c887d0b14837da50274121",
+          "timestamp": "2026-09-16T01:15:57.449Z",
+          "export_line": 100,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 234
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9edd145d887d09053d899c7c781a5",
+          "timestamp": "2026-09-16T01:16:09.946Z",
+          "export_line": 103,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 240
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ede0996887d0bda7634cbdb33bc1",
+          "timestamp": "2026-09-16T01:16:29.073Z",
+          "export_line": 106,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 249
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9edeeadb887d0bd51a4b59e2d1c1e",
+          "timestamp": "2026-09-16T01:16:49.101Z",
+          "export_line": 110,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 258
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ee027e7887d0a33ae6f06231a677",
+          "timestamp": "2026-09-16T01:16:57.044Z",
+          "export_line": 113,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 264
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ee0fd13087d099f580468ce332c1",
+          "timestamp": "2026-09-16T01:17:21.194Z",
+          "export_line": 116,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 273
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ee22889c87d082e05b74244220db",
+          "timestamp": "2026-09-16T01:17:28.132Z",
+          "export_line": 119,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 277
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ee2e914887d09825afc7398701b1",
+          "timestamp": "2026-09-16T01:17:50.746Z",
+          "export_line": 122,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 286
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ee40224487d0ac233c336204143d",
+          "timestamp": "2026-09-16T01:17:58.866Z",
+          "export_line": 125,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 292
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ee4c39d087d0aa65ea61b8eaf391",
+          "timestamp": "2026-09-16T01:18:09.499Z",
+          "export_line": 128,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 297
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ee52e2b887d09ba8bf9ef64ecb16",
+          "timestamp": "2026-09-16T01:18:27.468Z",
+          "export_line": 131,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 306
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ee64d1c087d0a86fe5f409789906",
+          "timestamp": "2026-09-16T01:18:38.077Z",
+          "export_line": 135,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 314
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ee7505b487d0a7552968464f6385",
+          "timestamp": "2026-09-16T01:18:59.548Z",
+          "export_line": 138,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 323
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ee84e95c87d098138d1b266379d6",
+          "timestamp": "2026-09-16T01:19:05.478Z",
+          "export_line": 141,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 327
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ee90461887d0b4ecf18b7043efa4",
+          "timestamp": "2026-09-16T01:19:40.348Z",
+          "export_line": 144,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 338
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9eeadfbc887d08c3b4e3e343057d6",
+          "timestamp": "2026-09-16T01:19:51.929Z",
+          "export_line": 147,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 344
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9eebecb7c87d088b7d4853632203b",
+          "timestamp": "2026-09-16T01:20:13.857Z",
+          "export_line": 150,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 353
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9eecf3ec087d0af58eee7a94da0be",
+          "timestamp": "2026-09-16T01:20:31.362Z",
+          "export_line": 153,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 359
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9eee5f7f087d0ba49002eac0304ca",
+          "timestamp": "2026-09-16T01:20:50.640Z",
+          "export_line": 156,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 368
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9eef4080887d0bb47f7350a713005",
+          "timestamp": "2026-09-16T01:21:01.203Z",
+          "export_line": 159,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 374
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ef03925c87d0b74ef676ca7e5ad3",
+          "timestamp": "2026-09-16T01:21:16.166Z",
+          "export_line": 162,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 383
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ef0d957087d08cc2997c2013f7e7",
+          "timestamp": "2026-09-16T01:21:23.459Z",
+          "export_line": 165,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 389
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ef1a063887d0bf4472d1bf2c39ea",
+          "timestamp": "2026-09-16T01:21:39.457Z",
+          "export_line": 168,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 398
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ef24c71087d09f5be10edb01e0b8",
+          "timestamp": "2026-09-16T01:21:46.231Z",
+          "export_line": 171,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 404
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ef31206c87d0a0bc4be17af72a5a",
+          "timestamp": "2026-09-16T01:22:04.457Z",
+          "export_line": 175,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 415
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ef3dbc1887d0a28776b2c92b1248",
+          "timestamp": "2026-09-16T01:22:13.569Z",
+          "export_line": 178,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 421
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ef4baf2887d08d38f8ee9a8b027c",
+          "timestamp": "2026-09-16T01:22:28.305Z",
+          "export_line": 181,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 429
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ef55cffc87d0a043525d4cd74d17",
+          "timestamp": "2026-09-16T01:22:35.950Z",
+          "export_line": 184,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 433
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ef6257e087d08261807855da2758",
+          "timestamp": "2026-09-16T01:22:56.136Z",
+          "export_line": 187,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 442
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ef71880887d0a0635a699fb27bf7",
+          "timestamp": "2026-09-16T01:23:04.227Z",
+          "export_line": 190,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 448
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ef7eaa3887d08fd6ad9c87293a58",
+          "timestamp": "2026-09-16T01:23:22.779Z",
+          "export_line": 193,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 457
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9ef8c33ec87d08788389e8810cf79",
+          "timestamp": "2026-09-16T01:23:41.537Z",
+          "export_line": 196,
+          "source_file": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+          "source_line": 463
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9f01cf57087d0aebabbc747cefdca",
+          "timestamp": "2026-09-16T01:25:56.866Z",
+          "export_line": 207,
+          "source_file": "rollout-2026-09-16T09-24-57-01a0a7c1-9d84-78d1-8c82-ef23b8d91342_01a0a7d1-26cd-7b42-8049-26ad088ff6a0.jsonl",
+          "source_line": 10
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9f033a0e487d0831de5bb306f6795",
+          "timestamp": "2026-09-16T01:26:31.881Z",
+          "export_line": 210,
+          "source_file": "rollout-2026-09-16T09-24-57-01a0a7c1-9d84-78d1-8c82-ef23b8d91342_01a0a7d1-26cd-7b42-8049-26ad088ff6a0.jsonl",
+          "source_line": 16
+        },
+        {
+          "response_id": "resp_0d6a64af9a471908016aa9f060815087d0961455abf8e085d7",
+          "timestamp": "2026-09-16T01:27:26.502Z",
+          "export_line": 213,
+          "source_file": "rollout-2026-09-16T09-24-57-01a0a7c1-9d84-78d1-8c82-ef23b8d91342_01a0a7d1-26cd-7b42-8049-26ad088ff6a0.jsonl",
+          "source_line": 23
+        }
+      ]
+    },
+    {
+      "run": "Run 004",
+      "start_utc": "2026-09-16T01:34:21.946000+00:00",
+      "end_utc": "2026-09-16T02:00:56.788787+00:00",
+      "elapsed_seconds": 1594.842787027359,
+      "display_duration": "26m 35s",
+      "execution_model_requests": 85,
+      "start_source": {
+        "file": "runs/run-004/conversation/events.jsonl",
+        "event": "first task_started",
+        "source_line": 2
+      },
+      "end_source": {
+        "file": "runs/run-004/workspace/evidence/session.jsonl",
+        "log_line": 2146,
+        "event": "final",
+        "key": "time"
+      },
+      "counted_requests": [
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f21f29e087d0b400f296990cb6e2",
+          "timestamp": "2026-09-16T01:34:36.520Z",
+          "export_line": 5,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 14
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f22cebd887d095362bc2a2228348",
+          "timestamp": "2026-09-16T01:34:50.808Z",
+          "export_line": 9,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 25
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f244dca887d0b28fa8faadb1a88a",
+          "timestamp": "2026-09-16T01:35:14.613Z",
+          "export_line": 13,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 37
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f2530b4c87d09e629e8855631a3f",
+          "timestamp": "2026-09-16T01:35:36.628Z",
+          "export_line": 16,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 45
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f27a555887d09177bbb5be1923f6",
+          "timestamp": "2026-09-16T01:36:01.954Z",
+          "export_line": 19,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 54
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f28270bc87d0bb2d0c460f2268e5",
+          "timestamp": "2026-09-16T01:36:09.400Z",
+          "export_line": 22,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 58
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f28cc1b087d083e79953b7c0a97d",
+          "timestamp": "2026-09-16T01:36:29.991Z",
+          "export_line": 25,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 69
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f2a40b9c87d08b53cda21a42718b",
+          "timestamp": "2026-09-16T01:37:52.688Z",
+          "export_line": 29,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 78
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f2fa73b887d0939413bbb68f9993",
+          "timestamp": "2026-09-16T01:38:06.872Z",
+          "export_line": 32,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 84
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f304171887d0964a6b2990a76c1f",
+          "timestamp": "2026-09-16T01:38:22.449Z",
+          "export_line": 35,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 90
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f30fb3bc87d086b0cf5504b39a06",
+          "timestamp": "2026-09-16T01:38:30.611Z",
+          "export_line": 38,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 94
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f31c556487d0977185bf364c3438",
+          "timestamp": "2026-09-16T01:38:49.229Z",
+          "export_line": 41,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 102
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f32a9edc87d0949f31a2812376d4",
+          "timestamp": "2026-09-16T01:39:04.788Z",
+          "export_line": 45,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 110
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f33a4a3887d0bffa1e4149c96222",
+          "timestamp": "2026-09-16T01:39:22.043Z",
+          "export_line": 48,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 118
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f34ad74087d09e78af865eada45a",
+          "timestamp": "2026-09-16T01:39:51.835Z",
+          "export_line": 51,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 125
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f36db1e887d08e7fd0f902afc895",
+          "timestamp": "2026-09-16T01:40:05.762Z",
+          "export_line": 54,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 133
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f39b426887d08fc501cf4188371e",
+          "timestamp": "2026-09-16T01:40:52.848Z",
+          "export_line": 62,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 155
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f3a52d8887d0be1accc20fa409eb",
+          "timestamp": "2026-09-16T01:41:14.156Z",
+          "export_line": 65,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 161
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f3c26b8887d0b640dc830564c72d",
+          "timestamp": "2026-09-16T01:41:26.397Z",
+          "export_line": 68,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 165
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f3c7b48487d0aad20e352ee84730",
+          "timestamp": "2026-09-16T01:41:35.661Z",
+          "export_line": 71,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 169
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f3d0f26c87d0a599018ff22b98bd",
+          "timestamp": "2026-09-16T01:41:41.944Z",
+          "export_line": 74,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 175
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f3dbb8d887d0818de9d989e5c458",
+          "timestamp": "2026-09-16T01:41:55.760Z",
+          "export_line": 77,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 183
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f3e5b24087d0a705f649ed5b58c7",
+          "timestamp": "2026-09-16T01:42:07.400Z",
+          "export_line": 81,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 191
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f3f4f38c87d09d0a23b05afaf90d",
+          "timestamp": "2026-09-16T01:42:26.240Z",
+          "export_line": 84,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 199
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f40390a887d08b2aff0fa5017085",
+          "timestamp": "2026-09-16T01:42:32.196Z",
+          "export_line": 87,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 203
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f40dfbbc87d0986830f65b264b25",
+          "timestamp": "2026-09-16T01:42:46.768Z",
+          "export_line": 90,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 211
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f418241887d08f442dea929f3857",
+          "timestamp": "2026-09-16T01:42:53.749Z",
+          "export_line": 93,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 217
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f4239aa487d0b3acdd20117cce7a",
+          "timestamp": "2026-09-16T01:43:12.933Z",
+          "export_line": 97,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 227
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f432548087d091ac8a4b1b36cc4a",
+          "timestamp": "2026-09-16T01:43:31.279Z",
+          "export_line": 100,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 233
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f449152087d0b468786d7d609907",
+          "timestamp": "2026-09-16T01:44:09.664Z",
+          "export_line": 103,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 243
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f46b051087d085dc25d6f2dd45d3",
+          "timestamp": "2026-09-16T01:44:16.294Z",
+          "export_line": 106,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 249
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f476134c87d0829cee0ee4993372",
+          "timestamp": "2026-09-16T01:44:49.332Z",
+          "export_line": 109,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 260
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f492bfec87d0b8e40b360695d2b1",
+          "timestamp": "2026-09-16T01:44:59.307Z",
+          "export_line": 113,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 268
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f4a1257887d0b0d52d9c52a33d7d",
+          "timestamp": "2026-09-16T01:45:24.876Z",
+          "export_line": 116,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 277
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f4b61ea887d0b5c89fc1539c9c8b",
+          "timestamp": "2026-09-16T01:45:31.203Z",
+          "export_line": 119,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 281
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f4c0f11087d0b6db49f69b430eeb",
+          "timestamp": "2026-09-16T01:46:03.131Z",
+          "export_line": 122,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 292
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f4dc889c87d0aed289a93e1c1ae1",
+          "timestamp": "2026-09-16T01:46:11.212Z",
+          "export_line": 125,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 298
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f4e8e82087d08930298bcb54b1b6",
+          "timestamp": "2026-09-16T01:46:39.627Z",
+          "export_line": 128,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 307
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f50044d887d0844f2814c3c60ae5",
+          "timestamp": "2026-09-16T01:46:53.242Z",
+          "export_line": 131,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 314
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f50e876487d084d08c2d53632c16",
+          "timestamp": "2026-09-16T01:47:04.130Z",
+          "export_line": 134,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 320
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f51e900487d080f6d525af862531",
+          "timestamp": "2026-09-16T01:47:18.418Z",
+          "export_line": 138,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 329
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f52c286087d08e7dc54e8bcf5f2a",
+          "timestamp": "2026-09-16T01:47:37.815Z",
+          "export_line": 141,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 338
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f53b114487d0bf452b1b9df93f6f",
+          "timestamp": "2026-09-16T01:47:43.941Z",
+          "export_line": 144,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 342
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f545bc8c87d08e188f2dd7ad61f4",
+          "timestamp": "2026-09-16T01:48:15.626Z",
+          "export_line": 147,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 353
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f560d30c87d0a734c90968067370",
+          "timestamp": "2026-09-16T01:48:21.819Z",
+          "export_line": 150,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 357
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f56bc24c87d08f57ca1f2e551f92",
+          "timestamp": "2026-09-16T01:48:44.245Z",
+          "export_line": 153,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 366
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f57d84e087d09030d421d0cc3910",
+          "timestamp": "2026-09-16T01:48:59.342Z",
+          "export_line": 157,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 374
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f592998087d0b309ae0be0041879",
+          "timestamp": "2026-09-16T01:49:22.398Z",
+          "export_line": 160,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 383
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f5a3b71487d0a22c3d590e31c31b",
+          "timestamp": "2026-09-16T01:49:29.829Z",
+          "export_line": 163,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 387
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f5af848487d0a8770eb49012cbe7",
+          "timestamp": "2026-09-16T01:49:50.800Z",
+          "export_line": 166,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 396
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f5c0195087d0a4e928c6d432d8ba",
+          "timestamp": "2026-09-16T01:49:59.369Z",
+          "export_line": 169,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 402
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f5cd30a887d0860d2183cd802b6e",
+          "timestamp": "2026-09-16T01:50:25.559Z",
+          "export_line": 172,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 413
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f5e2dcb487d08cf3b21c48040980",
+          "timestamp": "2026-09-16T01:50:36.009Z",
+          "export_line": 175,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 419
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f5f1b31087d0b3197a9f5e7f8256",
+          "timestamp": "2026-09-16T01:50:54.663Z",
+          "export_line": 178,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 428
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f5ffde1887d0be1a03ff83f790e8",
+          "timestamp": "2026-09-16T01:51:03.266Z",
+          "export_line": 182,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 436
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f60d2c6c87d0be42f8d8df282e92",
+          "timestamp": "2026-09-16T01:51:30.639Z",
+          "export_line": 185,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 445
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f6230b2487d08dd6ed46e6c5dccb",
+          "timestamp": "2026-09-16T01:51:36.810Z",
+          "export_line": 188,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 451
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f62e532c87d0bf49b533a6deb3ee",
+          "timestamp": "2026-09-16T01:51:50.924Z",
+          "export_line": 192,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 461
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f63814ac87d09d113bf2e45aae15",
+          "timestamp": "2026-09-16T01:51:56.753Z",
+          "export_line": 195,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 465
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f6423bf087d0a3c4555bb5714b4b",
+          "timestamp": "2026-09-16T01:52:12.098Z",
+          "export_line": 198,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 473
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f64e354c87d0bd30717684d28602",
+          "timestamp": "2026-09-16T01:52:21.509Z",
+          "export_line": 201,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 479
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f65b5b2487d08eb6ec8ff3cc9f07",
+          "timestamp": "2026-09-16T01:52:46.533Z",
+          "export_line": 204,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 488
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f66fe9a487d0b445bd64a661a88e",
+          "timestamp": "2026-09-16T01:52:54.323Z",
+          "export_line": 207,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 494
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f67c128c87d0a173422c26858c97",
+          "timestamp": "2026-09-16T01:53:10.759Z",
+          "export_line": 210,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 503
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f6884e3887d0821cff860e04781a",
+          "timestamp": "2026-09-16T01:53:19.562Z",
+          "export_line": 213,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 509
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f695452087d0a8f20d777ca35dae",
+          "timestamp": "2026-09-16T01:54:28.068Z",
+          "export_line": 217,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 525
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f6e14e2c87d09d6e61bf1d6f3058",
+          "timestamp": "2026-09-16T01:54:47.400Z",
+          "export_line": 220,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 533
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f6e8f14c87d0928903e35f1d1a37",
+          "timestamp": "2026-09-16T01:54:57.770Z",
+          "export_line": 223,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 542
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f6f2687887d0adb683a33de3984a",
+          "timestamp": "2026-09-16T01:55:07.259Z",
+          "export_line": 226,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 548
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f6fcc64887d0824f89d72532103b",
+          "timestamp": "2026-09-16T01:55:14.393Z",
+          "export_line": 229,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 552
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f70829a087d0a7c69541a19e7ae0",
+          "timestamp": "2026-09-16T01:55:45.920Z",
+          "export_line": 232,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 563
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f722fd8487d0ba3790cc3c65205a",
+          "timestamp": "2026-09-16T01:55:56.180Z",
+          "export_line": 235,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 567
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f72d8f2487d0a0e8b30662421257",
+          "timestamp": "2026-09-16T01:56:24.258Z",
+          "export_line": 239,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 580
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f7499c8c87d0a93d3c03b5ddbb35",
+          "timestamp": "2026-09-16T01:56:32.264Z",
+          "export_line": 242,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 584
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f756095c87d0896859b100a9eff5",
+          "timestamp": "2026-09-16T01:56:46.219Z",
+          "export_line": 245,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 593
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f76030f087d0b5dfc63207356dc7",
+          "timestamp": "2026-09-16T01:56:54.138Z",
+          "export_line": 248,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 597
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f76ba7a487d09dd52f5963bf46a4",
+          "timestamp": "2026-09-16T01:57:12.119Z",
+          "export_line": 251,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 605
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f779725887d08a940d3602cdb64b",
+          "timestamp": "2026-09-16T01:57:18.354Z",
+          "export_line": 254,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 609
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f78434a487d08285340c65fa3e4e",
+          "timestamp": "2026-09-16T01:57:50.367Z",
+          "export_line": 257,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 618
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f7a0470c87d0b68e7a3b02f0dcc5",
+          "timestamp": "2026-09-16T01:58:19.331Z",
+          "export_line": 261,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 631
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f7bc93f487d0aa66d7af63a7f648",
+          "timestamp": "2026-09-16T01:58:27.095Z",
+          "export_line": 264,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 635
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f7c9229887d0839d0d841e07758e",
+          "timestamp": "2026-09-16T01:58:43.345Z",
+          "export_line": 267,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 644
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f7d49a5087d0a31b5ebee681e8de",
+          "timestamp": "2026-09-16T01:58:53.849Z",
+          "export_line": 270,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 648
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f7e38c2087d09b9cb68d6c1d9d5f",
+          "timestamp": "2026-09-16T01:59:52.953Z",
+          "export_line": 274,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 663
+        },
+        {
+          "response_id": "resp_037692f8561e7d23016aa9f81ad8f487d0b1e0ef6344ee9c64",
+          "timestamp": "2026-09-16T02:00:56.769Z",
+          "export_line": 277,
+          "source_file": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+          "source_line": 674
+        }
+      ]
+    },
+    {
+      "run": "Run 005",
+      "start_utc": "2026-09-16T02:18:42.200000+00:00",
+      "end_utc": "2026-09-16T02:37:32.871053+00:00",
+      "elapsed_seconds": 1130.6710529327393,
+      "display_duration": "18m 51s",
+      "execution_model_requests": 65,
+      "start_source": {
+        "file": "runs/run-005/conversation/events.jsonl",
+        "event": "first task_started",
+        "source_line": 2
+      },
+      "end_source": {
+        "file": "runs/run-005/workspace/evidence/summary.json",
+        "key": "control_end_utc"
+      },
+      "counted_requests": [
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fc8491d087d08c126cdba40ca4f7",
+          "timestamp": "2026-09-16T02:18:52.713Z",
+          "export_line": 5,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 14
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fc8d1a6c87d0a2e2ed3bb38af3c3",
+          "timestamp": "2026-09-16T02:19:03.915Z",
+          "export_line": 8,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 19
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fc98445c87d0813adf75e512320b",
+          "timestamp": "2026-09-16T02:19:19.714Z",
+          "export_line": 12,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 29
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fcae440c87d0a225f63c8225ee69",
+          "timestamp": "2026-09-16T02:19:31.816Z",
+          "export_line": 15,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 35
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fcb442b087d089c5a22d79353d7b",
+          "timestamp": "2026-09-16T02:19:41.031Z",
+          "export_line": 18,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 40
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fcbd85e887d0ab8eb6de4faa51f4",
+          "timestamp": "2026-09-16T02:20:07.221Z",
+          "export_line": 21,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 48
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fcd7f24087d0aaba419b04ca97b9",
+          "timestamp": "2026-09-16T02:20:18.716Z",
+          "export_line": 24,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 54
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fcec716487d094a57589f1b85c24",
+          "timestamp": "2026-09-16T02:20:38.489Z",
+          "export_line": 28,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 63
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fcf6fca487d0840d9a71f408244d",
+          "timestamp": "2026-09-16T02:20:47.718Z",
+          "export_line": 31,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 69
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fd00831487d0b7b8a118f7ae63f0",
+          "timestamp": "2026-09-16T02:21:11.009Z",
+          "export_line": 34,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 79
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fd177f4487d08982a98f89e8c763",
+          "timestamp": "2026-09-16T02:22:16.987Z",
+          "export_line": 38,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 88
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fd63346087d09947629b3355919f",
+          "timestamp": "2026-09-16T02:22:30.864Z",
+          "export_line": 41,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 95
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fd6c2b0c87d0b54d62da69170bab",
+          "timestamp": "2026-09-16T02:22:39.727Z",
+          "export_line": 44,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 99
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fd70fd3c87d0bb4ff2d962b74391",
+          "timestamp": "2026-09-16T02:22:46.361Z",
+          "export_line": 47,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 103
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fd7c117c87d09ac1443c7ef2e19d",
+          "timestamp": "2026-09-16T02:23:01.796Z",
+          "export_line": 50,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 112
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fd872b8487d0b71664e8135e7704",
+          "timestamp": "2026-09-16T02:23:10.728Z",
+          "export_line": 53,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 118
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fd945ad087d0943992aaa4d0d7d3",
+          "timestamp": "2026-09-16T02:23:23.976Z",
+          "export_line": 56,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 126
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fd9d4d0487d0b32b9891db7824af",
+          "timestamp": "2026-09-16T02:23:35.661Z",
+          "export_line": 60,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 134
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fdad322487d093cf46ce4145dbfe",
+          "timestamp": "2026-09-16T02:23:51.593Z",
+          "export_line": 63,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 142
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fdb9095c87d087536c5ac1068da2",
+          "timestamp": "2026-09-16T02:24:02.484Z",
+          "export_line": 66,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 148
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fdc81f0c87d0ada639f8559d36a7",
+          "timestamp": "2026-09-16T02:24:21.375Z",
+          "export_line": 69,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 157
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fdd6cd3487d09be5ecdb268dd780",
+          "timestamp": "2026-09-16T02:24:32.578Z",
+          "export_line": 72,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 163
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fde64f3087d0944f41dc7d8c5ad6",
+          "timestamp": "2026-09-16T02:24:55.276Z",
+          "export_line": 75,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 171
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fdf8948487d086d3e823774f08cd",
+          "timestamp": "2026-09-16T02:25:01.940Z",
+          "export_line": 78,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 177
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fe03903887d089739a810e449b34",
+          "timestamp": "2026-09-16T02:25:18.154Z",
+          "export_line": 82,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 188
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fe0f7acc87d093d72a740813d462",
+          "timestamp": "2026-09-16T02:25:26.737Z",
+          "export_line": 85,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 194
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fe1c459487d0bdce4b1872515647",
+          "timestamp": "2026-09-16T02:25:49.625Z",
+          "export_line": 88,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 203
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fe2f1d5487d08c1804dde76478a7",
+          "timestamp": "2026-09-16T02:25:57.572Z",
+          "export_line": 91,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 209
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fe3b566c87d0af0f398719dfdfbf",
+          "timestamp": "2026-09-16T02:26:17.789Z",
+          "export_line": 94,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 218
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fe4b463087d0a01234cee7f4d41b",
+          "timestamp": "2026-09-16T02:26:31.119Z",
+          "export_line": 97,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 224
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fe5cb7bc87d08eeff22a1ef7adf5",
+          "timestamp": "2026-09-16T02:26:48.215Z",
+          "export_line": 100,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 233
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fe698a9487d0a46527a8f87ac41b",
+          "timestamp": "2026-09-16T02:26:55.494Z",
+          "export_line": 103,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 239
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fe7545fc87d0ba52a5e3d9007e87",
+          "timestamp": "2026-09-16T02:27:09.161Z",
+          "export_line": 106,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 248
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fe7e82cc87d08302a481def2def1",
+          "timestamp": "2026-09-16T02:27:21.889Z",
+          "export_line": 110,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 256
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fe8fbc8887d0ae782bf584f3fcb8",
+          "timestamp": "2026-09-16T02:27:37.392Z",
+          "export_line": 113,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 265
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fe9ac07087d0a5c38c40a699e6ca",
+          "timestamp": "2026-09-16T02:27:47.663Z",
+          "export_line": 116,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 271
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fea960b087d0ad8192352b2a0007",
+          "timestamp": "2026-09-16T02:28:09.995Z",
+          "export_line": 119,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 280
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9febc3a4487d09b8b3fc5b7314e1b",
+          "timestamp": "2026-09-16T02:28:27.676Z",
+          "export_line": 122,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 286
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fed15e0087d0b14d7cfc79c610b2",
+          "timestamp": "2026-09-16T02:28:54.360Z",
+          "export_line": 125,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 295
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fee7dd0c87d0b4cdbc1044ebabe7",
+          "timestamp": "2026-09-16T02:29:02.550Z",
+          "export_line": 128,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 301
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fef462e487d0a152d5134e5ceeb2",
+          "timestamp": "2026-09-16T02:29:23.396Z",
+          "export_line": 131,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 310
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9ff05379c87d0a463552fd2bb68cc",
+          "timestamp": "2026-09-16T02:29:36.321Z",
+          "export_line": 134,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 316
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9ff162c1c87d0a3ba319d9826d5d2",
+          "timestamp": "2026-09-16T02:29:56.695Z",
+          "export_line": 137,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 325
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9ff26196087d0bfab41cfc5ece73b",
+          "timestamp": "2026-09-16T02:30:04.273Z",
+          "export_line": 140,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 331
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9ff31dd9487d09346bfc3477b3450",
+          "timestamp": "2026-09-16T02:30:33.189Z",
+          "export_line": 144,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 342
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9ff4a8fb887d0af684bf7822cbe34",
+          "timestamp": "2026-09-16T02:30:41.627Z",
+          "export_line": 147,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 348
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9ff574f7487d08165941b0d59f9d0",
+          "timestamp": "2026-09-16T02:31:06.485Z",
+          "export_line": 150,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 357
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9ff6cb1bc87d08f0697844103d8e6",
+          "timestamp": "2026-09-16T02:31:18.947Z",
+          "export_line": 153,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 363
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9ff7cbd6887d08eafa5cfa4bc5021",
+          "timestamp": "2026-09-16T02:31:30.899Z",
+          "export_line": 156,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 372
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9ff8471c887d0a8f40a6edddefe37",
+          "timestamp": "2026-09-16T02:31:41.889Z",
+          "export_line": 159,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 378
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9ff93c65c87d08065d25d32066757",
+          "timestamp": "2026-09-16T02:32:12.526Z",
+          "export_line": 162,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 387
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9ffae978c87d09b80af7598e1c9b0",
+          "timestamp": "2026-09-16T02:32:25.781Z",
+          "export_line": 165,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 393
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9ffc01f5087d08c0a9b813bc2f454",
+          "timestamp": "2026-09-16T02:32:53.720Z",
+          "export_line": 169,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 404
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9ffd6f0f487d0a495ae7e6f2e4ab4",
+          "timestamp": "2026-09-16T02:33:18.271Z",
+          "export_line": 172,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 410
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aa9fff424b887d08aa5fdceff736f7d",
+          "timestamp": "2026-09-16T02:33:45.923Z",
+          "export_line": 175,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 419
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aaa000b4d7c87d09e5948aefb43c9c2",
+          "timestamp": "2026-09-16T02:33:56.091Z",
+          "export_line": 178,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 425
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aaa0019eef887d0a616b4f8fe9a1784",
+          "timestamp": "2026-09-16T02:34:18.570Z",
+          "export_line": 181,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 434
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aaa002bf89087d0af1ba8ad9d5ce499",
+          "timestamp": "2026-09-16T02:34:31.784Z",
+          "export_line": 185,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 442
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aaa003d824887d0b42ffa66c46ad873",
+          "timestamp": "2026-09-16T02:34:54.536Z",
+          "export_line": 188,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 451
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aaa0050287887d0917643edd66d2662",
+          "timestamp": "2026-09-16T02:35:11.812Z",
+          "export_line": 191,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 457
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aaa0065a2e487d09d708a736a9bd206",
+          "timestamp": "2026-09-16T02:35:27.165Z",
+          "export_line": 194,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 466
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aaa00709e3c87d0b82756e23b0dc60e",
+          "timestamp": "2026-09-16T02:36:11.676Z",
+          "export_line": 198,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 476
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aaa00a1abf487d0844fb003b1f542c4",
+          "timestamp": "2026-09-16T02:36:24.233Z",
+          "export_line": 201,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 485
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aaa00a9d08087d0aeeb68111ec5f023",
+          "timestamp": "2026-09-16T02:37:00.414Z",
+          "export_line": 204,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 495
+        },
+        {
+          "response_id": "resp_0020043a6d2085aa016aaa00cd45c087d0ba436133f0314b41",
+          "timestamp": "2026-09-16T02:37:32.549Z",
+          "export_line": 208,
+          "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+          "source_line": 505
+        }
+      ]
+    },
+    {
+      "run": "Run 006",
+      "start_utc": "2026-09-16T03:41:38.849000+00:00",
+      "end_utc": "2026-09-16T04:00:23.691187+00:00",
+      "elapsed_seconds": 1124.8421869277954,
+      "display_duration": "18m 45s",
+      "execution_model_requests": 54,
+      "start_source": {
+        "file": "runs/run-006/conversation/events.jsonl",
+        "event": "first task_started",
+        "source_line": 2
+      },
+      "end_source": {
+        "file": "runs/run-006/workspace/evidence/summary.json",
+        "key": "monitoring_end_utc"
+      },
+      "counted_requests": [
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa0ff51f1887d0ac619226e9e2da60",
+          "timestamp": "2026-09-16T03:41:48.970Z",
+          "export_line": 5,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 14
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa0ffd599887d0bf3d91751e5801c3",
+          "timestamp": "2026-09-16T03:42:02.899Z",
+          "export_line": 8,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 22
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa100b41cc87d0a7900d7afb3b3f88",
+          "timestamp": "2026-09-16T03:42:16.537Z",
+          "export_line": 12,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 31
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa1018e63487d0aa6bfb256e659fe0",
+          "timestamp": "2026-09-16T03:42:30.948Z",
+          "export_line": 15,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 39
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa102c5a0487d0821578f1d69e2c95",
+          "timestamp": "2026-09-16T03:42:50.503Z",
+          "export_line": 18,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 49
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa103adaa887d0bb8ded006198919d",
+          "timestamp": "2026-09-16T03:43:20.260Z",
+          "export_line": 22,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 59
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa106a9fdc87d0b98219fc8bf2009b",
+          "timestamp": "2026-09-16T03:43:41.995Z",
+          "export_line": 25,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 67
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa106e5f1487d087f69a11afa4c474",
+          "timestamp": "2026-09-16T03:44:02.742Z",
+          "export_line": 28,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 71
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa1087e44887d0b1425d1c57394e72",
+          "timestamp": "2026-09-16T03:45:48.276Z",
+          "export_line": 32,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 86
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa10f4133487d0a71c0fd0fbd0ccf6",
+          "timestamp": "2026-09-16T03:46:06.462Z",
+          "export_line": 35,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 93
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa10feef9887d0abde6c45e7681343",
+          "timestamp": "2026-09-16T03:46:14.037Z",
+          "export_line": 38,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 102
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa1106d5e887d0ac6d4a6cf413a5f2",
+          "timestamp": "2026-09-16T03:46:21.421Z",
+          "export_line": 41,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 111
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa110e044487d0bada7f8bdb3f2893",
+          "timestamp": "2026-09-16T03:46:29.917Z",
+          "export_line": 44,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 119
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa11164d3087d0854a8e90a694c6b4",
+          "timestamp": "2026-09-16T03:46:39.025Z",
+          "export_line": 47,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 126
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa11208f5487d0999ffb939f53aca9",
+          "timestamp": "2026-09-16T03:46:45.102Z",
+          "export_line": 50,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 135
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa11259d0c87d0bd2b55b4d9c377a0",
+          "timestamp": "2026-09-16T03:46:55.100Z",
+          "export_line": 54,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 144
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa1130bcc887d08350147f6e03ede7",
+          "timestamp": "2026-09-16T03:47:02.116Z",
+          "export_line": 57,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 152
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa1136bb8487d0bae1a5e8e0a190f8",
+          "timestamp": "2026-09-16T03:47:13.677Z",
+          "export_line": 60,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 160
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa1147898887d08fedb5f96af44d0c",
+          "timestamp": "2026-09-16T03:47:32.318Z",
+          "export_line": 63,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 170
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa115a5fb487d0b296d2adc938034b",
+          "timestamp": "2026-09-16T03:47:51.736Z",
+          "export_line": 66,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 180
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa116db0f087d0b702ba8637fff762",
+          "timestamp": "2026-09-16T03:48:08.512Z",
+          "export_line": 69,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 190
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa117e77e487d09712962a61aac464",
+          "timestamp": "2026-09-16T03:48:24.234Z",
+          "export_line": 73,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 202
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa118e02f087d08c38e6e98cb01114",
+          "timestamp": "2026-09-16T03:48:40.357Z",
+          "export_line": 76,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 213
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa119d30f487d0a40f3928237331aa",
+          "timestamp": "2026-09-16T03:48:59.277Z",
+          "export_line": 79,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 225
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa11b007a887d082641d9c56ecd058",
+          "timestamp": "2026-09-16T03:49:23.052Z",
+          "export_line": 82,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 236
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa11c8d4a087d0ae5c2be226b2809d",
+          "timestamp": "2026-09-16T03:49:39.991Z",
+          "export_line": 85,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 247
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa11d9ddd887d09fb892868e04e0e9",
+          "timestamp": "2026-09-16T03:50:01.159Z",
+          "export_line": 88,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 258
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa11ed07a087d0bd1cb0c4975b1a6a",
+          "timestamp": "2026-09-16T03:50:15.598Z",
+          "export_line": 92,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 270
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa11fbf8a887d08d73998abdde8d4d",
+          "timestamp": "2026-09-16T03:50:34.955Z",
+          "export_line": 95,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 282
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa12104b1887d0bd3dc88678d06bfc",
+          "timestamp": "2026-09-16T03:51:00.376Z",
+          "export_line": 98,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 293
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa1229592c87d0bf1f510476ecddb1",
+          "timestamp": "2026-09-16T03:51:31.325Z",
+          "export_line": 101,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 306
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa12483f9c87d08e671b6a12e2cab4",
+          "timestamp": "2026-09-16T03:51:53.757Z",
+          "export_line": 104,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 317
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa125e08f087d0890f22bf628140fb",
+          "timestamp": "2026-09-16T03:52:11.310Z",
+          "export_line": 107,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 328
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa126f16bc87d0af0232871ec6f90f",
+          "timestamp": "2026-09-16T03:52:27.595Z",
+          "export_line": 111,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 340
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa1280906c87d0852e5ee1a57debb3",
+          "timestamp": "2026-09-16T03:52:45.002Z",
+          "export_line": 114,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 351
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa129159ec87d08d0e4a3ddcc4bb4d",
+          "timestamp": "2026-09-16T03:53:14.903Z",
+          "export_line": 117,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 364
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa12aef1ac87d0846c1ef3dcfce94f",
+          "timestamp": "2026-09-16T03:53:30.887Z",
+          "export_line": 120,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 374
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa12bea4c087d086ce8bd6673cac70",
+          "timestamp": "2026-09-16T03:54:11.976Z",
+          "export_line": 124,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 386
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa12eb89d887d0854ccd98ab34fed7",
+          "timestamp": "2026-09-16T03:54:30.046Z",
+          "export_line": 127,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 395
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa12f679f087d0a83113df4306b6e3",
+          "timestamp": "2026-09-16T03:54:44.621Z",
+          "export_line": 130,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 401
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa1310474887d082be56e00610bc13",
+          "timestamp": "2026-09-16T03:55:04.278Z",
+          "export_line": 133,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 408
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa131b07bc87d086da0253d48cef8c",
+          "timestamp": "2026-09-16T03:55:14.316Z",
+          "export_line": 136,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 419
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa132692dc87d0ab4d27a806a7733a",
+          "timestamp": "2026-09-16T03:55:34.376Z",
+          "export_line": 139,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 430
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa133ab70487d0ae4f73844f84a3f2",
+          "timestamp": "2026-09-16T03:56:01.950Z",
+          "export_line": 143,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 443
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa1354023087d09c322706f4a62a94",
+          "timestamp": "2026-09-16T03:56:22.607Z",
+          "export_line": 146,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 452
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa136ba33887d08ced4700206b6a86",
+          "timestamp": "2026-09-16T03:56:39.076Z",
+          "export_line": 150,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 466
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa137b749887d08386d7422eaef7cd",
+          "timestamp": "2026-09-16T03:57:04.421Z",
+          "export_line": 153,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 477
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa139162b087d09d8fbc457f570621",
+          "timestamp": "2026-09-16T03:57:21.184Z",
+          "export_line": 156,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 485
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa13b11fd487d0b33730519e3adc03",
+          "timestamp": "2026-09-16T03:57:57.933Z",
+          "export_line": 159,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 496
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa13cd023487d0924cefbd42892472",
+          "timestamp": "2026-09-16T03:58:15.644Z",
+          "export_line": 162,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 507
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa13e3478c87d09481ed88bf71dfee",
+          "timestamp": "2026-09-16T03:58:39.845Z",
+          "export_line": 166,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 518
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa13f4e1d087d096c9bac557eb0007",
+          "timestamp": "2026-09-16T03:59:14.377Z",
+          "export_line": 169,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 531
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa1417566087d0a8d3adf7c36de0d1",
+          "timestamp": "2026-09-16T03:59:41.700Z",
+          "export_line": 172,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 542
+        },
+        {
+          "response_id": "resp_055a54ecde9b40b6016aaa143ea28c87d0affcec5ad1cba729",
+          "timestamp": "2026-09-16T04:00:23.247Z",
+          "export_line": 176,
+          "source_file": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+          "source_line": 555
+        }
+      ]
+    }
+  ]
+}

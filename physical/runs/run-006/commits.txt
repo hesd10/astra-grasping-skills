@@ -1,0 +1,2 @@
+2eb3d22a152c93a9ebbc195be6f8ce07246c3487 Record fresh left-arm grasp attempt and audit transferable safety helpers
+3c03e3e55fffc18a96d7db0fb847766ce42e5c3d Record operator-requested arm and gripper torque release

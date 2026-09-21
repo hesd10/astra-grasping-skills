@@ -1,0 +1,1062 @@
+[
+  {
+    "time": 1789522796.5979083,
+    "individual": {
+      "1": {
+        "Present_Temperature": 35,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Present_Temperature": 40,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Present_Temperature": 42,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Present_Temperature": 36,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Present_Temperature": 38,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      }
+    }
+  },
+  {
+    "time": 1789522796.7625039,
+    "individual": {
+      "1": {
+        "Present_Temperature": 35,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Present_Temperature": 40,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Present_Temperature": 42,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Present_Temperature": 36,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      }
+    }
+  },
+  {
+    "time": 1789522796.9268045,
+    "individual": {
+      "1": {
+        "Present_Temperature": 35,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Present_Temperature": 40,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Present_Temperature": 42,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Present_Temperature": 36,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Present_Temperature": 38,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      }
+    }
+  },
+  {
+    "time": 1789522797.0925126,
+    "individual": {
+      "1": {
+        "Present_Temperature": 35,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Present_Temperature": 40,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Present_Temperature": 42,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Present_Temperature": 36,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Present_Temperature": 38,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      }
+    }
+  },
+  {
+    "time": 1789522797.2584412,
+    "individual": {
+      "1": {
+        "Present_Temperature": 35,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Present_Temperature": 40,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Present_Temperature": 42,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Present_Temperature": 36,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Present_Temperature": 38,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      }
+    }
+  },
+  {
+    "time": 1789522797.4216459,
+    "individual": {
+      "1": {
+        "Present_Temperature": 35,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Present_Temperature": 40,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Present_Temperature": 42,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Present_Temperature": 36,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Present_Temperature": 38,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      }
+    }
+  },
+  {
+    "time": 1789522797.5883317,
+    "individual": {
+      "1": {
+        "Present_Temperature": 35,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Present_Temperature": 40,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Present_Temperature": 42,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Present_Temperature": 36,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Present_Temperature": 38,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      }
+    }
+  },
+  {
+    "time": 1789522797.7516396,
+    "individual": {
+      "1": {
+        "Present_Temperature": 35,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Present_Temperature": 40,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Present_Temperature": 42,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Present_Temperature": 36,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Present_Temperature": 38,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      }
+    }
+  },
+  {
+    "time": 1789522797.912923,
+    "individual": {
+      "1": {
+        "Present_Temperature": 35,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Present_Temperature": 40,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Present_Temperature": 42,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Present_Temperature": 36,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Present_Temperature": 38,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      }
+    }
+  },
+  {
+    "time": 1789522798.0749903,
+    "individual": {
+      "1": {
+        "Present_Temperature": 35,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Present_Temperature": 40,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Present_Temperature": 42,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Present_Temperature": 36,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Present_Temperature": 38,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      }
+    }
+  },
+  {
+    "time": 1789522798.2369318,
+    "individual": {
+      "1": {
+        "Present_Temperature": 35,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Present_Temperature": 40,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Present_Temperature": 42,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Present_Temperature": 36,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Present_Temperature": 38,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      }
+    }
+  },
+  {
+    "time": 1789522798.39855,
+    "individual": {
+      "1": {
+        "Present_Temperature": 35,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Present_Temperature": 40,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Present_Temperature": 42,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Present_Temperature": 36,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Present_Temperature": 38,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      }
+    }
+  },
+  {
+    "time": 1789522798.560566,
+    "individual": {
+      "1": {
+        "Present_Temperature": 35,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Present_Temperature": 40,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Present_Temperature": 42,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Present_Temperature": 36,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Present_Temperature": 39,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Present_Temperature": 38,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      }
+    }
+  },
+  {
+    "time": 1789522798.7226655,
+    "individual": {
+      "1": {
+        "Present_Temperature": 35,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Present_Temperature": 40,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Present_Temperature": 42,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Present_Temperature": 36,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Present_Temperature": 38,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      }
+    }
+  },
+  {
+    "time": 1789522798.8834789,
+    "individual": {
+      "1": {
+        "Present_Temperature": 35,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Present_Temperature": 40,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Present_Temperature": 42,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Present_Temperature": 36,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Present_Temperature": 38,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      }
+    }
+  },
+  {
+    "time": 1789522799.0460317,
+    "individual": {
+      "1": {
+        "Present_Temperature": 35,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Present_Temperature": 40,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Present_Temperature": 42,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Present_Temperature": 36,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Present_Temperature": 38,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      }
+    }
+  },
+  {
+    "time": 1789522799.2072484,
+    "individual": {
+      "1": {
+        "Present_Temperature": 35,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Present_Temperature": 40,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Present_Temperature": 42,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Present_Temperature": 36,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Present_Temperature": 38,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      }
+    }
+  },
+  {
+    "time": 1789522799.3685954,
+    "individual": {
+      "1": {
+        "Present_Temperature": 35,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Present_Temperature": 40,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Present_Temperature": 42,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Present_Temperature": 36,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Present_Temperature": 38,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      }
+    }
+  },
+  {
+    "time": 1789522799.529292,
+    "individual": {
+      "1": {
+        "Present_Temperature": 35,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Present_Temperature": 40,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Present_Temperature": 42,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Present_Temperature": 36,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Present_Temperature": 38,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      }
+    }
+  },
+  {
+    "time": 1789522799.691233,
+    "individual": {
+      "1": {
+        "Present_Temperature": 35,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "2": {
+        "Present_Temperature": 40,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "3": {
+        "Present_Temperature": 42,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "4": {
+        "Present_Temperature": 36,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "5": {
+        "Present_Temperature": 37,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      },
+      "6": {
+        "Present_Temperature": 38,
+        "Status": 0,
+        "Present_Load": 0,
+        "Present_Current": 0,
+        "Torque_Enable": 1,
+        "Max_Temperature_Limit": 70
+      }
+    }
+  }
+]

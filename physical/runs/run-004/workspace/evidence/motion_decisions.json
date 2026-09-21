@@ -1,0 +1,404 @@
+[
+  {
+    "time": 1789522702.3212085,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "2": 80
+      },
+      "duration": 2,
+      "label": "probe_shoulder"
+    }
+  },
+  {
+    "time": 1789522729.1469502,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "2": 160
+      },
+      "duration": 3.2,
+      "label": "raise_shoulder"
+    }
+  },
+  {
+    "time": 1789522895.5934186,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "2": 160
+      },
+      "duration": 3.2,
+      "label": "raise_shoulder_2"
+    }
+  },
+  {
+    "time": 1789522915.7228103,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "3": -160
+      },
+      "duration": 3.2,
+      "label": "probe_elbow"
+    }
+  },
+  {
+    "time": 1789522946.173695,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "3": -160,
+        "4": -120
+      },
+      "duration": 3.2,
+      "label": "unfold_left"
+    }
+  },
+  {
+    "time": 1789522966.6643429,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "3": -160,
+        "4": -160
+      },
+      "duration": 3.2,
+      "label": "clear_desk_edge"
+    }
+  },
+  {
+    "time": 1789522992.9374726,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "1": 80,
+        "6": 400
+      },
+      "duration": 8,
+      "label": "open_yaw_probe"
+    }
+  },
+  {
+    "time": 1789523049.6682556,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "2": 160,
+        "3": -120
+      },
+      "duration": 3.2,
+      "label": "approach_probe"
+    }
+  },
+  {
+    "time": 1789523089.2561557,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "4": -120
+      },
+      "duration": 2.4,
+      "label": "pitch_probe"
+    }
+  },
+  {
+    "time": 1789523124.7764354,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "2": 160,
+        "4": -160
+      },
+      "duration": 3.2,
+      "label": "advance_left"
+    }
+  },
+  {
+    "time": 1789523163.1244705,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "2": 160,
+        "4": -160,
+        "1": 20
+      },
+      "duration": 3.2,
+      "label": "approach_sidewalls"
+    }
+  },
+  {
+    "time": 1789523213.1066601,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "1": -60
+      },
+      "duration": 2,
+      "label": "center_open_gap"
+    }
+  },
+  {
+    "time": 1789523229.1118236,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "2": 160,
+        "4": -160
+      },
+      "duration": 3.2,
+      "label": "advance_open_gap"
+    }
+  },
+  {
+    "time": 1789523257.7086046,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "2": 120,
+        "4": -120
+      },
+      "duration": 2.4,
+      "label": "insert_fingers"
+    }
+  },
+  {
+    "time": 1789523295.4907053,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "2": 80,
+        "4": -80,
+        "1": 15
+      },
+      "duration": 2,
+      "label": "deepen_enclosure"
+    }
+  },
+  {
+    "time": 1789523324.1378746,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "2": 100,
+        "3": -60,
+        "4": -40
+      },
+      "duration": 2,
+      "label": "deeper_side_overlap"
+    }
+  },
+  {
+    "time": 1789523362.1694999,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "3": -160,
+        "4": 120
+      },
+      "duration": 3.2,
+      "label": "raise_contact_height"
+    }
+  },
+  {
+    "time": 1789523390.6953278,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "2": 80,
+        "3": -120,
+        "4": 40
+      },
+      "duration": 2.4,
+      "label": "full_insertion"
+    }
+  },
+  {
+    "time": 1789523425.4792726,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "1": -10,
+        "2": 40,
+        "3": -100,
+        "4": 50
+      },
+      "duration": 2,
+      "label": "seat_between_fingers"
+    }
+  },
+  {
+    "time": 1789523454.4924438,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "6": -90
+      },
+      "duration": 3,
+      "label": "light_closure"
+    }
+  },
+  {
+    "time": 1789523489.5361764,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "6": 100
+      },
+      "duration": 2.5,
+      "label": "release_tilted_contact"
+    }
+  },
+  {
+    "time": 1789523510.7652187,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "2": -100,
+        "4": 100
+      },
+      "duration": 2,
+      "label": "withdraw_for_pitch"
+    }
+  },
+  {
+    "time": 1789523532.082666,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "4": -160,
+        "6": 100
+      },
+      "duration": 3.2,
+      "label": "level_fingers"
+    }
+  },
+  {
+    "time": 1789523566.4370005,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "6": -150
+      },
+      "duration": 4,
+      "label": "close_level_grasp"
+    }
+  },
+  {
+    "time": 1789523590.7619143,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "6": -65
+      },
+      "duration": 3,
+      "label": "set_light_preload"
+    }
+  },
+  {
+    "time": 1789523707.1897907,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "3": -80,
+        "4": 25
+      },
+      "duration": 2,
+      "minimum_preload": 30,
+      "label": "test_lift"
+    }
+  },
+  {
+    "time": 1789523784.1924675,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "3": 30,
+        "4": -25
+      },
+      "duration": 2,
+      "label": "return_to_support"
+    }
+  },
+  {
+    "time": 1789523806.2204034,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "6": -35
+      },
+      "duration": 2,
+      "label": "supported_preload"
+    }
+  },
+  {
+    "time": 1789523832.11952,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "3": -100,
+        "4": 55
+      },
+      "duration": 3,
+      "minimum_preload": 50,
+      "label": "test_lift_revised"
+    }
+  },
+  {
+    "time": 1789523899.2217774,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "3": -160,
+        "4": 105
+      },
+      "duration": 3.2,
+      "minimum_preload": 50,
+      "label": "extend_lift_1"
+    }
+  },
+  {
+    "time": 1789523923.1965382,
+    "kind": "command",
+    "data": {
+      "op": "move",
+      "delta": {
+        "3": -160,
+        "4": 100
+      },
+      "duration": 3.2,
+      "minimum_preload": 50,
+      "label": "extend_lift_2"
+    }
+  }
+]

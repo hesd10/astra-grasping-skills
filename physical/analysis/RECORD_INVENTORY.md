@@ -1,0 +1,16 @@
+# Experimental record inventory
+
+This is an inventory of the retained evidence, not a list of promised additions. It separates documented configuration from details that the archive does not establish. Current machine installations must not be substituted for historical experiment versions.
+
+| Item | Supported record | Boundary |
+|---|---|---|
+| Model configuration | Per-turn metadata records `gpt-6-astra` with `xhigh` effort for all six attempts; see [run configurations](../provenance/run-configurations.json). | These are recorded identifiers, not model weights or an independently pinned backend build. |
+| Robot and control interface | XLeRobot left-arm carton grasping; retained code uses LeRobot Feetech motor and OpenCV camera interfaces. See [setup](../report/REPORT.md#31-task-hardware-and-model) and the [Run 001 controller](../runs/run-001/workspace/run/control_session.py). | No complete, verified hardware revision, firmware and dependency-version manifest is established across all six attempts. Imports identify interfaces, not installed versions. |
+| Prompt and skill transfer | The report preserves the initial prompt and its differences; run archives contain skill snapshots and historical commit identifiers. See [prompt](../report/REPORT.md#33-complete-experimental-prompt-and-version-differences) and [data guide](../DATA_GUIDE.md). | An output skill snapshot alone is not independent proof of the next attempt's exact input. |
+| Initial conditions | Empty carton on a desk, manually reset to the intended same position; initial camera observations remain in the [run archives](../runs/README.md). | Reset variation and exact metric starting poses were not independently measured. |
+| Timing and interaction counts | Offline-derived start/end markers, request IDs and motion selectors are retained in [execution metrics](execution_metrics.json) and defined in [methodology](METHODOLOGY.md). | Endpoints are execution markers, not uniform measurements of the first physical lift; failed attempts end at termination. |
+| Human interventions | Success correction in 001, termination in 002/003, resumption in 004 and operator-reported alarm edits are disclosed in [report Section 5](../report/REPORT.md#5-clarifications). | A complete timestamped edit history and line-by-line patches were not retained. Final files cannot recover all intermediate running versions; intervention time is not estimated and subtracted. |
+| Phone video | Preview processing, source hashes and the Run 001 recording gap are documented in [video details](../videos/README.md). | No precise shared-clock alignment to robot logs is established. Videos illustrate behavior; they do not replace the log-based timing measure. |
+| Outcome verification | Four successes and two failures use visible stable suspension as the common outcome criterion. | Exact 3 cm clearance was not independently measured. A complete independent temperature trace does not establish the operator's noise attribution. |
+
+The offline verification scripts check distributed-file integrity and derived metrics. They do not certify that this archive reproduces the original runtime environment. Missing measurements remain evidence limitations, without invented values or estimates presented as observations.

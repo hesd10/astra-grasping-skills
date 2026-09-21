@@ -1,0 +1,72 @@
+"""Generic parameterized checks. No recorded state, targets, or trajectories."""
+import math
+
+
+def require_healthy(sample, temperature_limit, temperature_margin, load_limit):
+    if sample['Status']:
+        raise RuntimeError('Motor reports a status fault')
+    if sample['Present_Temperature'] >= temperature_limit - temperature_margin:
+        raise RuntimeError('Temperature is too close to the configured limit')
+    if abs(sample['Present_Load']) > load_limit:
+        raise RuntimeError('Motor effort exceeds the current safety bound')
+
+
+def require_contact_evidence(*, sustained_load, tracking_shortfall,
+                             distance_from_closed_limit, minimum_load,
+                             minimum_shortfall, closed_limit_margin,
+                             visible_enclosure):
+    if not visible_enclosure:
+        raise RuntimeError('Object enclosure has not been established')
+    if distance_from_closed_limit <= closed_limit_margin:
+        raise RuntimeError('Contact near the closed stop cannot establish a grasp')
+    if sustained_load < minimum_load or tracking_shortfall < minimum_shortfall:
+        raise RuntimeError('Insufficient sustained contact evidence')
+
+
+def require_side_enclosure(*, opposing_side_walls_engaged,
+                           upper_edges_clear, sufficient_insertion,
+                           independent_view_confirms, object_moved):
+    """Supply conclusions from fresh views; this does not infer geometry."""
+    if object_moved:
+        raise RuntimeError('Reobserve the displaced object before relying on enclosure')
+    if not independent_view_confirms:
+        raise RuntimeError('An independent view has not confirmed side enclosure')
+    if not (opposing_side_walls_engaged and upper_edges_clear and sufficient_insertion):
+        raise RuntimeError('Edge contact or shallow overlap is not secure side enclosure')
+
+
+def require_lift_evidence(*, all_bottom_corners_clear, independent_view_confirms,
+                          visible_support_gap, slipping, hold_duration,
+                          required_duration):
+    if not (all_bottom_corners_clear and independent_view_confirms and visible_support_gap):
+        raise RuntimeError('Full support-surface clearance has not been established')
+    if slipping:
+        raise RuntimeError('Object is slipping')
+    if hold_duration < required_duration:
+        raise RuntimeError('Verified hold interval is too short')
+
+
+def require_grasp_retention(*, opposing_walls_still_engaged,
+                            independent_view_confirms, object_moved_in_gripper,
+                            preload_before, preload_now, minimum_preload,
+                            maximum_fractional_loss):
+    """Gate further lifting from fresh evidence; never supply stored observations.
+
+    Effort is only a supporting signal. A pass is not a force measurement or
+    geometric proof, and the caller must establish its bounds for the session.
+    """
+    if not independent_view_confirms or not opposing_walls_still_engaged:
+        raise RuntimeError('Grasp enclosure has not persisted through the lift')
+    if object_moved_in_gripper:
+        raise RuntimeError('Object movement within the fingers requires a stop')
+    if not all(math.isfinite(value) for value in
+               (preload_before, preload_now, minimum_preload, maximum_fractional_loss)):
+        raise ValueError('Retention inputs must be finite')
+    if not (preload_before > 0 and minimum_preload > 0):
+        raise ValueError('Positive observed preload and required bound are necessary')
+    if not 0 <= maximum_fractional_loss < 1:
+        raise ValueError('Fractional loss bound must lie in the unit interval')
+    if preload_now < minimum_preload:
+        raise RuntimeError('Preload is insufficient to extend the lift')
+    if preload_now < preload_before * (1 - maximum_fractional_loss):
+        raise RuntimeError('Preload loss requires stopping and reobserving')

@@ -1,0 +1,290 @@
+[
+  {
+    "timestamp": "2026-09-16T02:20:47.601Z",
+    "call_id": "call_WdookCFTfYKiCb0QGqgA47Ft",
+    "basename": "initial_camera_${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 67
+  },
+  {
+    "timestamp": "2026-09-16T02:22:46.300Z",
+    "call_id": "call_yHXCxKHQ46cG6H6YsJ0HF5wa",
+    "basename": "001_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 102
+  },
+  {
+    "timestamp": "2026-09-16T02:23:10.637Z",
+    "call_id": "call_KC2ChbI5g5zj2cNT9grtjmSH",
+    "basename": "002_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 117
+  },
+  {
+    "timestamp": "2026-09-16T02:23:35.567Z",
+    "call_id": "call_mDJhpNXkBhS9kNeJNSCoyLKS",
+    "basename": "003_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 133
+  },
+  {
+    "timestamp": "2026-09-16T02:24:02.389Z",
+    "call_id": "call_8NWCquXCXjP1MuS95JGpW8hO",
+    "basename": "004_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 147
+  },
+  {
+    "timestamp": "2026-09-16T02:24:32.490Z",
+    "call_id": "call_5cLKJVU1QG9ZKBbDzHDmenH4",
+    "basename": "005_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 162
+  },
+  {
+    "timestamp": "2026-09-16T02:25:01.847Z",
+    "call_id": "call_rBNEo95CBAK3Jp6RdIBV0Ckd",
+    "basename": "006_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 176
+  },
+  {
+    "timestamp": "2026-09-16T02:25:26.594Z",
+    "call_id": "call_1CRItWvH6AJ6Q6qxiit0tqCk",
+    "basename": "007_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 193
+  },
+  {
+    "timestamp": "2026-09-16T02:25:57.473Z",
+    "call_id": "call_7C68abTPYH2gsNCtdCe2rgjp",
+    "basename": "008_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 208
+  },
+  {
+    "timestamp": "2026-09-16T02:26:30.991Z",
+    "call_id": "call_CxdyBOD3gVsP8yRTTMDg2bc7",
+    "basename": "009_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 223
+  },
+  {
+    "timestamp": "2026-09-16T02:26:55.399Z",
+    "call_id": "call_W5ryV00Btsl91Xe0exWjdLmB",
+    "basename": "010_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 238
+  },
+  {
+    "timestamp": "2026-09-16T02:27:21.886Z",
+    "call_id": "call_hh9PnwQO1IMLDO73je6owXrA",
+    "basename": "011_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 255
+  },
+  {
+    "timestamp": "2026-09-16T02:27:47.555Z",
+    "call_id": "call_zpeQ15qVupgvG1TceetouL7k",
+    "basename": "012_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 270
+  },
+  {
+    "timestamp": "2026-09-16T02:28:27.623Z",
+    "call_id": "call_pQ4Tj99kb51dfaX8ewTMRExp",
+    "basename": "013_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 285
+  },
+  {
+    "timestamp": "2026-09-16T02:29:02.546Z",
+    "call_id": "call_5dUKjGTcmsFKDQFEEDZPWgbu",
+    "basename": "014_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 300
+  },
+  {
+    "timestamp": "2026-09-16T02:29:36.232Z",
+    "call_id": "call_KNHKa98HG8afk00EL8WpjBv0",
+    "basename": "015_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 315
+  },
+  {
+    "timestamp": "2026-09-16T02:30:04.168Z",
+    "call_id": "call_vV8Ge2xNaopz07pWM46cMmXP",
+    "basename": "016_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 330
+  },
+  {
+    "timestamp": "2026-09-16T02:30:41.506Z",
+    "call_id": "call_L5Rj5727q93LXPQmlBW268fy",
+    "basename": "017_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 347
+  },
+  {
+    "timestamp": "2026-09-16T02:31:18.837Z",
+    "call_id": "call_tHTBIvzE1OTQKjcvNs54mUqG",
+    "basename": "018_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 362
+  },
+  {
+    "timestamp": "2026-09-16T02:31:41.882Z",
+    "call_id": "call_t1VkhGswOwpVY92Jiq9qUUuM",
+    "basename": "019_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 377
+  },
+  {
+    "timestamp": "2026-09-16T02:32:25.643Z",
+    "call_id": "call_L0tTRmF19N6WfvpAt7QbhY5e",
+    "basename": "020_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 392
+  },
+  {
+    "timestamp": "2026-09-16T02:33:18.188Z",
+    "call_id": "call_ewE2Z6zmiEaZMisENaCqmydy",
+    "basename": "021_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 409
+  },
+  {
+    "timestamp": "2026-09-16T02:33:56.028Z",
+    "call_id": "call_yWk1PgkaBWeQeypkgPbZ0xm3",
+    "basename": "022_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 424
+  },
+  {
+    "timestamp": "2026-09-16T02:34:31.647Z",
+    "call_id": "call_pA0LUH9gYcTPiBsTnk349hfL",
+    "basename": "023_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 441
+  },
+  {
+    "timestamp": "2026-09-16T02:35:11.805Z",
+    "call_id": "call_8RC1fJWWXV6zYcuSt5ct6cfv",
+    "basename": "024_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 456
+  },
+  {
+    "timestamp": "2026-09-16T02:36:11.546Z",
+    "call_id": "call_Crv9CjHZUOWlIKRJfQxlM5Jy",
+    "basename": "025_move_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 475
+  },
+  {
+    "timestamp": "2026-09-16T02:37:00.278Z",
+    "call_id": "call_w32ZQ6eiAllH63SnsrhuoiH5",
+    "basename": "026_status_cam${i}.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 492
+  },
+  {
+    "timestamp": "2026-09-16T02:39:54.034Z",
+    "call_id": "call_4ERstpGjajS9jHqJeJyhrPtW",
+    "basename": "027_final_cam8.jpg",
+    "archive_paths": [
+      "runs/run-005/workspace/evidence/027_final_cam8.jpg"
+    ],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 521
+  },
+  {
+    "timestamp": "2026-09-16T02:39:54.034Z",
+    "call_id": "call_4ERstpGjajS9jHqJeJyhrPtW",
+    "basename": "025_move_cam8.jpg",
+    "archive_paths": [
+      "runs/run-005/workspace/evidence/025_move_cam8.jpg"
+    ],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 521
+  },
+  {
+    "timestamp": "2026-09-16T02:39:54.034Z",
+    "call_id": "call_4ERstpGjajS9jHqJeJyhrPtW",
+    "basename": "026_status_cam8.jpg",
+    "archive_paths": [
+      "runs/run-005/workspace/evidence/026_status_cam8.jpg"
+    ],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 521
+  },
+  {
+    "timestamp": "2026-09-16T02:39:54.034Z",
+    "call_id": "call_4ERstpGjajS9jHqJeJyhrPtW",
+    "basename": "027_final_cam8.jpg",
+    "archive_paths": [
+      "runs/run-005/workspace/evidence/027_final_cam8.jpg"
+    ],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 521
+  },
+  {
+    "timestamp": "2026-09-16T03:03:11.429Z",
+    "call_id": "call_ZMVmo9X866P9xrsJcCK9b72S",
+    "basename": "initial_lift_video8.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 821
+  },
+  {
+    "timestamp": "2026-09-16T03:03:11.429Z",
+    "call_id": "call_ZMVmo9X866P9xrsJcCK9b72S",
+    "basename": "clearance_lift_video8.jpg",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 821
+  },
+  {
+    "timestamp": "2026-09-16T03:03:11.429Z",
+    "call_id": "call_ZMVmo9X866P9xrsJcCK9b72S",
+    "basename": "25-lift-tracking-correction-camera-8.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 821
+  },
+  {
+    "timestamp": "2026-09-16T03:03:11.429Z",
+    "call_id": "call_ZMVmo9X866P9xrsJcCK9b72S",
+    "basename": "26-extend-lift-camera-8.png",
+    "archive_paths": [],
+    "source_file": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "source_line": 821
+  }
+]

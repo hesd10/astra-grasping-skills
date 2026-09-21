@@ -1,0 +1,5 @@
+Offline helper checks passed before transfer audit.
+
+Verified that torque release attempts remaining motors after a synthetic write failure and checks readback.
+Verified rejection of incomplete side enclosure, stale enclosure after object displacement, partial support clearance, and evidence destinations inside skill/.
+No real hardware writes occurred during these helper checks.

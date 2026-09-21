@@ -1,0 +1,164 @@
+[
+  {
+    "run": "Run 001",
+    "thread_id": "01a0a5db-7f62-7532-badc-2f63e10b1d9a",
+    "turn_models": [
+      {
+        "turn_id": "01a0a5db-8263-75b1-8e56-d76ece44c45a",
+        "model": "gpt-6-astra",
+        "effort": "xhigh",
+        "phase": "experiment"
+      },
+      {
+        "turn_id": "01a0a5f6-597c-7101-96a3-44e77b12fe20",
+        "model": "gpt-6-astra",
+        "effort": "xhigh",
+        "phase": "experiment"
+      },
+      {
+        "turn_id": "01a0a5fd-f65b-7961-a62c-a8827bdd7992",
+        "model": "gpt-6-astra",
+        "effort": "xhigh",
+        "phase": "post_release"
+      }
+    ]
+  },
+  {
+    "run": "Run 002",
+    "thread_id": "01a0a7a5-cbbe-7192-bb8a-b2078a098792",
+    "turn_models": [
+      {
+        "turn_id": "01a0a7a5-f94d-7922-90de-b588ccd64527",
+        "model": "gpt-6-astra",
+        "effort": "xhigh",
+        "phase": "experiment"
+      },
+      {
+        "turn_id": "01a0a7bb-43d3-7fc2-83c5-0025cec25f71",
+        "model": "gpt-6-astra",
+        "effort": "xhigh",
+        "phase": "experiment"
+      }
+    ]
+  },
+  {
+    "run": "Run 003",
+    "thread_id": "01a0a7c1-9d84-78d1-8c82-ef23b8d91342",
+    "turn_models": [
+      {
+        "turn_id": "01a0a7c1-aaf7-7c22-b456-3920596ee7d9",
+        "model": "gpt-6-astra",
+        "effort": "xhigh",
+        "phase": "experiment"
+      },
+      {
+        "turn_id": "01a0a7d1-289c-78c2-b419-0958e4470d06",
+        "model": "gpt-6-astra",
+        "effort": "xhigh",
+        "phase": "experiment"
+      }
+    ]
+  },
+  {
+    "run": "Run 004",
+    "thread_id": "01a0a7d9-be53-7643-9aa7-3634598d2658",
+    "turn_models": [
+      {
+        "turn_id": "01a0a7d9-c4df-78b1-81fa-a172564b4665",
+        "model": "gpt-6-astra",
+        "effort": "xhigh",
+        "phase": "experiment"
+      },
+      {
+        "turn_id": "01a0a7df-8f87-7e01-9f83-c04e41401790",
+        "model": "gpt-6-astra",
+        "effort": "xhigh",
+        "phase": "experiment"
+      },
+      {
+        "turn_id": "01a0a7f7-2dd8-74e1-ab44-de8708c3cae0",
+        "model": "gpt-6-astra",
+        "effort": "xhigh",
+        "phase": "post_release"
+      }
+    ]
+  },
+  {
+    "run": "Run 005",
+    "thread_id": "01a0a802-5a02-7662-b98e-69fcbfbffd8f",
+    "turn_models": [
+      {
+        "turn_id": "01a0a802-5c7a-76c3-9568-0ecc69bcad8b",
+        "model": "gpt-6-astra",
+        "effort": "xhigh",
+        "phase": "experiment"
+      },
+      {
+        "turn_id": "01a0a816-dcda-7711-bef7-117f1c57fe59",
+        "model": "gpt-6-astra",
+        "effort": "xhigh",
+        "phase": "post_release"
+      },
+      {
+        "turn_id": "01a0a817-d2b2-7712-bc4e-a1ac70972776",
+        "model": "gpt-6-astra",
+        "effort": "xhigh",
+        "phase": "followup"
+      },
+      {
+        "turn_id": "01a0a81a-ce48-7c01-8d82-9608253eb07d",
+        "model": "gpt-6-astra",
+        "effort": "xhigh",
+        "phase": "followup"
+      },
+      {
+        "turn_id": "01a0a81c-3251-7250-b1f0-ecbf7508c64c",
+        "model": "gpt-6-astra",
+        "effort": "xhigh",
+        "phase": "followup"
+      },
+      {
+        "turn_id": "01a0a81f-c3f7-7ad3-8d46-cb8afb7149c3",
+        "model": "gpt-6-astra",
+        "effort": "xhigh",
+        "phase": "followup"
+      },
+      {
+        "turn_id": "01a0a822-e6d2-7983-b288-de8b7fbed88a",
+        "model": "gpt-6-astra",
+        "effort": "xhigh",
+        "phase": "followup"
+      },
+      {
+        "turn_id": "01a0a827-96a0-7670-b906-3398589469d2",
+        "model": "gpt-6-astra",
+        "effort": "xhigh",
+        "phase": "cross_run_retrospective"
+      },
+      {
+        "turn_id": "01a0a838-9ee7-7be0-952a-4e8e40b0d680",
+        "model": "gpt-6-astra",
+        "effort": "xhigh",
+        "phase": "followup"
+      }
+    ]
+  },
+  {
+    "run": "Run 006",
+    "thread_id": "01a0a84e-4a3e-7e51-9c3f-a0e7d325483f",
+    "turn_models": [
+      {
+        "turn_id": "01a0a84e-4c88-7ee2-bbcd-f67b2ea47941",
+        "model": "gpt-6-astra",
+        "effort": "xhigh",
+        "phase": "experiment"
+      },
+      {
+        "turn_id": "01a0a863-ba83-7451-9b47-fcbacbf5f84b",
+        "model": "gpt-6-astra",
+        "effort": "xhigh",
+        "phase": "post_release"
+      }
+    ]
+  }
+]

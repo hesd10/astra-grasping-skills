@@ -1,0 +1,82 @@
+{
+  "utc": "2026-09-16T03:14:55.790611+00:00",
+  "passed": true,
+  "files": [
+    {
+      "file": "SKILL.md",
+      "bytes": 16904,
+      "sha256": "6fd274aa271ed5f296624041d2d7faf0a56679aecef882906ba25dd6c4e29f69"
+    },
+    {
+      "file": "hardware.py",
+      "bytes": 6026,
+      "sha256": "d572ab1aa7f4e628a5c3a471f41d93e16635dc29153d188372075763bd089487",
+      "numeric_literals": [
+        0,
+        2
+      ]
+    },
+    {
+      "file": "safety.py",
+      "bytes": 11774,
+      "sha256": "a3ddc05170b38d3885da7ceae37def588f2a35e23af49854ea314dd7183f7156",
+      "numeric_literals": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "manual_review": "All three transfer files were read. Additions contain general procedures and parameterized pure checks only. No recorded motor states, scene geometry, poses, trajectories, device assignments, images, historical thresholds, or encoded equivalents retained.",
+  "limitations": "Signature and numeric scans supplement manual review; they cannot prove the absence of all possible encodings. Synthetic tests do not validate real-world slip prevention.",
+  "hardware_access": false,
+  "historical_evidence_modified": false,
+  "checks": [
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_cached_pre_event_observation_cannot_authorize (test_skill_safety.EvidenceTests) ... ok\ntest_current_and_no_invalidation (test_skill_safety.EvidenceTests) ... ok\ntest_invalid_timing (test_skill_safety.EvidenceTests) ... ok\ntest_absolute_minimum_independent_of_relative_loss (test_skill_safety.PreloadTests) ... ok\ntest_invalid_bounds (test_skill_safety.PreloadTests) ... ok\ntest_mid_window_drop_is_not_hidden_by_recovery (test_skill_safety.PreloadTests) ... ok\ntest_missing_delayed_short_and_stopped_streams (test_skill_safety.PreloadTests) ... ok\ntest_must_rebuild_after_invalidating_event (test_skill_safety.PreloadTests) ... ok\ntest_owner_inhibits_new_commands_and_latches_failure (test_skill_safety.PreloadTests) ... ok\ntest_single_duplicate_reversed_future_and_nonfinite_samples (test_skill_safety.PreloadTests) ... ok\ntest_valid_window (test_skill_safety.PreloadTests) ... ok\ntest_complete_evidence_passes (test_skill_safety.SuccessTests) ... ok\ntest_each_missing_condition_blocks_full_claim (test_skill_safety.SuccessTests) ... ok\ntest_invalid_durations_cannot_bypass_gate (test_skill_safety.SuccessTests) ... ok\ntest_stable_suspension_alone_is_not_metric_success (test_skill_safety.SuccessTests) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.001s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "runtime/test_skill.py"
+      ],
+      "exit_code": 0,
+      "stdout": "Nine synthetic safety checks passed.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/robot-operator/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+        "skill"
+      ],
+      "exit_code": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}

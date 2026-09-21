@@ -1,0 +1,65 @@
+{
+  "time": "2026-09-15T16:53:43.721469+00:00",
+  "files": {
+    "SKILL.md": {
+      "bytes": 5849,
+      "sha256": "98ead2f1560b94de92102d071b722b8d6d5737d9b5290a50c61cac3a338fcfd5"
+    },
+    "hardware.py": {
+      "bytes": 3105,
+      "sha256": "ae4206ba7ccf2fce526c8ea9d4c0cc23c005230ec5b20935261c02876b0123a7"
+    },
+    "safety.py": {
+      "bytes": 1739,
+      "sha256": "fb5574eca3364330cb35bda710aa5c56fd596cff8e7ce789fff55ee3f9e4803b"
+    }
+  },
+  "static_audit_passed": true,
+  "guard_tests": [
+    {
+      "test": "healthy_input_accepted",
+      "passed": true
+    },
+    {
+      "test": "status_fault_rejected",
+      "passed": true
+    },
+    {
+      "test": "temperature_limit_rejected",
+      "passed": true
+    },
+    {
+      "test": "excessive_load_rejected",
+      "passed": true
+    },
+    {
+      "test": "enclosed_contact_accepted",
+      "passed": true
+    },
+    {
+      "test": "closed_stop_contact_rejected",
+      "passed": true
+    },
+    {
+      "test": "missing_enclosure_rejected",
+      "passed": true
+    },
+    {
+      "test": "clear_stable_hold_accepted",
+      "passed": true
+    },
+    {
+      "test": "remaining_corner_contact_rejected",
+      "passed": true
+    },
+    {
+      "test": "slipping_rejected",
+      "passed": true
+    },
+    {
+      "test": "short_hold_rejected",
+      "passed": true
+    }
+  ],
+  "manual_review": "All transfer files reviewed as plain text. General procedures and parameterized read-only/safety code only. No images, calibration, scene reconstruction, recorded encoders, angles, poses, coordinates, trajectories, replays, or encoded equivalents. Current-run parameters and evidence remain outside skill/."
+}

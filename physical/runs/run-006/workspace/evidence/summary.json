@@ -1,0 +1,64 @@
+{
+  "experiment_start_utc": "2026-09-16T03:41:48Z",
+  "monitoring_end_utc": "2026-09-16T04:00:23.691187+00:00",
+  "elapsed_to_monitor_close_s": 1115.6911871433258,
+  "final_hold_interval_s": 65.17797989099927,
+  "hold_sample_count": 496,
+  "hold_max_sample_gap_s": 0.20583067299958202,
+  "hold_preload_range": [
+    96,
+    96
+  ],
+  "hold_left_joint_range": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0
+  },
+  "right_max_drift_counts": 0,
+  "max_motor_temperature": 51,
+  "fault_events": [],
+  "protection_unchanged": true,
+  "controller_commands": 40,
+  "motion_submitted": 31,
+  "motion_completed": 31,
+  "commanded_motion_duration_s": 92.1,
+  "motion_segment_wall_s": 109.3717200756073,
+  "first_motion_command_utc": "2026-09-16T03:46:14.217231+00:00",
+  "command_batches": 39,
+  "requested_human_interventions": 0,
+  "verified_metric_reference": false,
+  "clearance_cm": null,
+  "torque_enabled_at_closeout": true,
+  "software_monitoring_active": false,
+  "first_observed_motion_feedback_utc": "2026-09-16T03:46:14.526537+00:00",
+  "largest_monitor_sample_gaps_s": [
+    [
+      31.702257644999918,
+      1789530862.5035148,
+      1789530894.2057724
+    ],
+    [
+      25.979247477000172,
+      1789531024.5228024,
+      1789531050.5020497
+    ],
+    [
+      10.344055367000692,
+      1789530852.061106,
+      1789530862.4051611
+    ],
+    [
+      0.4844702739974309,
+      1789530963.0568218,
+      1789530963.541292
+    ],
+    [
+      0.36763604099905933,
+      1789530986.795516,
+      1789530987.163152
+    ]
+  ]
+}

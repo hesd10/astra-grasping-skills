@@ -1,0 +1,37 @@
+[
+  {
+    "run": 1,
+    "filename": "rollout-2026-09-16T00-17-00-01a0a5db-7f62-7532-badc-2f63e10b1d9a.jsonl",
+    "sha256": "adadfe05cf593c9b44b6af9c92a2c1a1c912c46fe09d1b4f8fd9575cb63efc63"
+  },
+  {
+    "run": 2,
+    "filename": "rollout-2026-09-16T08-37-35-01a0a7a5-cbbe-7192-bb8a-b2078a098792.jsonl",
+    "sha256": "bce0b11c13e1a2c8bdb834cce46e96151db2a9f7013ab796454c242faf6b648c"
+  },
+  {
+    "run": 3,
+    "filename": "rollout-2026-09-16T09-07-58-01a0a7c1-9d84-78d1-8c82-ef23b8d91342.jsonl",
+    "sha256": "d47ec50d728b29392b791120517b3d28a2ba3638f5eab77c94cc88896f841649"
+  },
+  {
+    "run": 3,
+    "filename": "rollout-2026-09-16T09-24-57-01a0a7c1-9d84-78d1-8c82-ef23b8d91342_01a0a7d1-26cd-7b42-8049-26ad088ff6a0.jsonl",
+    "sha256": "c1ae269c0360ed1de820c0c17a678d124f88dcd22b6e38e1bee6b72242496b68"
+  },
+  {
+    "run": 4,
+    "filename": "rollout-2026-09-16T09-34-20-01a0a7d9-be53-7643-9aa7-3634598d2658.jsonl",
+    "sha256": "ffc641598ae759260218bb474a1e004c4bfc9b28edccf65a588d6af20717b1e5"
+  },
+  {
+    "run": 5,
+    "filename": "rollout-2026-09-16T10-18-41-01a0a802-5a02-7662-b98e-69fcbfbffd8f.jsonl",
+    "sha256": "99b3184d1c40e84f298122d27b4ecfef40f3e832c1cf16c054090d75880ac5d2"
+  },
+  {
+    "run": 6,
+    "filename": "rollout-2026-09-16T11-41-38-01a0a84e-4a3e-7e51-9c3f-a0e7d325483f.jsonl",
+    "sha256": "e710cd979b0dde271560d56283a71320f9355f6ed8a7e06c976219fd01a992f7"
+  }
+]
